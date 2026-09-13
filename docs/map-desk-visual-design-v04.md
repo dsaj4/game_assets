@@ -1,5 +1,7 @@
 # 地图桌面 · 视觉设计 04：横置长法杖袋
 
+后续修订：用户进一步明确“长法杖可以和桌子差不多长甚至更长”。[整体设计05](map-desk-visual-design-v05.md)已继续加长，本页保留首次删猫与横置的历史版本；后续长度以05为准。
+
 2026-09-13。状态：**BagAppearanceConfirmed / OverallRevisionAwaitingConfirmation**。用户认可03版法杖袋形象，本轮按新要求删猫、移位并加长袋身；新版整体待确认，MD-11组件稿和Blender资产尚未制作。
 
 ![横置长法杖袋整体图](../concepts/map-desk-overall-v04.png)

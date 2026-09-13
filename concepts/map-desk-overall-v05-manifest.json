@@ -1,0 +1,31 @@
+{
+  "revision": "map-desk-overall-v05",
+  "created_local_date": "2026-09-13",
+  "status": "BagAppearanceConfirmed / OverallRevisionAwaitingConfirmation",
+  "generator": "built-in image_gen.imagegen",
+  "model": "not reported by built-in tool",
+  "user_request": "再长一点，长法杖可以和桌子差不多长甚至更长",
+  "original_output": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-382af763-f456-4bdf-a803-cc02feb1626a.png",
+  "output": "concepts/map-desk-overall-v05.png",
+  "output_sha256": "ff716eaa823853bd7c2d7a0b1edd257300c6eeffb6bea4b904829c7163ac7a05",
+  "width": 1254,
+  "height": 1254,
+  "edit_target": "concepts/map-desk-overall-v04.png",
+  "edit_target_sha256": "02d2537ca88a4a79b431fa5b3309b502ab5491d7262371f38694a78089269529",
+  "prompt": "concepts/map-desk-overall-v05-prompt.md",
+  "prompt_sha256": "f2aca7c5cd8fbf3cf5b031e7ec06cdb4c9216bbce2ac7517da444b186571d841",
+  "pixel_processing": "None; generated original copied byte for byte",
+  "visual_review": [
+    "One longer bag extends left toward quill and armillary cluster",
+    "Combined bag and exposed heads approach visible rear-table width",
+    "Two heads fully in frame; no cat",
+    "Map nodes, routes and clutter remain visible"
+  ],
+  "dimension_note": "Prompt ratios are composition targets, not measured image dimensions or user-approved modelling dimensions",
+  "not_started": [
+    "MD-11 component sheet",
+    "MD-11 native Blender asset",
+    "Wand management interaction"
+  ],
+  "native_assets_commit": "568653496dd70ebbbb8a2f161147d20fe1bda774"
+}

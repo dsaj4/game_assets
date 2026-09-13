@@ -2,7 +2,7 @@
 
 独立 demo 工作区：`E:\Project\game-002-godogen-lab`。
 
-**最新：删猫，法杖袋加长并横置后沿。** 用户认可法杖袋形象；[整体效果图04](concepts/map-desk-overall-v04.png)将猫完整移除，让加长的旧皮革卷袋横向占据原猫位置，两支杖头朝右。[设计说明](docs/map-desk-visual-design-v04.md)记录本次修改与制作顺序。状态 BagAppearanceConfirmed / OverallRevisionAwaitingConfirmation；用户确认新版整体后，先新增MD-11组件效果图，再新建Blender资产。当前模型仍为下方九类，MD-09猫不进入当前画面或新增资产。
+**最新：长法杖按接近桌宽或更长处理。** 用户认可法杖袋形象；[整体效果图05](concepts/map-desk-overall-v05.png)保留删猫和后沿横放，将旧皮革袋继续向左延伸至杂物旁，两支杖头朝右，整体接近后沿可见宽度。[设计说明](docs/map-desk-visual-design-v05.md)记录本次修改与制作顺序。状态 BagAppearanceConfirmed / OverallRevisionAwaitingConfirmation；用户确认新版整体后，先新增MD-11组件效果图，再新建Blender资产。当前模型仍为下方九类，MD-09猫不进入当前画面或新增资产。
 
 **当前：9 类 Blender 原生资产已生成，猫暂缓。** 用户在确认整体及分件设计图后明确“开始生成blender资产，猫先不用生成”。本批含桌面与保留杂物、环境地图、红线、法师木雕、篝火、水晶球、建筑、宝箱和书；提供[组合母版](art/map-desk-v01/map-desk-master.blend)、[分件源与渲染图册](art/map-desk-v01/README.md)和[制作说明](docs/map-desk-assets-v01.md)。状态 NativeAssetsCreated / NeedsArtReview；实际Godot运行实现仍为 [E1 R2](docs/e1-r2-report.md)，E2–E4 未启动。
 
@@ -42,10 +42,11 @@ Godot 入口是 `game/project.godot`，默认打开当前 E1 墨线小样；按 
 | concepts/visual-direction-v01.png | 两屏概念效果图，imagegen生成，非实机、非运行资产；提示词同目录保存 |
 | concepts/map-desk-overall-v02.png | 右侧地图桌面整体概念图；用户已确认整体方向并启动分件设计，杂物保留；生成时清单保留原始状态，后续确认以当前设计文稿为准 |
 | concepts/map-desk-overall-v03.png | 法杖袋整体修订，内置imagegen编辑02；整皮卷袋／两支杖头位于右后桌沿，原猫仅保留在概念图；完整提示词与哈希留档，整体待确认 |
-| concepts/map-desk-overall-v04.png | 当前整体修订：猫移除，已认可形象的法杖袋加长、横置原猫位置；提示词与哈希归档，新版整体待确认 |
+| concepts/map-desk-overall-v04.png | 历史位置修订：猫移除，已认可形象的法杖袋加长、横置原猫位置；提示词与哈希归档，新版整体待确认 |
+| concepts/map-desk-overall-v05.png | 当前整体修订：长袋横贯后沿，法杖允许接近或超过桌宽；用户认可皮革形象，新长度整体待确认，提示词与哈希归档 |
 | concepts/blender-sheets-v01/ | 10 张选用组件设计稿（1536 × 1024）、2 张修订前图、12 份完整提示词与来源 SHA256；地图／红线选用 v02，图册和中文建模说明记录尺度、拆件及校准项；仅作建模参考 |
 | art/map-desk-v01/ | MD-01–08、MD-10九类原生资产；组合母版、独立.blend／GLB、渲染和验证；UI调整宝箱开角后保存并保留，MD-09猫未制作 |
 | references/map-desk-assets-v01/ | imagegen生成的无标注环境地图albedo、完整提示词和来源清单；原图按字节复制，未把设计板标注映射进游戏表面 |
 | references/flask-map-user-reference-2026-09-13.png | 用户最新地图截图，作为图像模型风格／构图参考，不是运行资产 |
 
-继续入口：[横置长法杖袋整体修订](docs/map-desk-visual-design-v04.md)、[原生资产图册](art/map-desk-v01/README.md)、[制作与验证说明](docs/map-desk-assets-v01.md)、[十张参考设计稿](concepts/blender-sheets-v01/index.md)。下一步先确认新版整体构图，再依次做MD-11组件图与Blender资产；猫不进入当前画面或新增资产，当前无后台自动开发任务。
+继续入口：[横置长法杖袋整体修订](docs/map-desk-visual-design-v05.md)、[原生资产图册](art/map-desk-v01/README.md)、[制作与验证说明](docs/map-desk-assets-v01.md)、[十张参考设计稿](concepts/blender-sheets-v01/index.md)。下一步先确认新版整体构图，再依次做MD-11组件图与Blender资产；猫不进入当前画面或新增资产，当前无后台自动开发任务。
