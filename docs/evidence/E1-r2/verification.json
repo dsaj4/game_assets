@@ -1,0 +1,245 @@
+{
+  "revision": "r2",
+  "status": "PASS_TECHNICAL",
+  "visual_status": "NeedsRevision / user review pending",
+  "checks": [
+    "same geometry and transforms across A/B",
+    "same exported camera",
+    "E1 required asset counts",
+    "packed scene node parity, no GLB inlining",
+    "native NVIDIA Vulkan capture",
+    "4 PNG dimensions verified from headers",
+    "Chinese glyph coverage and label bounds at both resolutions",
+    "no runtime stderr",
+    "R2 source, master and GLB hashes match manifest",
+    "native Blender UI audit PASS and source hashes match",
+    "four UI-edited roof vertices preserved through refinement"
+  ],
+  "assets": {
+    "base": {
+      "glb_bytes": 1953080,
+      "sha256": "516a20f711f442abcd6402d057ad4908e4c7d8d018806738b926698655e37370"
+    },
+    "ink": {
+      "glb_bytes": 8269472,
+      "sha256": "46f6f99b07ec2083c837f1477387ab00ff0bee5c29c9b7a887824a7c2223ef87"
+    },
+    "revision": "E1-r2",
+    "seed": 213,
+    "mesh_objects": 446,
+    "triangles": 56229,
+    "camera": [
+      0.0,
+      -9.5,
+      17.5
+    ],
+    "ortho_width": 18.6,
+    "content": {
+      "wands": 1,
+      "fixed_inlays": 1,
+      "word_tags": 2,
+      "maps": 1,
+      "encounter_tokens": 1
+    },
+    "anchors": [
+      "TagAcquireText",
+      "TagArmorText",
+      "MapTitle",
+      "MapCaption",
+      "EncounterCaption",
+      "InlayCaption",
+      "WandCaption"
+    ],
+    "wood_uv_windows": {
+      "Backboard": [
+        0.02,
+        0.79,
+        0.03,
+        0.03752499952912331
+      ],
+      "Backboard.001": [
+        0.045,
+        0.8300000000000001,
+        0.20299999999999999,
+        0.03942499950528145
+      ],
+      "Backboard.002": [
+        0.07,
+        0.87,
+        0.376,
+        0.04132499948143959
+      ],
+      "Backboard.003": [
+        0.09500000000000001,
+        0.79,
+        0.5489999999999999,
+        0.03752499952912331
+      ],
+      "Backboard.004": [
+        0.02,
+        0.8300000000000001,
+        0.722,
+        0.03942499950528145
+      ],
+      "Backboard.005": [
+        0.045,
+        0.87,
+        0.046324999481439616,
+        0.04132499948143959
+      ],
+      "Backboard.006": [
+        0.07,
+        0.79,
+        0.21552499952912316,
+        0.03752499952912331
+      ],
+      "Backboard.007": [
+        0.09500000000000001,
+        0.8300000000000001,
+        0.3904249995052813,
+        0.03942499950528145
+      ],
+      "Backboard.008": [
+        0.02,
+        0.87,
+        0.5653249994814395,
+        0.04132499948143959
+      ],
+      "Backboard.009": [
+        0.045,
+        0.79,
+        0.7345249995291233,
+        0.03752499952912331
+      ],
+      "Bottom frame": [
+        0.07,
+        0.8300000000000001,
+        0.03893491491475551,
+        0.029467457457377815
+      ],
+      "Left frame": [
+        0.09500000000000001,
+        0.87,
+        0.2846756745393122,
+        0.06583783726965624
+      ],
+      "Middle rail": [
+        0.02,
+        0.79,
+        0.4026060600007091,
+        0.03830303000035474
+      ],
+      "Right frame": [
+        0.045,
+        0.8300000000000001,
+        0.6246216205375046,
+        0.06281081026875251
+      ],
+      "Top frame": [
+        0.07,
+        0.87,
+        0.7286272214404723,
+        0.028313610720236304
+      ],
+      "Wand shelf": [
+        0.09500000000000001,
+        0.79,
+        0.0750000003395199,
+        0.04000000011317338
+      ],
+      "Wand support": [
+        0.02,
+        0.8300000000000001,
+        0.2155,
+        0.37350000000000005
+      ],
+      "Wand support.001": [
+        0.045,
+        0.87,
+        0.4784999999999998,
+        0.3915
+      ]
+    },
+    "input_blend": {
+      "path": "art\\e1\\e1-r2-ui.blend",
+      "sha256": "0a4aebaafb57f997009ddd36eb2c828e803942813907994feb056b3b65ec8f8d"
+    },
+    "native_ui_edit": {
+      "object": "TowerRoof",
+      "mesh_sha256_before": "64d41065ee31801e943cd6a67851f8277eaced7f7c7db421b533ea8fc4d683c6",
+      "mesh_sha256_after": "64d41065ee31801e943cd6a67851f8277eaced7f7c7db421b533ea8fc4d683c6",
+      "preserved": true
+    },
+    "sources": {
+      "art\\refine_e1_r2.py": "adbdf002c42d71e530274ae0fb5cef31a6aa77df11f7536c689c945f334d0ae4",
+      "references\\e1-r2-generated\\wood-ink-albedo-v01.png": "3d9bd1af40ef2dd16ad6c7035b2d19e0f924cb448dfe09621d1d045c1bf212e8",
+      "references\\e1-r2-generated\\map-paper-albedo-v01.png": "1fcb2cc37c6cdbfea8260124dcf856a6958112ec1ef875f5acf187499f1d95b1",
+      "references\\e1-r2-generated\\wand-tower-modeling-board-v01.png": "258e460e89431825231a6366d23418927d030baf268dc1cac1cfa0d8c0d22569"
+    },
+    "generated_image_usage": {
+      "wood": "Unchanged source image, per-plank narrow UV strips",
+      "map": "Unchanged source image, full map UV and clean tag UV crop",
+      "modeling_board": "Visual modeling reference only; never runtime art"
+    },
+    "master": {
+      "path": "art\\e1\\e1-r2-master.blend",
+      "sha256": "4103106e6ee3ddc515159e216e7dc7b01827af835004926e8875e00082fb38c5"
+    },
+    "provenance": "Original r1 assets + preserved native Blender UI roof edit + bpy refinement; AI-generated wood/paper albedo originals used with recorded source hashes."
+  },
+  "source_sha256": {
+    "art/build_e1.py": "e52b1736ac98fa065ff8feb3367c5ba9285e55c5f162d244b703f555f568782f",
+    "game/builders/BuildE1.cs": "6b87ac4a209d5ae69a8caf4609be12814d462e657d45b867e38f7af466c41733",
+    "game/scripts/E1View.cs": "74dd95a77b4c22f6b723d3f09e23c7afd34bba62afd0bca68cf1e06b46675aff",
+    "art/refine_e1_r2.py": "adbdf002c42d71e530274ae0fb5cef31a6aa77df11f7536c689c945f334d0ae4",
+    "art/e1/e1-r2-ui.blend": "0a4aebaafb57f997009ddd36eb2c828e803942813907994feb056b3b65ec8f8d"
+  },
+  "captures": [
+    {
+      "file": "godot-base-1920x1080-final.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "bc0c152e89046ba691d52aacc298a4d41e9dce236eda05cb4c14a2673fe794bf"
+    },
+    {
+      "file": "godot-ink-1920x1080-final.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "90f20d188ffb3e79c8a4f284cc32e5f5cf95d6b4fef76a9631ca70f5db61a05a"
+    },
+    {
+      "file": "godot-base-1280x720-final.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8abf96b91cb15e2b76306ebbc25eb75fc9dfb45af9eedd8755beef9d75148dc3"
+    },
+    {
+      "file": "godot-ink-1280x720-final.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8a6c92ee192fef891822c74df77368c5f2e2359454eb25391dc68d78e94e8a21"
+    }
+  ],
+  "not_tested": [
+    "E2",
+    "E3",
+    "E4",
+    "60-second performance",
+    "user style acceptance",
+    "font redistribution"
+  ],
+  "provenance": {
+    "asset_manifest_sha256": "b5b97a548f9116efe818219130e8768cffa689ecd7ada1b374da75ab0e0e55ea",
+    "ui_edit_audit": {
+      "file": "artifacts/ui-experiment/E1-r2/ui-edit-audit.json",
+      "sha256": "730c48d179dac90cd8c25863f840efac24d60bbacaa59c1f810301cf68f67a99",
+      "status": "PASS",
+      "changed_vertices": 4
+    },
+    "native_ui_source_sha256": "0a4aebaafb57f997009ddd36eb2c828e803942813907994feb056b3b65ec8f8d",
+    "native_ui_roof_preserved": true,
+    "all_manifest_source_hashes_match": true,
+    "runtime_glb_hashes_match": true,
+    "master_hash_matches": true
+  }
+}

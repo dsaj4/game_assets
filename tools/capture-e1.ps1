@@ -1,5 +1,8 @@
+param([ValidateSet('r1','r2')][string]$Revision = 'r2')
 . (Join-Path $PSScriptRoot 'env.ps1')
-$out = Join-Path $LabRoot 'artifacts/ui-experiment/E1'
+# Build the matching revision first: both revisions use the same runtime GLBs.
+$relativeOutput = if ($Revision -eq 'r1') { 'artifacts/ui-experiment/E1' } else { 'artifacts/ui-experiment/E1-r2' }
+$out = Join-Path $LabRoot $relativeOutput
 [System.IO.Directory]::CreateDirectory($out) | Out-Null
 foreach ($size in @('1920x1080','1280x720')) {
     foreach ($variant in @('Base','Ink')) {

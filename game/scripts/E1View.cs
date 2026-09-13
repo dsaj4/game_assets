@@ -7,8 +7,10 @@ public partial class E1View : Node3D
 {
     Camera3D camera = null!;
     CanvasLayer canvas = null!;
-    readonly SystemFont font = new() { FontNames = new[] { "Microsoft YaHei", "Noto Sans CJK SC" } };
-    readonly List<(Label label, Node3D anchor, Vector2 size)> anchored = new();
+    // Local review fonts only: no operating-system font files are redistributed.
+    readonly SystemFont font = new() { FontNames = new[] { "KaiTi", "SimSun", "Microsoft YaHei" } };
+    readonly SystemFont utilityFont = new() { FontNames = new[] { "Microsoft YaHei", "Noto Sans CJK SC" } };
+    readonly List<(Label label, Node3D anchor, Vector2 size, Panel? plaque)> anchored = new();
     readonly List<Control> overlays = new();
     float scale;
 
@@ -31,18 +33,18 @@ public partial class E1View : Node3D
             canvas = GetNode<CanvasLayer>("Labels");
             scale = GetViewport().GetVisibleRect().Size.X / 1920f;
             bool ink = Name.ToString().Contains("Ink");
-            ScreenText("言咒  /  风格样本", new Vector2(88, 26), new Vector2(800, 52), 34, "e0d5aa");
-            ScreenText("E1   ·   原生 3D / 固定机位", new Vector2(1220, 33), new Vector2(620, 42), 24, "a5b19c", HorizontalAlignment.Right);
-            ScreenText(ink ? "B  墨线材质" : "A  基础材质", new Vector2(90, 96), new Vector2(500, 38), 23, "d9c898");
-            AnchorText("TagAcquireText", "获得", 40, "25392a", new Vector2(180, 64));
-            AnchorText("TagArmorText", "护甲", 40, "303427", new Vector2(180, 64));
-            AnchorText("MapTitle", "远 行 图", 32, "383d2d", new Vector2(300, 50));
-            AnchorText("MapCaption", "纸面地形  ·  单节点摆件", 22, "444737", new Vector2(440, 42));
-            AnchorText("EncounterCaption", "遭遇 · 塔楼", 25, "353d2a", new Vector2(230, 43));
-            AnchorText("InlayCaption", "↑ 固定镶嵌", 22, "b5c497", new Vector2(230, 42));
-            AnchorText("WandCaption", "一条法术 · 一根法杖\n木胎 / 黄铜 / 翡翠", 26, "d7d0ad", new Vector2(510, 95));
-            ScreenText("材质对照：  [1] 基础    [2] 墨线     [Esc] 退出", new Vector2(90, 1000), new Vector2(1250, 40), 23, "b5bea8");
-            ScreenText("E1 / 样本 01", new Vector2(1460, 1000), new Vector2(370, 40), 23, "b5bea8", HorizontalAlignment.Right);
+            ScreenText("言咒 · 工匠台", new Vector2(88, 24), new Vector2(800, 58), 42, "dfdfc7");
+            ScreenText("法杖与行图", new Vector2(1360, 34), new Vector2(480, 42), 26, "a8b09c", HorizontalAlignment.Right);
+            ScreenText("一杖一咒 · 临行整备", new Vector2(92, 93), new Vector2(600, 34), 23, "aeb39c");
+            AnchorText("TagAcquireText", "获得", 44, "26392a", new Vector2(180, 64));
+            AnchorText("TagArmorText", "护甲", 44, "2d3629", new Vector2(180, 64));
+            AnchorText("MapTitle", "远 行 图", 36, "30382a", new Vector2(300, 54));
+            AnchorText("MapCaption", "群山之间 · 旧塔图记", 23, "48503c", new Vector2(440, 42));
+            AnchorText("EncounterCaption", "塔楼", 28, "303b28", new Vector2(230, 46));
+            AnchorText("InlayCaption", "固定镶嵌 · 翡翠", 24, "354232", new Vector2(222, 40), plaque: true);
+            AnchorText("WandCaption", "一杖 · 一咒\n木胎 / 铜箍 / 翡翠", 26, "303b2d", new Vector2(350, 86), plaque: true);
+            ScreenText("材质审阅   [1] 基础   [2] 墨线   [Esc] 退出", new Vector2(90, 1000), new Vector2(1200, 40), 22, "aab09e", utility: true);
+            ScreenText(ink ? "E1 修订小样 · B 墨线" : "E1 修订小样 · A 基础", new Vector2(1400, 1000), new Vector2(430, 40), 22, "aab09e", HorizontalAlignment.Right, utility: true);
             LayoutAndValidate();
             GD.Print($"E1_READY variant={(ink ? "ink" : "base")} viewport={GetViewport().GetVisibleRect().Size} camera={camera.GlobalTransform} font={font.GetFontName()} anchors={anchored.Count}");
             var args = OS.GetCmdlineUserArgs();
@@ -62,32 +64,48 @@ public partial class E1View : Node3D
         }
         catch (Exception e) { GD.PushError(e.ToString()); GetTree().Quit(1); }
     }
-    Label MakeLabel(string text, Vector2 size, int fontSize, string color)
+    Label MakeLabel(string text, Vector2 size, int fontSize, string color, bool utility = false)
     {
+        var selectedFont = utility ? utilityFont : font;
         var label = new Label
         {
             Text = text, HorizontalAlignment = HorizontalAlignment.Center,
             VerticalAlignment = VerticalAlignment.Center, MouseFilter = Control.MouseFilterEnum.Ignore
         };
-        label.AddThemeFontOverride("font", font);
+        label.AddThemeFontOverride("font", selectedFont);
         label.AddThemeFontSizeOverride("font_size", Math.Max(16, Mathf.RoundToInt(fontSize * scale)));
         label.AddThemeColorOverride("font_color", new Color(color));
         canvas.AddChild(label);
         label.Size = size * scale;
         foreach (char c in text)
-            if (!char.IsWhiteSpace(c) && !font.HasChar(c)) throw new Exception($"Missing font glyph: {c}");
+            if (!char.IsWhiteSpace(c) && !selectedFont.HasChar(c)) throw new Exception($"Missing font glyph: {c}");
         return label;
     }
-    void ScreenText(string text, Vector2 position, Vector2 size, int fontSize, string color, HorizontalAlignment align = HorizontalAlignment.Left)
+    void ScreenText(string text, Vector2 position, Vector2 size, int fontSize, string color, HorizontalAlignment align = HorizontalAlignment.Left, bool utility = false)
     {
-        var label = MakeLabel(text, size, fontSize, color); label.Position = position * scale;
+        var label = MakeLabel(text, size, fontSize, color, utility); label.Position = position * scale;
         label.HorizontalAlignment = align; overlays.Add(label);
     }
-    void AnchorText(string name, string text, int fontSize, string color, Vector2 size)
+    void AnchorText(string name, string text, int fontSize, string color, Vector2 size, bool plaque = false)
     {
         var anchor = GetNode("Specimen").FindChild(name, true, false) as Node3D
             ?? throw new Exception($"Missing text anchor: {name}");
-        anchored.Add((MakeLabel(text, size, fontSize, color), anchor, size));
+        Panel? backing = null;
+        if (plaque)
+        {
+            // A small, quiet label surface protects text from the wood's hatch marks.
+            // Keep the specimen visible; these plates cover only their own captions.
+            backing = new Panel { MouseFilter = Control.MouseFilterEnum.Ignore };
+            backing.AddThemeStyleboxOverride("panel", new StyleBoxFlat
+            {
+                BgColor = new Color("c8cbb3"), BorderColor = new Color("545b47"),
+                BorderWidthLeft = 1, BorderWidthRight = 1,
+                BorderWidthTop = 1, BorderWidthBottom = 1,
+                ShadowColor = new Color(0.04f, 0.07f, 0.04f, 0.35f), ShadowSize = 3
+            });
+            canvas.AddChild(backing);
+        }
+        anchored.Add((MakeLabel(text, size, fontSize, color), anchor, size, backing));
     }
     void LayoutAndValidate()
     {
@@ -95,6 +113,12 @@ public partial class E1View : Node3D
         foreach (var entry in anchored)
         {
             entry.label.Position = camera.UnprojectPosition(entry.anchor.GlobalPosition) - entry.size * scale / 2;
+            if (entry.plaque != null)
+            {
+                entry.plaque.Position = entry.label.Position - new Vector2(12, 5) * scale;
+                entry.plaque.Size = (entry.size + new Vector2(24, 10)) * scale;
+                if (!viewport.Encloses(entry.plaque.GetRect())) throw new Exception("Caption plaque outside viewport");
+            }
             if (!viewport.Encloses(entry.label.GetRect())) throw new Exception($"Label outside viewport: {entry.label.Text} rect={entry.label.GetRect()} viewport={viewport} anchor={entry.anchor.GlobalPosition} camera={camera.GlobalTransform}");
             if (entry.label.GetMinimumSize().X > entry.size.X * scale + 1) throw new Exception("Label width overflow");
         }

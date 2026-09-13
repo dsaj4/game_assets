@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "createdLocalDate": "2026-09-13",
+  "scope": "E1 R2 current page only",
+  "generator": "built-in image_gen.imagegen",
+  "mode": "new-image generation",
+  "modelReportedInEmbeddedProvenance": "gpt-image 2.0",
+  "inputImagesPassedToTool": [],
+  "referenceReview": [
+    "../flask-style-user-reference.png",
+    "../../concepts/visual-direction-v01.png"
+  ],
+  "referenceUse": "The agent visually reviewed the two existing reference images and described style/material requirements in text. Neither reference image was sent as an edit target; all three outputs are newly generated.",
+  "pixelProcessing": "None. Original outputs copied byte-for-byte to this directory; original generated_images files retained.",
+  "runtimeAcceptance": "Candidates only. Successful image generation does not establish import, rendering or style acceptance; those need actual Blender/Godot inspection.",
+  "assets": [
+    {
+      "id": "modeling-board",
+      "file": "wand-tower-modeling-board-v01.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3302033,
+      "sha256": "258E460E89431825231A6366D23418927D030BAF268DC1CAC1CFA0D8C0D22569",
+      "source": "C:/Users/Administrator/.codex/generated_images/01a09925-0622-7b12-ba26-1f7ef3756c48/exec-6135afa1-026b-4b12-96ef-c4d7559d5908.png",
+      "intendedUse": "Modeling reference only: original wand and tower designs; not a baked game screenshot or final runtime texture.",
+      "visualObservation": "Clear tapered asymmetric branch silhouette, bronze root claws and fixed emerald; tower front/three-quarter/side views expose depth, buttresses, doorway and slate roof. Views are illustrative and not exact orthographic engineering drawings.",
+      "prompt": "Use case: stylized-concept. Asset type: a single landscape 3:2 modeling-reference sheet for handcrafted fantasy game props. Create an original asset design, not a screenshot and not a game UI. On aged pale gray-beige paper, upper half shows TWO matching views of one long horizontal crooked dark-wood magic wand, one direct side view and one slightly rotated three-quarter view: subtly asymmetric tapering branch shaft, small scars and knots, sparse thin curling bronze roots wrapping the shaft, a permanently set faceted emerald-green gem at the right-hand tip inside an irregular antique brass root/claw setting. The wand is slender, not a massive battle staff. Lower half shows THREE consistent views of the same crooked squat medieval stone watchtower miniature: front, clear three-quarter view, and side. The tower has a readable irregular rectangular main volume, short projecting masonry buttresses, a deeply recessed narrow arched door, two tiny slit windows, and a steep dark slate roof leaning a little to one side. The side walls and roof depth must be clearly legible so a Blender modeler can infer volume. Props spaced apart with quiet empty margins, no full environment. Style: exceptionally fine hand-inked engraving, irregular charcoal contours, varied line weight, tight woodcut hatching following material direction, restrained flat painted washes, muted gray olive and dark brown, the emerald is the sole vivid accent. Should feel like a dark whimsical handmade storybook strategy-game shop, not glossy realistic PBR, not clean vector. No text, no arrows, no labels, no watermarks, no decorative border, no interface widgets. High quality detailed landscape image."
+    },
+    {
+      "id": "wood-ink",
+      "file": "wood-ink-albedo-v01.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2765549,
+      "sha256": "3D9BD1AF40EF2DD16AD6C7035B2D19E0F924CB448DFE09621D1D045C1BF212E8",
+      "source": "C:/Users/Administrator/.codex/generated_images/01a09925-0622-7b12-ba26-1f7ef3756c48/exec-efce5f7f-7c90-4b84-ae00-22e2e2e32180.png",
+      "intendedUse": "Candidate diffuse/albedo material image for wood panels and beams.",
+      "visualObservation": "Fine horizontal grain and sparse knots, subdued dark gray-brown; no object, frame, plank separations or text. Dark base may need brighter material/light settings. Seamless tiling was not verified; prefer one mapped image per beam/board.",
+      "prompt": "Use case: stylized-concept. Asset type: original square 1:1 diffuse/albedo surface texture for wooden 3D beams in a handcrafted dark fantasy game. Fill the complete image edge to edge with ONE continuous flat wood surface viewed precisely face-on, no perspective and no represented object. Grain runs generally horizontally across the texture, with natural undulating drift, fine long charcoal ink fibers, intermittent tapering dark grooves and several sparse small uneven knots, line density varying in rhythm rather than regular stripes. Woodcut engraving and hand-drawn scratchboard ink detail, narrow ink lines with occasional thicker cracks, subtle low-frequency painted variation underneath. Palette very muted gray olive, aged dark gray-brown and charcoal; middle value reasonably readable so it can be shaded in a 3D engine. Matte diffuse color only, uniform illumination, no cast shadows, no highlights, no bevel shading, no ambient occlusion along edges. Absolutely no plank separations, no plank borders, no frame, no boards viewed in perspective, no furniture, no leaves, no symbols, no writing or watermark. Avoid golden yellow, orange wood stain, bright tan, highly regular black zebra stripes, photorealistic photographic noise, or heavy black scribbles. Intricate but understated ink drawing suitable for repeated use on small medieval wooden cabinet trim."
+    },
+    {
+      "id": "map-paper",
+      "file": "map-paper-albedo-v01.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3550228,
+      "sha256": "1FCB2CC37C6CDBFEA8260124DCF856A6958112EC1EF875F5ACF187499F1D95B1",
+      "source": "C:/Users/Administrator/.codex/generated_images/01a09925-0622-7b12-ba26-1f7ef3756c48/exec-7aa4e958-e17a-4ff5-b011-9abfa476bef8.png",
+      "intendedUse": "Candidate diffuse/albedo image for map paper, with runtime tower and UI text placed separately.",
+      "visualObservation": "Muted beige-gray aged paper, engraving concentrated along lower corners and side edges; broad clear center and upper area. No routes, nodes, words or buildings. Paper grain is somewhat dense; assess at real screen size.",
+      "prompt": "Use case: stylized-concept. Asset type: original landscape 3:2 flat diffuse texture for a physical parchment map prop in a dark hand-inked fantasy strategy game. Image is precisely front-facing flat paper, filling canvas to all four edges, no perspective or object mockup. A muted gray-ivory aged parchment surface with restrained subtle fibers and occasional faint irregular age speckles. Sparse tiny engraved mountains, hilly contours and groups of pointed conifer trees appear mainly along the lower left and lower right edges and a little along side edges, hand-drawn in low-contrast gray ink with irregular woodcut hatching. Keep the CENTRAL 65 percent and TOP 25 percent almost empty parchment so an actual 3D tower and Chinese interface text can be overlaid clearly. This is quiet map backing, not a complete illustrated world. No route lines, no dotted paths, no nodes or circular marks, no buildings, no tower, no compass rose, no labels, no letters, no numbers, no icons, no UI border, no cast shadows. Paper is gray beige rather than bright yellow, even diffuse illumination, subtle age patina and handcrafted fine charcoal linework. No watermarks. High quality detailed landscape image."
+    }
+  ]
+}

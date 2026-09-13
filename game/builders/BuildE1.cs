@@ -34,20 +34,20 @@ public partial class BuildE1 : SceneTree
                     Environment = new Godot.Environment
                     {
                         BackgroundMode = Godot.Environment.BGMode.Color,
-                        BackgroundColor = new Color("171d19"),
+                        BackgroundColor = new Color("19201b"),
                         AmbientLightSource = Godot.Environment.AmbientSource.Color,
-                        AmbientLightColor = new Color("dad9bb"),
-                        AmbientLightEnergy = 0.65f,
+                        AmbientLightColor = new Color("d2d9cc"),
+                        AmbientLightEnergy = 0.58f,
                         TonemapMode = Godot.Environment.ToneMapper.Linear,
                         SsaoEnabled = true,
                         SsaoRadius = 0.35f,
-                        SsaoIntensity = 1.4f
+                        SsaoIntensity = 1.15f
                     }
                 });
                 root.AddChild(new DirectionalLight3D
                 {
                     Name = "BroadKey", RotationDegrees = new Vector3(-65, -28, 0),
-                    LightColor = new Color("fff1ce"), LightEnergy = 0.7f,
+                    LightColor = new Color("f2f0e3"), LightEnergy = 0.78f,
                     ShadowEnabled = true, DirectionalShadowMaxDistance = 40
                 });
                 root.AddChild(new CanvasLayer { Name = "Labels" });
