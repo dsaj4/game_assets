@@ -14,7 +14,7 @@ try {
     Invoke-Checked $GodotExe @('--headless','--path','game','--script','res://builders/BuildEnvironment.cs')
     Invoke-Checked $GodotExe @('--headless','--path','game','--editor','--import')
     Invoke-Checked $GodotExe @('--headless','--path','game','--script','res://checks/CheckAsset.cs')
-    Invoke-Checked $GodotExe @('--headless','--path','game','--quit-after','3')
+    Invoke-Checked $GodotExe @('--headless','--path','game','res://scenes/EnvironmentOnly.tscn','--quit-after','3')
     @{status='PASS'; scope='Environment only'; checkedAt=(Get-Date -Format o)} | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $output 'result.json') -Encoding UTF8
 } finally {
     Pop-Location

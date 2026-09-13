@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+Vulkan 1.4.341 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+E1_TEXT_BOUNDS=PASS glyphs=PASS
+E1_READY variant=base viewport=(1920, 1080) camera=[X: (1, 0, 0), Y: (0, 0.30796665, -0.9513972), Z: (0, 0.9513972, 0.30796665), O: (0, 17.5, 5.6)] font=Microsoft YaHei anchors=7
+E1_CAPTURE_SAVED=1920x1080 path=E:\Project\game-002-godogen-lab\artifacts\ui-experiment\E1\godot-base-1920x1080-final.png

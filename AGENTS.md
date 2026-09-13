@@ -1,8 +1,7 @@
 # game-002 Godogen 3D experiment
 
-Current phase: **EnvironmentReady / VisualDesignDraft / ImplementationDeferred**.
-On 2026-09-13 the user resumed reference reading, concept-image generation and experiment planning only. The two-screen concept and plan are in docs/visual-direction-v01.md and docs/experiment-plan-v01.md.
-Do not implement wand/map UI, start autonomous game development, launch recurring tasks, or import existing gameplay implementations until the user requests implementation. Concept images are not engine evidence or accepted gameplay.
+Current phase: **E1 executed / technical checks passed / style NeedsRevision**. Read docs/e1-report.md for real captures and remaining gaps; E1 is not accepted art direction.
+On 2026-09-13 the user explicitly requested “开始启动E1”. Implement and verify only the E1 style specimen in docs/experiment-plan-v01.md. E2 loadout interaction, E3 route interaction and E4 integration remain deferred. Do not start recurring tasks or import existing gameplay implementations. Concept images are not engine evidence or accepted gameplay.
 
 This independent workspace uses the Godogen Godot/Codex workflow with a native Blender/Python asset path. Read README.md, docs/design-context.md, docs/deferred-ui-experiment.md and godot.md before development. See docs/godogen-adaptation.md for upstream provenance and local overrides.
 

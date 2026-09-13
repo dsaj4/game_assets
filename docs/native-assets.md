@@ -1,6 +1,6 @@
 # 原生 Blender / Python 工作方式
 
-仅环境已准备。后续经用户启动后，在 `art/` 保存资产生成脚本和 `.blend` 源文件，在 `game/assets/` 保存实际使用的 GLB、PNG 与材质。第三方视觉参考留在 `references/`，不直接当作可发布资产。
+E1 已按用户请求执行，见 [实机报告](e1-report.md)。在 `art/` 保存资产生成脚本和 `.blend` 源文件，在 `game/assets/` 保存实际使用的 GLB、PNG 与材质。第三方视觉参考留在 `references/`，不直接当作可发布资产。
 
 从 PowerShell 加载 `tools/env.ps1` 后，以 `$BlenderExe --background --factory-startup --python-exit-code 1 --python <本地脚本> -- <输出目录>` 运行 bpy。外部 `.venv` 用于普通 Python 文件处理，不单独安装 bpy。修改和导出应由同一个资产脚本可重复生成；坐标、单位、材质与命名在具体样件时再定。
 

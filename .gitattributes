@@ -1,3 +1,5 @@
 * text=auto eol=lf
 *.png binary
+*.blend binary
+*.glb binary
 references/design/**/*.md -text

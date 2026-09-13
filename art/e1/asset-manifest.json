@@ -1,0 +1,41 @@
+{
+  "base": {
+    "glb_bytes": 3304676,
+    "sha256": "87fdd9ea1f171073d46a5c2e468e435728da4536a1c7059a1125b18a87ecfa3f"
+  },
+  "ink": {
+    "glb_bytes": 3454176,
+    "sha256": "1984d2141263f293c7465eb36fc66cccef6092c576948be12d6035f6ad8e34f8"
+  },
+  "seed": 41,
+  "mesh_objects": 102,
+  "triangles": 19034,
+  "camera": [
+    0.0,
+    -5.599999904632568,
+    17.5
+  ],
+  "ortho_width": 18.6,
+  "content": {
+    "wands": 1,
+    "fixed_inlays": 1,
+    "word_tags": 2,
+    "maps": 1,
+    "encounter_tokens": 1
+  },
+  "texture_dimensions": {
+    "wood": [
+      1536,
+      192
+    ],
+    "paper": [
+      1024,
+      1024
+    ],
+    "map": [
+      1024,
+      1024
+    ]
+  },
+  "provenance": "Procedural original geometry and pixels from art/build_e1.py; no reference pixels imported."
+}

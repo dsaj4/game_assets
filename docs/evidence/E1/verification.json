@@ -1,0 +1,94 @@
+{
+  "status": "PASS_TECHNICAL",
+  "visual_status": "NeedsRevision / user review pending",
+  "checks": [
+    "same geometry and transforms across A/B",
+    "same exported camera",
+    "E1 required asset counts",
+    "packed scene node parity, no GLB inlining",
+    "native NVIDIA Vulkan capture",
+    "4 PNG dimensions verified from headers",
+    "Chinese glyph coverage and label bounds at both resolutions",
+    "no runtime stderr"
+  ],
+  "assets": {
+    "base": {
+      "glb_bytes": 3304676,
+      "sha256": "87fdd9ea1f171073d46a5c2e468e435728da4536a1c7059a1125b18a87ecfa3f"
+    },
+    "ink": {
+      "glb_bytes": 3454176,
+      "sha256": "1984d2141263f293c7465eb36fc66cccef6092c576948be12d6035f6ad8e34f8"
+    },
+    "seed": 41,
+    "mesh_objects": 102,
+    "triangles": 19034,
+    "camera": [
+      0.0,
+      -5.599999904632568,
+      17.5
+    ],
+    "ortho_width": 18.6,
+    "content": {
+      "wands": 1,
+      "fixed_inlays": 1,
+      "word_tags": 2,
+      "maps": 1,
+      "encounter_tokens": 1
+    },
+    "texture_dimensions": {
+      "wood": [
+        1536,
+        192
+      ],
+      "paper": [
+        1024,
+        1024
+      ],
+      "map": [
+        1024,
+        1024
+      ]
+    },
+    "provenance": "Procedural original geometry and pixels from art/build_e1.py; no reference pixels imported."
+  },
+  "source_sha256": {
+    "art/build_e1.py": "e52b1736ac98fa065ff8feb3367c5ba9285e55c5f162d244b703f555f568782f",
+    "game/builders/BuildE1.cs": "39100bd2a58992e82522ecb0f6fad8fdac4964ca1278bc55c1d184eb7bbcbc06",
+    "game/scripts/E1View.cs": "75cc5f318c989954d31a02ee0939b9f6be87e9854f5fb25ea2fa78a0adb83bbe"
+  },
+  "captures": [
+    {
+      "file": "godot-base-1920x1080-final.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "42ab96ec5023418d1af945e66f5055faf168326f7b733ea87f897ad1d3c0dcd6"
+    },
+    {
+      "file": "godot-ink-1920x1080-final.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0185c4f711b35f6cdd69922577516950155751833253a43c5e855f529a8de594"
+    },
+    {
+      "file": "godot-base-1280x720-final.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "3121232567a721459b654eff2e4655d83eab6a92fc81ea7af1454f4c43c69984"
+    },
+    {
+      "file": "godot-ink-1280x720-final.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "2f41c5bc3d9b276c8f57ab163fb096ced8721b3890e0979efbf8ed28a64fe14b"
+    }
+  ],
+  "not_tested": [
+    "E2",
+    "E3",
+    "E4",
+    "60-second performance",
+    "user style acceptance",
+    "font redistribution"
+  ]
+}
