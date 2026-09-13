@@ -1,0 +1,30 @@
+{
+  "revision": "map-desk-overall-v04",
+  "created_local_date": "2026-09-13",
+  "status": "BagAppearanceConfirmed / OverallRevisionAwaitingConfirmation",
+  "generator": "built-in image_gen.imagegen",
+  "model": "not reported by built-in tool",
+  "user_request": "目前法杖袋形象设计没问题，把猫从图中删去，法杖袋代替猫的位置横向靠在后侧，做的长一点",
+  "original_output": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-439849dd-95f5-4859-afba-3bfb98e08b17.png",
+  "output": "concepts/map-desk-overall-v04.png",
+  "width": 1254,
+  "height": 1254,
+  "output_sha256": "02d2537ca88a4a79b431fa5b3309b502ab5491d7262371f38694a78089269529",
+  "edit_target": "concepts/map-desk-overall-v03.png",
+  "edit_target_sha256": "1a094da3ad960dd4ea4d10f0cc288f02eb5b0966411e76daa333edead2ec570c",
+  "prompt": "concepts/map-desk-overall-v04-prompt.md",
+  "prompt_sha256": "f6cd8d569ff4655278ed21fa04126497b51c0217ac6a423da0cf6c5d4a73814e",
+  "pixel_processing": "None; generated original copied byte for byte",
+  "visual_review": [
+    "Cat fully removed",
+    "One longer horizontal leather roll at rear ledge replacing cat",
+    "Approved worn leather identity and two wand heads retained",
+    "All heads inside frame, red route and four node objects remain unobscured"
+  ],
+  "not_started": [
+    "MD-11 component sheet",
+    "MD-11 native Blender asset",
+    "Wand management interaction"
+  ],
+  "native_assets_commit": "568653496dd70ebbbb8a2f161147d20fe1bda774"
+}
