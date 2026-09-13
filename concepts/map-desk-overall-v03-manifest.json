@@ -1,0 +1,38 @@
+{
+  "revision": "map-desk-overall-v03",
+  "created_local_date": "2026-09-13",
+  "status": "OverallRevisionAwaitingConfirmation",
+  "generator": "built-in image_gen.imagegen",
+  "model": "not reported by built-in tool",
+  "user_request": "右侧再加入一个破旧的法杖袋（由整张的旧皮革卷成），斜靠在桌子右后侧，末端露出一到二支法杖头；后续将其作为法杖管理入口。先更新整体效果图，确认后再新增组件效果图、再新建blender资产",
+  "original_output": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-7b728f5b-8582-477b-b1ee-c4d55609858a.png",
+  "output": "concepts/map-desk-overall-v03.png",
+  "width": 1254,
+  "height": 1254,
+  "output_sha256": "1a094da3ad960dd4ea4d10f0cc288f02eb5b0966411e76daa333edead2ec570c",
+  "edit_target": "concepts/map-desk-overall-v02.png",
+  "edit_target_sha256": "413fbce4767d4d58fe53d1ed73aea27c41bd7441c8bc903dcee79baf877f5e28",
+  "prompt": "concepts/map-desk-overall-v03-prompt.md",
+  "prompt_sha256": "2851ccb529a11e42cfab98732b5ae36c922e8e0a85830befac4c9152b7ef910a",
+  "pixel_processing": "None; generated original copied byte for byte",
+  "visual_review": [
+    "One rolled whole-leather bag placed diagonally at right rear ledge",
+    "Two wooden wand heads fully within frame",
+    "Map route and all four node objects unobscured",
+    "Books, chest and clutter retained; existing cat shifted left, lantern lower on right edge",
+    "Generated concept edit, not Blender or Godot output"
+  ],
+  "future_component": "MD-11 wand roll bag",
+  "previous_native_assets_commit": "568653496dd70ebbbb8a2f161147d20fe1bda774",
+  "not_started": [
+    "MD-11 component sheet",
+    "MD-11 Blender asset",
+    "Wand management interaction"
+  ],
+  "cat_model": "Still deferred; existing illustrated cat retained in concept only",
+  "stage_order": [
+    "User confirms revised overall concept",
+    "Generate new MD-11 component sheet",
+    "Create native Blender asset from sheet"
+  ]
+}

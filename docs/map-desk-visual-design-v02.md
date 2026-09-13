@@ -1,5 +1,7 @@
 # 地图桌面 · 视觉设计 02
 
+最新修订：[整体设计03](map-desk-visual-design-v03.md)增加右后旧皮革法杖袋，作为后续法杖管理入口，当前整体待确认；确认后才制作新增组件稿和模型。本页保留已确认02版本。
+
 后续进展：用户已启动Blender资产制作、暂缓猫；[九类原生资产与组合渲染](map-desk-assets-v01.md)已形成首轮三维稿。本页保留整体及组件概念设计的来源与判断。
 
 2026-09-13。状态：**OverallDirectionConfirmed / ComponentDesignDraft**。用户已确认右侧地图桌面整体方向，并要求每张分件图做成 Blender 设计稿；[十张组件图册](../concepts/blender-sheets-v01/index.md)及[中文建模说明](blender-component-design-v01.md)已完成。左右区域分开，法杖柜不进入本轮；本文不改变玩法、GDD 或已采纳的路线规则。
