@@ -1,0 +1,10 @@
+.tools/
+.venv/
+vendor/godogen/
+artifacts/
+game/.godot/
+**/bin/
+**/obj/
+**/__pycache__/
+*.blend1
+environment.local.json

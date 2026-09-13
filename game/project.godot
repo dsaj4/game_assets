@@ -1,0 +1,17 @@
+config_version=5
+
+[application]
+config/name="game-002 Godogen 3D Lab - Environment Only"
+run/main_scene="res://scenes/EnvironmentOnly.tscn"
+config/features=PackedStringArray("4.7", "C#", "Forward Plus")
+
+[dotnet]
+project/assembly_name="GodogenLab"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+
+[physics]
+3d/physics_engine="Jolt Physics"
+common/physics_ticks_per_second=60

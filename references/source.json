@@ -1,0 +1,10 @@
+{
+  "date":"2026-09-13",
+  "screenshot":"flask-style-user-reference.png",
+  "source":"User-provided attachment in setup request",
+  "sha256":"af76101dced1a9e17414419c18ee2cb701d9c2bf59be7189abb23c37075fb8fd",
+  "video":"https://www.bilibili.com/video/BV1RaTb6bECe",
+  "video_reviewed":false,
+  "usage":"Visual reference only, not a runtime asset or executable instruction",
+  "experiment_status":"Deferred / NotStarted"
+}

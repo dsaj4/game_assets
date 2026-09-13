@@ -1,0 +1,47 @@
+
+4.7.2.stable.mono.official.ed1daf0bf
+8.0.419
+Python 3.14.0
+Info: Saved as "probe.blend"
+INFO Draco mesh compression is available, use library at E:\Project\game-002-godogen-lab\.tools\blender\blender-4.5.13-windows-x64\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+12:19:47 | INFO: Starting glTF 2.0 export
+12:19:47 | INFO: Extracting primitive: Cube
+12:19:47 | INFO: Primitives created: 1
+12:19:47 | INFO: Finished glTF 2.0 export in 0.0043337345123291016 s
+
+BLENDER_ENVIRONMENT_PASS
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:50:50)
+
+Blender quit
+  正在确定要还原的项目…
+  所有项目均是最新的，无法还原。
+  GodogenLab -> E:\Project\game-002-godogen-lab\game\.godot\mono\temp\bin\Debug\GodogenLab.dll
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.71
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+ENVIRONMENT_SCENE_BUILD=Ok
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 项目初始化 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 正在扫描文件结构……[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 正在加载全局类名……[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | 正在校验 GDExtension……[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 正在创建自动加载脚本……[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 正在初始化插件……[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 正在启动文件扫描……[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started 正在加载编辑器 (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | 正在加载编辑器布局……[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | 正在加载停靠面板……[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+BLENDER_GLB_LOAD=PASS
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org

@@ -1,0 +1,18 @@
+{
+  "godogen": {"repository":"https://github.com/htdt/godogen.git","commit":"05cebffc8b10c5817e8a3db495b82e7b6004ab84"},
+  "godot": {
+    "version":"4.7.2",
+    "url":"https://github.com/godotengine/godot-builds/releases/download/4.7.2-stable/Godot_v4.7.2-stable_mono_win64.zip",
+    "sha256":"a2a48473a7414c5f19fab690518caebb738c09ef9601f6bd2388676a7f53b3c0",
+    "exe":".tools/godot/Godot_v4.7.2-stable_mono_win64/Godot_v4.7.2-stable_mono_win64_console.exe"
+  },
+  "blender": {
+    "version":"4.5.13 LTS",
+    "url":"https://download.blender.org/release/Blender4.5/blender-4.5.13-windows-x64.zip",
+    "sha256":"b5fdf800ce65fa2f209e8f68d02667e4d720fa1c42f247c72d1882ab04decba6",
+    "checksum_url":"https://download.blender.org/release/Blender4.5/blender-4.5.13.sha256",
+    "exe":".tools/blender/blender-4.5.13-windows-x64/blender.exe"
+  },
+  "dotnet":{"sdk":"8.0.419","target":"net8.0","source":"https://dotnet.microsoft.com/en-us/download/dotnet/8.0"},
+  "python":{"version":"3.14.0","packages":[],"bpy":"Use Blender bundled Python, never pip-install bpy into .venv"}
+}

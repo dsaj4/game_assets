@@ -1,0 +1,67 @@
+{
+  "source_repository": "E:\\Project\\game",
+  "commit": "305044d6d25783e914ff6d7265ed9d724684a989",
+  "files": [
+    {
+      "source_path": "workspaces/game-002/README.md",
+      "snapshot": "README.md",
+      "sha256": "58b5ebeb9050ee209ad538e41034d57efa86c6b4ff804fc122dd7906194ff5f8"
+    },
+    {
+      "source_path": "workspaces/game-002/CONTEXT.md",
+      "snapshot": "CONTEXT.md",
+      "sha256": "337ca15a9346475a8ec7b1baa42f079bcbdd4404ba77553bc2510b3770607629"
+    },
+    {
+      "source_path": "workspaces/game-002/game-design-workflow/core-concept.md",
+      "snapshot": "game-design-workflow/core-concept.md",
+      "sha256": "9a52db9ff43c6aab61169828bf6e22561fae9d08277479165791922bbf966fa7"
+    },
+    {
+      "source_path": "workspaces/game-002/game-design-workflow/decision-log.md",
+      "snapshot": "game-design-workflow/decision-log.md",
+      "sha256": "50f4902438626b0f9e93e8d9e49f77ec06c31413f6a8ee874b1a26a17f7bd4c6"
+    },
+    {
+      "source_path": "workspaces/game-002/docs/design-decisions-needed.md",
+      "snapshot": "docs/design-decisions-needed.md",
+      "sha256": "62b5222c33041305cb2d2b4bb846beca6dd0e01fc4d625f49138ffc2722079b3"
+    },
+    {
+      "source_path": "workspaces/game-002/docs/code-development-index.md",
+      "snapshot": "docs/code-development-index.md",
+      "sha256": "4e40ce35f384e478976d54becb2c7e1cdc2bc6ca38fb2b8f252b83acd4114fc3"
+    },
+    {
+      "source_path": "workspaces/game-002/docs/battlefield-and-environment.md",
+      "snapshot": "docs/battlefield-and-environment.md",
+      "sha256": "7717e26f570f572b04f7fff5df102579dc345ed20620a4cc15447b0213a6106a"
+    },
+    {
+      "source_path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-12-wand-inlay-system.md",
+      "snapshot": "game-design-workflow/idea-materials/M-2026-09-12-wand-inlay-system.md",
+      "sha256": "53c6fc43d1162942925fccfc39d2a3c2d27c4aabb98776cf4d1ecd7059669647"
+    },
+    {
+      "source_path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-06-branching-run-routes.md",
+      "snapshot": "game-design-workflow/idea-materials/M-2026-09-06-branching-run-routes.md",
+      "sha256": "3aece7db5948c172c43b7d252da9a6fb23ebebc437e5d4bf2028c1cf4ee8c28c"
+    },
+    {
+      "source_path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md",
+      "snapshot": "game-design-workflow/idea-materials/M-2026-09-12-element-spell-archetype.md",
+      "sha256": "34cc0cef3090fc5da9db4c52f5b9f6ef1929db9a3a8e00ee0275531c1adea8ab"
+    },
+    {
+      "source_path": "workspaces/game-002/game-design-workflow/idea-materials/M-2026-09-13-element-short-rule-card-pool.md",
+      "snapshot": "game-design-workflow/idea-materials/M-2026-09-13-element-short-rule-card-pool.md",
+      "sha256": "b1e47c9e078dbd79a25b55949ff757a8711cc8920c9677da3bbee9a848bfdef0"
+    },
+    {
+      "source_path": "workspaces/game-002/game-design-workflow/idea-inbox/2026-09-13-simple-spell-short-rule-card-pool.md",
+      "snapshot": "game-design-workflow/idea-inbox/2026-09-13-simple-spell-short-rule-card-pool.md",
+      "sha256": "49e27e7a8dd734f66f38fc407d3f70f3f9d9226bf4e69daa526e8257bb9cd518"
+    }
+  ],
+  "note": "Read-only snapshot. Original relative links may refer to unsnapshotted material; consult source repository. No inherited AGENTS or executable content."
+}

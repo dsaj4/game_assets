@@ -1,0 +1,7 @@
+{
+  "blender": "4.5.13 LTS",
+  "python": "3.11.15 (main, Aug 12 2026, 16:53:25) [MSC v.1929 64 bit (AMD64)]",
+  "objects": 1,
+  "glb_bytes": 1752,
+  "scope": "environment-only; no UI/gameplay/style evaluation"
+}

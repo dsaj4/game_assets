@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+Vulkan 1.4.341 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 5060 Laptop GPU
+
+Movie Maker mode enabled, recording movie in 1280×720 @ 30 FPS...
+--------------------------------------------------------------------------------
+Done recording movie at path: E:\Project\game-002-godogen-lab\artifacts\environment-smoke\frame.png
+2 frames at 30 FPS (movie length: 00:00:00:02), recorded in 00:00:04 (25% of real-time speed).
+CPU render time: 0.00 seconds (average: 2.47 ms/frame)
+GPU render time: 0.00 seconds (average: 0.00 ms/frame)
+Encoding time: 0.02 seconds (average: 11.56 ms/frame)
+--------------------------------------------------------------------------------
