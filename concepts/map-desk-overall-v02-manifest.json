@@ -1,0 +1,28 @@
+{
+  "revision": "map-desk-overall-v02",
+  "created_local_date": "2026-09-13",
+  "status": "VisualDesignDraft / overall review pending",
+  "generator": "built-in image_gen.imagegen",
+  "scope": "Right map desk overall illustration only",
+  "original_output": "C:\\Users\\Administrator\\.codex\\generated_images\\01a09889-9886-77c2-b7f6-9054d97a682e\\exec-fad3e648-b4f4-45ed-a61e-f58bc17bf0e6.png",
+  "output": "concepts/map-desk-overall-v02.png",
+  "width": 1254,
+  "height": 1254,
+  "output_sha256": "413fbce4767d4d58fe53d1ed73aea27c41bd7441c8bc903dcee79baf877f5e28",
+  "reference": "references/flask-map-user-reference-2026-09-13.png",
+  "reference_sha256": "15876045ffa963cf91c065f48b324a6409d77f1605454d0aa7462d011d9bde62",
+  "prompt": "concepts/map-desk-overall-v02-prompt.md",
+  "prompt_sha256": "5442498ebdc15bf50950a7ec2f2dfa5fd6677f7dcf9874f92b47baded6926536",
+  "pixel_processing": "None; generated original copied byte for byte",
+  "followup": "User explicitly said to retain the extra clutter; no removal edit was executed. This does not approve the overall design.",
+  "retained_atmospheric_details": [
+    "quills and pen cup",
+    "armillary globe",
+    "edge lantern"
+  ],
+  "not_started": [
+    "individual component images",
+    "new Blender modeling",
+    "new Godot implementation"
+  ]
+}

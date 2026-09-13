@@ -1,6 +1,6 @@
 # game-002 Godogen 3D experiment
 
-Current phase: **E1 R2 same-page art refinement**. Read docs/e1-r2-report.md for the latest evidence and docs/e1-report.md for the preserved first pass. E1 is not accepted art direction.
+Current phase: **Right map desk overall concept / user review pending**. Read docs/map-desk-visual-design-v02.md first. User now requests left/right separation, right map desk concept and design manuscript first, individual component images only after overall confirmation. Extra desk clutter is explicitly retained. Do not infer overall approval from this clutter preference or continue modeling/runtime work. E1 R2 remains the latest engine implementation; read docs/e1-r2-report.md for evidence and docs/e1-report.md for the preserved first pass. E1 is not accepted art direction.
 On 2026-09-13 the user explicitly requested “开始启动E1”. Implement and verify only the E1 style specimen in docs/experiment-plan-v01.md. E2 loadout interaction, E3 route interaction and E4 integration remain deferred. Do not start recurring tasks or import existing gameplay implementations. Concept images are not engine evidence or accepted gameplay.
 
 This independent workspace uses the Godogen Godot/Codex workflow with a native Blender/Python asset path. Read README.md, docs/design-context.md, docs/deferred-ui-experiment.md and godot.md before development. See docs/godogen-adaptation.md for upstream provenance and local overrides.

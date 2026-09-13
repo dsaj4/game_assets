@@ -2,7 +2,7 @@
 
 独立 demo 工作区：`E:\Project\game-002-godogen-lab`。
 
-**当前：E1 R2 同页美术修订，图像参考＋原生 Blender UI／Python。** 用户 2026-09-13 要求继续当前页面，增加图像模型参考并通过电脑插件细化 Blender 模型；最新结果见 [R2 实机报告](docs/e1-r2-report.md)，[首轮报告](docs/e1-report.md)保留。E2–E4 仍未启动。参考入口：[视觉方向01](docs/visual-direction-v01.md)、[实验计划v0.1](docs/experiment-plan-v01.md)。
+**当前：右侧地图桌面整体效果图与设计稿，等待整体确认。** 用户要求左右分开，先完善 [地图桌面视觉设计02](docs/map-desk-visual-design-v02.md)和[整体效果图](concepts/map-desk-overall-v02.png)，确认后才逐件生成组件图；额外杂物按用户最新要求保留。这张图是 imagegen 概念输出，尚未进入模型或实机制作。现有实现仍为 [E1 R2](docs/e1-r2-report.md)，[首轮报告](docs/e1-report.md)保留；E2–E4 未启动。
 
 | 层 | 固定环境 |
 | --- | --- |
@@ -36,5 +36,7 @@ Godot 入口是 `game/project.godot`，默认打开当前 E1 墨线小样；按 
 | art/e1 与 game/assets/e1 | E1 原生模型；R2 保留电脑插件操作的屋顶修改，bpy 补充模型细节并映射生成材质；可编辑 .blend、GLB 和独立版本哈希清单 |
 | references/e1-r2-generated | 三份图像模型原创输出、完整提示词与 SHA；造型板仅参考，木纹和地图纸原图用于模型 albedo，未复制 FLASK 资产 |
 | concepts/visual-direction-v01.png | 两屏概念效果图，imagegen生成，非实机、非运行资产；提示词同目录保存 |
+| concepts/map-desk-overall-v02.png | 右侧地图桌面整体概念图；四类地图棋子、环境地图与红线、猫／金币宝箱／书及获准保留的杂物；整体待确认，提示词与来源哈希同目录保存 |
+| references/flask-map-user-reference-2026-09-13.png | 用户最新地图截图，作为图像模型风格／构图参考，不是运行资产 |
 
-继续入口：[最新设计背景](docs/design-context.md)、[分阶段 UI 任务](docs/deferred-ui-experiment.md)、[Godogen 适配说明](docs/godogen-adaptation.md)、[原生资产方式](docs/native-assets.md)。下一步仍为 E1 风格修订与用户评议；当前无后台自动开发任务。
+继续入口：[地图桌面设计稿](docs/map-desk-visual-design-v02.md)、[最新设计背景](docs/design-context.md)、[分阶段 UI 任务](docs/deferred-ui-experiment.md)、[Godogen 适配说明](docs/godogen-adaptation.md)、[原生资产方式](docs/native-assets.md)。下一步先确认整体构图，再按稿内顺序逐件生成效果图；当前无后台自动开发任务。
