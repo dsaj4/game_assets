@@ -1,8 +1,8 @@
 # game-002 Godogen 3D experiment
 
-Current phase: **EnvironmentReady / UI experiment Deferred / NotStarted**.
-The user requested setup only and explicitly said not to start the long-term experiment yet.
-Do not generate wand/map UI, start autonomous game development, launch recurring tasks, or import existing gameplay implementations until the user resumes.
+Current phase: **EnvironmentReady / VisualDesignDraft / ImplementationDeferred**.
+On 2026-09-13 the user resumed reference reading, concept-image generation and experiment planning only. The two-screen concept and plan are in docs/visual-direction-v01.md and docs/experiment-plan-v01.md.
+Do not implement wand/map UI, start autonomous game development, launch recurring tasks, or import existing gameplay implementations until the user requests implementation. Concept images are not engine evidence or accepted gameplay.
 
 This independent workspace uses the Godogen Godot/Codex workflow with a native Blender/Python asset path. Read README.md, docs/design-context.md, docs/deferred-ui-experiment.md and godot.md before development. See docs/godogen-adaptation.md for upstream provenance and local overrides.
 

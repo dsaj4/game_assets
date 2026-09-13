@@ -2,7 +2,7 @@
 
 独立 demo 工作区：`E:\Project\game-002-godogen-lab`。
 
-**当前：环境就绪；法杖装配与地图 UI 实验待启动。** 用户 2026-09-13 要求采用 Godogen + 原生 Blender + Python，从零探索 3D，暂不开始长期任务。
+**当前：环境就绪；视觉效果图与实验计划草稿已完成，实机实现待启动。** 用户 2026-09-13 后续授权阅读参考并制作一版设计图与计划。新入口：[视觉方向01](docs/visual-direction-v01.md)、[实验计划v0.1](docs/experiment-plan-v01.md)。
 
 | 层 | 固定环境 |
 | --- | --- |
@@ -33,5 +33,6 @@ Godot 入口是 `game/project.godot`，目前只有空 Node3D 场景。`setup.ps
 | references/design/ | game-002 启动时固定设计快照与文件哈希 |
 | artifacts/environment-smoke/ | 标准立方体与空场景工具探针，仅本地生成 |
 | 正式游戏资产 | 尚无 |
+| concepts/visual-direction-v01.png | 两屏概念效果图，imagegen生成，非实机、非运行资产；提示词同目录保存 |
 
 继续入口：[最新设计背景](docs/design-context.md)、[待启动 UI 任务](docs/deferred-ui-experiment.md)、[Godogen 适配说明](docs/godogen-adaptation.md)、[原生资产方式](docs/native-assets.md)。后续须由用户明确启动，再补具体交互与验收；当前无后台自动开发任务。
