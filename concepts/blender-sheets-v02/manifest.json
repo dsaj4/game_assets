@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-13",
+  "asset_id": "MD-11",
+  "status": "OverallDirectionConfirmed / ComponentDesignDraft",
+  "user_confirmation": "确认，可以开始生产袋子设计图，可替代猫的位置",
+  "approved_overall": "concepts/map-desk-overall-v05.png",
+  "generator": "built-in image_gen.imagegen",
+  "model": "not reported by built-in tool",
+  "selected_count": 2,
+  "generation_count": 3,
+  "pixel_processing": "None; originals copied byte for byte, no upscaling",
+  "images": [
+    {
+      "file": "concepts/blender-sheets-v02/md-11-wand-roll-appearance-v01.png",
+      "selected": true,
+      "role": "Appearance and direction references",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "af3ee59b0a65458ad2284597c0f34b6b12b4873cd2f47b07871453100bc5ba06",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-6945ebf7-83c5-4495-b1b2-3021f4fc3be2.png",
+      "prompt": "concepts/blender-sheets-v02/md-11-wand-roll-appearance-v01-prompt.md",
+      "prompt_sha256": "4d17e1afcd34e11d6346b2d25a98a7a76460d99bf2813cfb247f55da0b4f0668",
+      "reference": "concepts/map-desk-overall-v05.png",
+      "reference_sha256": "ff716eaa823853bd7c2d7a0b1edd257300c6eeffb6bea4b904829c7163ac7a05"
+    },
+    {
+      "file": "concepts/blender-sheets-v02/md-11-wand-roll-construction-v01.png",
+      "selected": false,
+      "role": "Archived construction board before shaft-section correction",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "849216fbac6bc4240b81376a5c5c52dc2cc8e605b14d18a04f794ad34063fec4",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-01325d74-a4e0-4c47-a891-1665fb72290a.png",
+      "prompt": "concepts/blender-sheets-v02/md-11-wand-roll-construction-v01-prompt.md",
+      "prompt_sha256": "f992c25ac5db2f175b95a17a205d1b2d3ba88a6a59fc8546209ae165e4c7339e",
+      "reference": "concepts/blender-sheets-v02/md-11-wand-roll-appearance-v01.png",
+      "reference_sha256": "af3ee59b0a65458ad2284597c0f34b6b12b4873cd2f47b07871453100bc5ba06"
+    },
+    {
+      "file": "concepts/blender-sheets-v02/md-11-wand-roll-construction-v02.png",
+      "selected": true,
+      "role": "Construction board with solid shaft sections",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "a1f1a7310e1c38dd60f5c35e715556f6f2c770f928e3f908654842865b4c6aa5",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-f69988c4-5cb5-464e-a933-804d007be00a.png",
+      "prompt": "concepts/blender-sheets-v02/md-11-wand-roll-construction-v02-prompt.md",
+      "prompt_sha256": "a9b9d05357564471437b9cec63ee2f595c9d60d2717c70d3e4a2b84202b68a1d",
+      "reference": "concepts/blender-sheets-v02/md-11-wand-roll-construction-v01.png",
+      "reference_sha256": "849216fbac6bc4240b81376a5c5c52dc2cc8e605b14d18a04f794ad34063fec4"
+    }
+  ],
+  "replacement": "MD-11 occupies the former MD-09 cat position; MD-09 retained as historical reference only",
+  "visual_review": [
+    "Long narrow identity retained with two ties and two staff heads",
+    "Single-hide construction and integral folded end described",
+    "Construction v02 corrects the shaft section to two solid wooden circles",
+    "Multiview geometry and panel scales remain illustrative; modeling notes define calibration"
+  ],
+  "limitation": "Raster modeling references only; no MD-11 .blend or GLB, no engine or gameplay validation"
+}

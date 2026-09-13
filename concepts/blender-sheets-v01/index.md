@@ -1,5 +1,7 @@
 # 地图桌面 · Blender 分件设计图册 01
 
+当前补充：[MD-11长法杖袋两张设计稿](../blender-sheets-v02/index.md)已按确认后的整体05完成，并替代猫的位置。下方MD-09为历史设计参考，退出当前构图；本册其余组件继续保留。
+
 2026-09-13。整体方向已获用户确认；本册为 **10 张组件建模设计稿**。统一参考[已确认整体图](../map-desk-overall-v02.png)，保留羽毛笔／笔筒、天球仪和边缘灯具。
 
 [中文建模说明](../../docs/blender-component-design-v01.md) · [整体视觉文稿](../../docs/map-desk-visual-design-v02.md) · [来源与 SHA256 清单](manifest.json)

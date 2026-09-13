@@ -1,5 +1,7 @@
 # 地图桌面 · Blender 组件建模设计稿 01
 
+当前补充：[MD-11长法杖袋设计稿](blender-wand-roll-design-v01.md)继承已确认整体05，替代MD-09猫在后侧的位置。猫已退出当前构图，以下猫的造型、尺度与制作顺序只作历史参考；已有其他九类组件保持。
+
 后续进展：用户已启动原生资产制作，并要求猫先不生成；九类模型、组合工程与渲染见[原生资产01](map-desk-assets-v01.md)。以下“尚未生成模型”等表述保留设计稿交付时的状态。
 
 2026-09-13。状态：**OverallDirectionConfirmed / ComponentDesignDraft**。

@@ -1,6 +1,6 @@
 # 地图桌面 · 视觉设计 05：接近桌宽的长法杖
 
-2026-09-13。状态：**BagAppearanceConfirmed / OverallRevisionAwaitingConfirmation**。
+2026-09-13。状态：**OverallDirectionConfirmed / ComponentDesignDraft**。用户已确认整体05并要求开始生产法杖袋设计图、替代猫的位置；[MD-11两张设计稿与说明](blender-wand-roll-design-v01.md)已完成。以下保留整体修订的来源，后文“待确认”仅描述生成当时状态。
 
 ![接近桌宽的长法杖袋整体图](../concepts/map-desk-overall-v05.png)
 
