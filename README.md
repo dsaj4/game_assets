@@ -2,7 +2,7 @@
 
 独立 demo 工作区：`E:\Project\game-002-godogen-lab`。
 
-**当前：右侧地图桌面整体效果图与设计稿，等待整体确认。** 用户要求左右分开，先完善 [地图桌面视觉设计02](docs/map-desk-visual-design-v02.md)和[整体效果图](concepts/map-desk-overall-v02.png)，确认后才逐件生成组件图；额外杂物按用户最新要求保留。这张图是 imagegen 概念输出，尚未进入模型或实机制作。现有实现仍为 [E1 R2](docs/e1-r2-report.md)，[首轮报告](docs/e1-report.md)保留；E2–E4 未启动。
+**当前：整体方向已确认，10 张 Blender 组件设计稿已生成。** 用户明确“确认，开始生成，每张图做成blender设计稿”；已交付[完整图册](concepts/blender-sheets-v01/index.md)与[中文建模说明](docs/blender-component-design-v01.md)，涵盖桌面与保留杂物、环境地图、红线、法师木雕、篝火、水晶球、建筑、宝箱、猫和书。状态 OverallDirectionConfirmed / ComponentDesignDraft；尺寸与拆件方式为建模建议，图片尚不是 .blend 模型。现有运行实现仍为 [E1 R2](docs/e1-r2-report.md)，[首轮报告](docs/e1-report.md)保留；E2–E4 未启动。
 
 | 层 | 固定环境 |
 | --- | --- |
@@ -36,7 +36,8 @@ Godot 入口是 `game/project.godot`，默认打开当前 E1 墨线小样；按 
 | art/e1 与 game/assets/e1 | E1 原生模型；R2 保留电脑插件操作的屋顶修改，bpy 补充模型细节并映射生成材质；可编辑 .blend、GLB 和独立版本哈希清单 |
 | references/e1-r2-generated | 三份图像模型原创输出、完整提示词与 SHA；造型板仅参考，木纹和地图纸原图用于模型 albedo，未复制 FLASK 资产 |
 | concepts/visual-direction-v01.png | 两屏概念效果图，imagegen生成，非实机、非运行资产；提示词同目录保存 |
-| concepts/map-desk-overall-v02.png | 右侧地图桌面整体概念图；四类地图棋子、环境地图与红线、猫／金币宝箱／书及获准保留的杂物；整体待确认，提示词与来源哈希同目录保存 |
+| concepts/map-desk-overall-v02.png | 右侧地图桌面整体概念图；用户已确认整体方向并启动分件设计，杂物保留；生成时清单保留原始状态，后续确认以当前设计文稿为准 |
+| concepts/blender-sheets-v01/ | 10 张选用组件设计稿（1536 × 1024）、2 张修订前图、12 份完整提示词与来源 SHA256；地图／红线选用 v02，图册和中文建模说明记录尺度、拆件及校准项；仅作建模参考 |
 | references/flask-map-user-reference-2026-09-13.png | 用户最新地图截图，作为图像模型风格／构图参考，不是运行资产 |
 
-继续入口：[地图桌面设计稿](docs/map-desk-visual-design-v02.md)、[最新设计背景](docs/design-context.md)、[分阶段 UI 任务](docs/deferred-ui-experiment.md)、[Godogen 适配说明](docs/godogen-adaptation.md)、[原生资产方式](docs/native-assets.md)。下一步先确认整体构图，再按稿内顺序逐件生成效果图；当前无后台自动开发任务。
+继续入口：[十张组件图册](concepts/blender-sheets-v01/index.md)、[Blender 建模文稿](docs/blender-component-design-v01.md)、[地图桌面整体稿](docs/map-desk-visual-design-v02.md)、[最新设计背景](docs/design-context.md)、[Godogen 适配说明](docs/godogen-adaptation.md)。后续建模建议先搭桌面／纸面／红线，再用法师木雕校准风格；本轮完成设计图，不启动新的模型或交互阶段，当前无后台自动开发任务。

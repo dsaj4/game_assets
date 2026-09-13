@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-13",
+  "status": "PASS",
+  "selected_images": 10,
+  "superseded_images": 2,
+  "prompt_files": 12,
+  "selected_dimensions": "1536 x 1024",
+  "source_to_workspace_hashes": "10/10 identical",
+  "manifest_hashes": "selected, superseded and prompt hashes verified",
+  "checked_local_links": 66,
+  "visual_review": "All selected sheets reviewed; main map deprojected in v02, actual pawns removed from route v02; remaining view alignment limits documented",
+  "new_blender_models": 0,
+  "new_runtime_tests": 0
+}

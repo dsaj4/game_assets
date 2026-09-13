@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "created_local_date": "2026-09-13",
+  "timezone": "Asia/Shanghai",
+  "scope": "Right map desk Blender modeling reference sheets only",
+  "overall_approval": {
+    "status": "OverallDirectionConfirmed",
+    "user_quote": "确认，开始生成，每张图做成blender设计稿",
+    "reference": "../map-desk-overall-v02.png",
+    "sha256": "413fbce4767d4d58fe53d1ed73aea27c41bd7441c8bc903dcee79baf877f5e28"
+  },
+  "component_status": "ComponentDesignDraft",
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "model": "not reported by tool",
+    "total_outputs": 12,
+    "selected_outputs": 10,
+    "copy_method": "Byte-for-byte copy; original generated images retained"
+  },
+  "limitations": [
+    "Raster modeling references; no new .blend, mesh, shader or Godot runtime output in this delivery.",
+    "Dimensions are suggested blockout scale, not user-approved engineering measurements.",
+    "Generated views are not guaranteed to be mathematically registered orthographic projections.",
+    "Printed map and route overlay require future shared-UV alignment; sheets are not production texture files.",
+    "No gameplay rules, route graph, clicks, currency values or formal GDD acceptance are implied."
+  ],
+  "selected": [
+    {
+      "id": "MD-01",
+      "title": "旧木桌与保留杂物",
+      "status": "ComponentDesignDraft",
+      "selected_image": {
+        "file": "md-01-desk-v01.png",
+        "bytes": 3028672,
+        "sha256": "190bc9213ef9af58768a8bf1fc2c0c1902420007eebdfefe855cf27c1587cdca",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_image": "C:\\Users\\Administrator\\.codex\\generated_images\\01a09889-9886-77c2-b7f6-9054d97a682e\\exec-07f70d31-e92b-480d-93ae-c4045a87bea3.png",
+      "suggested_dimensions": "200 × 170 cm；桌板厚 7 cm",
+      "prompts": [
+        {
+          "file": "md-01-desk-v01-prompt.md",
+          "bytes": 3393,
+          "sha256": "f2ca3912e0897dce52600993b6cb45dcb65051c515a9bf95791214703a058458"
+        }
+      ],
+      "generation_references": [
+        "../map-desk-overall-v02.png"
+      ],
+      "review_note": "SCALE GUIDE 中的地图垫底不是摆放依据；纸应铺在桌面上。侧视是造型辅助，建模时校准后沿及装饰位置。7 cm 指桌板厚度。"
+    },
+    {
+      "id": "MD-02",
+      "title": "环境地图与纸面",
+      "status": "ComponentDesignDraft",
+      "selected_image": {
+        "file": "md-02-environment-map-v02.png",
+        "bytes": 3096008,
+        "sha256": "b5fa70d7e0eecd5e5f0446bfe837ffbe7e789a699bea90581530220b074ad541",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_image": "C:\\Users\\Administrator\\.codex\\generated_images\\01a09889-9886-77c2-b7f6-9054d97a682e\\exec-91fc4bf6-f904-45df-b24c-82ec9b692a0a.png",
+      "suggested_dimensions": "166 × 142 cm；纸边厚 0.15 cm",
+      "prompts": [
+        {
+          "file": "md-02-environment-map-v01-prompt.md",
+          "bytes": 3621,
+          "sha256": "ba1d900bf2a2ae9e84354104b339f8404b5d24dc40636e5391e221cc2c40cbe6"
+        },
+        {
+          "file": "md-02-environment-map-v02-prompt.md",
+          "bytes": 1121,
+          "sha256": "9ecafc5bb7e132e6ba3d9458dcf16999528478f59dae2993ec0298126e4e2c97"
+        }
+      ],
+      "generation_references": [
+        "../map-desk-overall-v02.png",
+        "md-02-environment-map-v01.png"
+      ],
+      "review_note": "选用修订版：主图为矩形顶视，移除实体摆件和红线。仍是含版式的参考稿，尚非可直接铺满 UV 的贴图。"
+    },
+    {
+      "id": "MD-03",
+      "title": "红色路线独立层",
+      "status": "ComponentDesignDraft",
+      "selected_image": {
+        "file": "md-03-red-route-v02.png",
+        "bytes": 2639179,
+        "sha256": "0669a968aec7f70ff5de038bae7139e097d80022054e82a54431635076ee7eb5",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_image": "C:\\Users\\Administrator\\.codex\\generated_images\\01a09889-9886-77c2-b7f6-9054d97a682e\\exec-464fc1d7-94a5-46e2-8f16-a26d8d1173d4.png",
+      "suggested_dimensions": "与地图同一 UV 坐标；笔迹宽约 1.2 cm",
+      "prompts": [
+        {
+          "file": "md-03-red-route-v01-prompt.md",
+          "bytes": 3678,
+          "sha256": "4fe2bab9960aa4f929421583d59d46113c304276062b6f186e7161545daee030"
+        },
+        {
+          "file": "md-03-red-route-v02-prompt.md",
+          "bytes": 794,
+          "sha256": "b8d1c10d373589d1e691c0b05a02f0692afca29ad9ddf2d04c0c62a5e635eb4a"
+        }
+      ],
+      "generation_references": [
+        "../map-desk-overall-v02.png",
+        "md-03-red-route-v01.png"
+      ],
+      "review_note": "选用修订版：实体摆件已改为中性定位点。棋盘格是画出的透明示意，并非 PNG 透明通道；底图与 MD-02 尚未逐像素配准。"
+    },
+    {
+      "id": "MD-04",
+      "title": "玩家法师木雕",
+      "status": "ComponentDesignDraft",
+      "selected_image": {
+        "file": "md-04-mage-woodcarving-v01.png",
+        "bytes": 3033489,
+        "sha256": "6cc10f4ecffa02b9d4dcf2861235f65413d29acbe12d824676c3d2f4f0a03428",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_image": "C:\\Users\\Administrator\\.codex\\generated_images\\01a09889-9886-77c2-b7f6-9054d97a682e\\exec-d21f4a55-6b0d-4950-be5f-c471501d1023.png",
+      "suggested_dimensions": "高 18 cm；底座约 9 × 8 cm",
+      "prompts": [
+        {
+          "file": "md-04-mage-woodcarving-v01-prompt.md",
+          "bytes": 3288,
+          "sha256": "7f0659ead1e331e398abbd3b933e4bd91f0e838716b5ec64f0d749269c252532"
+        }
+      ],
+      "generation_references": [
+        "../map-desk-overall-v02.png"
+      ],
+      "review_note": "RIGHT 仍带斜角，非严格正交投影。以 FRONT 的持杖侧、3/4 的剪影为造型依据，白模阶段统一帽尖、手杖和底座的位置。"
+    },
+    {
+      "id": "MD-05",
+      "title": "休息篝火",
+      "status": "ComponentDesignDraft",
+      "selected_image": {
+        "file": "md-05-campfire-v01.png",
+        "bytes": 3072149,
+        "sha256": "8aec01379ac5306f37824e2ec3c9e19bcfe0c63284313548f61c4b8cb4e36477",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_image": "C:\\Users\\Administrator\\.codex\\generated_images\\01a09889-9886-77c2-b7f6-9054d97a682e\\exec-6dca9389-7a0e-4d8c-a4fd-79ef3aafa3d9.png",
+      "suggested_dimensions": "石环直径 18 cm；含火焰高约 16 cm",
+      "prompts": [
+        {
+          "file": "md-05-campfire-v01-prompt.md",
+          "bytes": 3147,
+          "sha256": "019b3875ada91a770bef7c7ff7d1478cd8fc82f65ba9ce732e33fd7eb0ef44cf"
+        }
+      ],
+      "generation_references": [
+        "../map-desk-overall-v02.png"
+      ],
+      "review_note": "火焰各视图仅表达轮廓方向；石块数量与排布须在同一模型中固定，不将不同视图当不同方案拼接。"
+    },
+    {
+      "id": "MD-06",
+      "title": "问号事件水晶球",
+      "status": "ComponentDesignDraft",
+      "selected_image": {
+        "file": "md-06-crystal-ball-v01.png",
+        "bytes": 2949578,
+        "sha256": "0ed51752bc29b9a3b8dbd093d5f1710a9bcab8891732e6be294a037096a61f21",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_image": "C:\\Users\\Administrator\\.codex\\generated_images\\01a09889-9886-77c2-b7f6-9054d97a682e\\exec-c3e67eb5-5e5d-4b32-9200-e8f5f5f236ea.png",
+      "suggested_dimensions": "总高 20 cm；球径 13 cm",
+      "prompts": [
+        {
+          "file": "md-06-crystal-ball-v01-prompt.md",
+          "bytes": 3256,
+          "sha256": "fa359ddb0954c1139c5c2c0a9cb40ba29341ee1e587362aafd089d4dce9b4a06"
+        }
+      ],
+      "generation_references": [
+        "../map-desk-overall-v02.png"
+      ],
+      "review_note": "球内问号在侧视中仍偏向观者；建议作为面向主镜头的内部雾片处理。玻璃外观尚未经过 Blender/Godot 着色验证。"
+    },
+    {
+      "id": "MD-07",
+      "title": "地点简易建筑",
+      "status": "ComponentDesignDraft",
+      "selected_image": {
+        "file": "md-07-place-building-v01.png",
+        "bytes": 3060008,
+        "sha256": "7cc8d31f64c4138a26c93e1cab221ec962a70c52f33a57e12a50a3aa0bca0dbc",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_image": "C:\\Users\\Administrator\\.codex\\generated_images\\01a09889-9886-77c2-b7f6-9054d97a682e\\exec-4c84429b-5747-42e9-bd6d-5250e21b4b48.png",
+      "suggested_dimensions": "高 23 cm；底座 14 × 12 cm",
+      "prompts": [
+        {
+          "file": "md-07-place-building-v01-prompt.md",
+          "bytes": 3254,
+          "sha256": "93089ec5400654bd9d8a0d2c400dcc4827f6f2be707cbdd7114294fa0fb8d501"
+        }
+      ],
+      "generation_references": [
+        "../map-desk-overall-v02.png"
+      ],
+      "review_note": "建筑细部和屋瓦属于建模参考；以主视图固定门窗、烟囱方位，再由模型生成一致视图。"
+    },
+    {
+      "id": "MD-08",
+      "title": "金币宝箱",
+      "status": "ComponentDesignDraft",
+      "selected_image": {
+        "file": "md-08-coin-chest-v01.png",
+        "bytes": 3122316,
+        "sha256": "43226aa53f744106cfcbadae3b942887260c5c8170b056f00ee897e22817f39e",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_image": "C:\\Users\\Administrator\\.codex\\generated_images\\01a09889-9886-77c2-b7f6-9054d97a682e\\exec-7d8744a3-165b-4ac7-b0a1-b25be8e4619c.png",
+      "suggested_dimensions": "宽 46 × 深 31 × 闭合高 30 cm",
+      "prompts": [
+        {
+          "file": "md-08-coin-chest-v01-prompt.md",
+          "bytes": 3292,
+          "sha256": "ce6e69f0081ac44af8b5d58f629071a2f259884cf32a3136f271ec304dac7736"
+        }
+      ],
+      "generation_references": [
+        "../map-desk-overall-v02.png"
+      ],
+      "review_note": "闭合四视图作为结构基准，半开效果与 OPEN SIDE 为开启姿态参考。SCALE GUIDE 不决定摆放；宝箱应位于右下桌边。"
+    },
+    {
+      "id": "MD-09",
+      "title": "桌角猫",
+      "status": "ComponentDesignDraft",
+      "selected_image": {
+        "file": "md-09-cat-v01.png",
+        "bytes": 3366579,
+        "sha256": "500f5ff0cc557640f4dff20bf7cf16d92c0dc08ab7a3f396a92a9071aebe47ac",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_image": "C:\\Users\\Administrator\\.codex\\generated_images\\01a09889-9886-77c2-b7f6-9054d97a682e\\exec-6b661923-91a6-47e4-9bff-112013c86a9a.png",
+      "suggested_dimensions": "卧姿长 60 × 宽 32 × 高 29 cm",
+      "prompts": [
+        {
+          "file": "md-09-cat-v01-prompt.md",
+          "bytes": 3364,
+          "sha256": "1e59f5cb8ebc5ab192fc13292989d80ece4fca68472cd3d9c6c8f29e7cf8719c"
+        }
+      ],
+      "generation_references": [
+        "../map-desk-overall-v02.png"
+      ],
+      "review_note": "四视图固定伏卧意图；毛束遮蔽的肢体结构待白模校准，不由排线推断额外爪子。"
+    },
+    {
+      "id": "MD-10",
+      "title": "旧书组合",
+      "status": "ComponentDesignDraft",
+      "selected_image": {
+        "file": "md-10-books-v01.png",
+        "bytes": 3262926,
+        "sha256": "49ccc299bce3cb763d8a3cfb7f893faa6187f30c31801cd60415c6ae3a78e3d8",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_image": "C:\\Users\\Administrator\\.codex\\generated_images\\01a09889-9886-77c2-b7f6-9054d97a682e\\exec-fa87e669-d45c-4d94-98d5-866ca651348a.png",
+      "suggested_dimensions": "最大一本 34 × 25 × 厚 8 cm",
+      "prompts": [
+        {
+          "file": "md-10-books-v01-prompt.md",
+          "bytes": 3218,
+          "sha256": "054256ba16fbdf03e9ef88dd10a4ee64c3d46dbef4e4a37ed92e340458173ebe"
+        }
+      ],
+      "generation_references": [
+        "../map-desk-overall-v02.png"
+      ],
+      "review_note": "34 × 25 × 8 cm 指最大单本；约 24 cm 指整叠高度。页块为实体，密集纸页线使用贴图。"
+    }
+  ],
+  "superseded": [
+    {
+      "id": "MD-02",
+      "image": {
+        "file": "md-02-environment-map-v01.png",
+        "bytes": 3541278,
+        "sha256": "c40cae7f511c42c8f32cc22136e32cc6bd2a4e2deee472f4a646b9d0f273314e",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_image": "C:\\Users\\Administrator\\.codex\\generated_images\\01a09889-9886-77c2-b7f6-9054d97a682e\\exec-525861f5-ddb0-4b7d-889f-ca435510597c.png",
+      "prompt": {
+        "file": "md-02-environment-map-v01-prompt.md",
+        "bytes": 3621,
+        "sha256": "ba1d900bf2a2ae9e84354104b339f8404b5d24dc40636e5391e221cc2c40cbe6"
+      },
+      "reason": "TOP 主图仍呈梯形透视，已改用 v02 矩形顶视。",
+      "retained": true
+    },
+    {
+      "id": "MD-03",
+      "image": {
+        "file": "md-03-red-route-v01.png",
+        "bytes": 3053231,
+        "sha256": "1c663a6d1752d85bc8760bae28045af6146cab59c9fef59a06c650211d5deb36",
+        "width": 1536,
+        "height": 1024
+      },
+      "source_image": "C:\\Users\\Administrator\\.codex\\generated_images\\01a09889-9886-77c2-b7f6-9054d97a682e\\exec-aee6368c-76c6-4e88-828c-2dea5c985db4.png",
+      "prompt": {
+        "file": "md-03-red-route-v01-prompt.md",
+        "bytes": 3678,
+        "sha256": "4fe2bab9960aa4f929421583d59d46113c304276062b6f186e7161545daee030"
+      },
+      "reason": "路线层参考混入实体棋子，已改用 v02 中性定位点。",
+      "retained": true
+    }
+  ]
+}
+
