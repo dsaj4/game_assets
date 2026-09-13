@@ -1,0 +1,1438 @@
+{
+  "date": "2026-09-13",
+  "asset_id": "MD-11",
+  "status": "NativeAssetCreated / NeedsArtReview",
+  "blender_version": "4.5.13 LTS",
+  "scope": "Long whole-leather roll, two ties, two full wooden staffs; cat omitted",
+  "native": "art\\md-11-v01\\MD-11-wand-roll.blend",
+  "native_sha256": "2e0694fcfb736bf1add700f463fee9e4b43223c92ab80722ae19eaa07398742e",
+  "glb": "art\\md-11-v01\\MD-11-wand-roll.glb",
+  "glb_sha256": "bf6df88f68f44eec3ed2f188c2328c67ed054dd86c6f19699e07733e843ee17e",
+  "native_geometry": {
+    "bounds_m": {
+      "min": [
+        -0.9517492651939392,
+        -0.10355514287948608,
+        0.0022499999031424522
+      ],
+      "max": [
+        1.30024254322052,
+        0.09129929542541504,
+        0.17534661293029785
+      ]
+    },
+    "dimensions_m": [
+      2.2519917488098145,
+      0.19485443830490112,
+      0.17309661209583282
+    ],
+    "evaluated_triangles": 331584,
+    "objects": 35,
+    "root_origin_m": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "native_ui": {
+    "source": "art\\md-11-v01\\md11-ui.blend",
+    "sha256": "87b38210307d0ce9ca40e4d299bc572350744bd29e2e88cfa4b5242c890710d4",
+    "baseline_sha256": "fbc7ac48d695f058010ca267864b8669987e82269489b9c267be55959ef7f015",
+    "object": "MD11_STAFF_FORK",
+    "before_degrees": 0,
+    "after_degrees": 12.000000333930423,
+    "preserved_matrix_local": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -0.8999999761581421
+      ],
+      [
+        0.0,
+        0.9781476259231567,
+        -0.20791170001029968,
+        0.023000000044703484
+      ],
+      [
+        0.0,
+        0.20791170001029968,
+        0.9781476259231567,
+        0.10199999809265137
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "evidence": "art/md-11-v01/ui-fork-roll-12deg.png"
+  },
+  "assembly": {
+    "file": "art/map-desk-v02/map-desk-master.blend",
+    "sha256": "d21ef1bdbff88661de4b3d478d28e5512cebb747bb9e7554b3bd76bd1f674752",
+    "previous_file": "art\\map-desk-v01\\map-desk-master.blend",
+    "previous_sha256": "b09dcc2e658dd68aba06c23fecc3542da14991fe0a5af399128896076148351e",
+    "previous_asset_ids": [
+      "MD-01",
+      "MD-02",
+      "MD-03",
+      "MD-04",
+      "MD-05",
+      "MD-06",
+      "MD-07",
+      "MD-08",
+      "MD-10"
+    ],
+    "root_location_m": [
+      -0.05000000074505806,
+      0.7279999852180481,
+      0.06825000047683716
+    ],
+    "clutter_adjustments": [
+      {
+        "object": "Quill_Cup",
+        "before_m": [
+          -0.8899999856948853,
+          0.6599999666213989,
+          0.08999999612569809
+        ],
+        "after_m": [
+          -0.8899999856948853,
+          0.574999988079071,
+          0.08999999612569809
+        ]
+      },
+      {
+        "object": "Quill_Cup_Opening",
+        "before_m": [
+          -0.8899999856948853,
+          0.6599999666213989,
+          0.18049998581409454
+        ],
+        "after_m": [
+          -0.8899999856948853,
+          0.574999988079071,
+          0.18049998581409454
+        ]
+      },
+      {
+        "object": "Quill_Cup_Iron",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_Cup_Iron.001",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Armillary_stand",
+        "before_m": [
+          -0.6499999761581421,
+          0.75,
+          0.009999999776482582
+        ],
+        "after_m": [
+          -0.6499999761581421,
+          0.5099999904632568,
+          0.009999999776482582
+        ]
+      },
+      {
+        "object": "Armillary_stand.001",
+        "before_m": [
+          -0.6499999761581421,
+          0.75,
+          0.029999999329447746
+        ],
+        "after_m": [
+          -0.6499999761581421,
+          0.5099999904632568,
+          0.029999999329447746
+        ]
+      },
+      {
+        "object": "Armillary_stand.002",
+        "before_m": [
+          -0.6499999761581421,
+          0.75,
+          0.04399999976158142
+        ],
+        "after_m": [
+          -0.6499999761581421,
+          0.5099999904632568,
+          0.04399999976158142
+        ]
+      },
+      {
+        "object": "Armillary_stand.003",
+        "before_m": [
+          -0.6499999761581421,
+          0.75,
+          0.08999999612569809
+        ],
+        "after_m": [
+          -0.6499999761581421,
+          0.5099999904632568,
+          0.08999999612569809
+        ]
+      },
+      {
+        "object": "Armillary_stand.004",
+        "before_m": [
+          -0.6499999761581421,
+          0.75,
+          0.14000000059604645
+        ],
+        "after_m": [
+          -0.6499999761581421,
+          0.5099999904632568,
+          0.14000000059604645
+        ]
+      },
+      {
+        "object": "Armillary_globe",
+        "before_m": [
+          -0.6499999761581421,
+          0.75,
+          0.23999999463558197
+        ],
+        "after_m": [
+          -0.6499999761581421,
+          0.5099999904632568,
+          0.23999999463558197
+        ]
+      },
+      {
+        "object": "Armillary_equator",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.23999999463558197,
+          0.0
+        ]
+      },
+      {
+        "object": "Armillary_meridian",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.23999999463558197,
+          0.0
+        ]
+      },
+      {
+        "object": "Armillary_outer",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.23999999463558197,
+          0.0
+        ]
+      },
+      {
+        "object": "Globe_latitude",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.23999999463558197,
+          0.0
+        ]
+      },
+      {
+        "object": "Globe_latitude.001",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.23999999463558197,
+          0.0
+        ]
+      },
+      {
+        "object": "Globe_latitude.002",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.23999999463558197,
+          0.0
+        ]
+      },
+      {
+        "object": "Globe_longitude",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.23999999463558197,
+          0.0
+        ]
+      },
+      {
+        "object": "Globe_longitude.001",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.23999999463558197,
+          0.0
+        ]
+      },
+      {
+        "object": "Globe_longitude.002",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.23999999463558197,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_Leaf_0",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_leaf_ink",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_true_spine",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.001",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.002",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.003",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.004",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.005",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.006",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.007",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.008",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.009",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.010",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.011",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.012",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.013",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.014",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.015",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.016",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.017",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.018",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.019",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.020",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.021",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.022",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.023",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_Leaf_1",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_leaf_ink.001",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_true_spine.001",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.024",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.025",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.026",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.027",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.028",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.029",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.030",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.031",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.032",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.033",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.034",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.035",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.036",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.037",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.038",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.039",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.040",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.041",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.042",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.043",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.044",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.045",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.046",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.047",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_Leaf_2",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_leaf_ink.002",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_true_spine.002",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.048",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.049",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.050",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.051",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.052",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.053",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.054",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.055",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.056",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.057",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.058",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.059",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.060",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.061",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.062",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.063",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.064",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.065",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.066",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.067",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.068",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.069",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.070",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      },
+      {
+        "object": "Quill_fine_barb.071",
+        "before_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_m": [
+          0.0,
+          -0.08500000089406967,
+          0.0
+        ]
+      }
+    ],
+    "old_objects_retained": true,
+    "chest_ui_angle_degrees": -60.000001669652114
+  },
+  "renders": [
+    {
+      "path": "art/md-11-v01/renders/hero.png",
+      "sha256": "fd24ad8b782126033230d7111f3848b23cf4b3e86687e92aa4b329bc2b90c461",
+      "size_px": [
+        1800,
+        740
+      ]
+    },
+    {
+      "path": "art/md-11-v01/renders/mouth-detail.png",
+      "sha256": "baa86ac5761d6cf5e6020611edc984385478f94ce90a93f8b9c4cb135a27827f",
+      "size_px": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "path": "art/md-11-v01/renders/front.png",
+      "sha256": "111d32dee24eb31fdad54bb5857785daa9ffb58b87918075760ede5e23924f61",
+      "size_px": [
+        1800,
+        600
+      ]
+    },
+    {
+      "path": "art/map-desk-v02/renders/assembly.png",
+      "sha256": "ef67af96b32bbb6c22d54d012d655f2a310c4a8f46830ca1195531913bc9230f",
+      "size_px": [
+        1700,
+        1400
+      ]
+    }
+  ],
+  "texture_provenance": "references/md-11-native/manifest.json",
+  "limitations": [
+    "First native art pass; visual similarity remains an art-review question.",
+    "Fine outline is Blender Freestyle and is not exported in GLB.",
+    "No Godot integration, rigging, interaction, collision, LOD or performance acceptance."
+  ]
+}

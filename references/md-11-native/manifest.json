@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-13",
+  "provider": "Built-in image_gen.imagegen",
+  "model": "Not reported by tool",
+  "role": "Generated leather albedo, original image bytes used unchanged",
+  "image": "leather-albedo-v01.png",
+  "sha256": "38ea62301471e00e4aaea7d345ef363e48a4922b557791121b9c2ea4ec3081c0",
+  "size_px": [
+    1254,
+    1254
+  ],
+  "prompt": "leather-albedo-v01-prompt.md",
+  "prompt_sha256": "1a7c32b991c2720576f101d7cecd45f0b6b45b18c47d66fb96c7e8d417da34e8",
+  "source_output": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-0f3b28dd-8b18-478f-a70c-c8a1962cdbd2.png",
+  "reference": "concepts/blender-sheets-v02/md-11-wand-roll-appearance-v01.png",
+  "reference_sha256": "af3ee59b0a65458ad2284597c0f34b6b12b4873cd2f47b07871453100bc5ba06"
+}

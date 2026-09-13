@@ -2,9 +2,11 @@
 
 独立 demo 工作区：`E:\Project\game-002-godogen-lab`。
 
-**最新：整体05已确认，法杖袋两张设计稿已完成。** [MD-11图册](concepts/blender-sheets-v02/index.md)包含外观多视图和整皮包卷拆件；[中文建模说明](docs/blender-wand-roll-design-v01.md)记录建议尺度、分件与校准项。长袋横置后沿，替代猫的位置，法杖允许接近或超过桌宽；[整体效果图05](concepts/map-desk-overall-v05.png)无需重复确认。状态 OverallDirectionConfirmed / ComponentDesignDraft；本轮尚未生成MD-11模型，当前原生资产仍为下方九类。
+**最新：MD-11 长法杖袋已完成首版原生建模。** 用户明确“开始建模”，交付[单件源文件与真实渲染](art/md-11-v01/README.md)、[加入长袋的桌面组合 v02](art/map-desk-v02/README.md)和[制作报告](docs/md-11-native-report.md)。整皮袋身约1.9米，两支长杖独立可编辑，替代猫的位置横放后沿，杂物保留。状态 NativeAssetCreated / NeedsArtReview；本轮未新增 Godot 或交互实现。
 
-**当前：9 类 Blender 原生资产已生成，猫暂缓。** 用户在确认整体及分件设计图后明确“开始生成blender资产，猫先不用生成”。本批含桌面与保留杂物、环境地图、红线、法师木雕、篝火、水晶球、建筑、宝箱和书；提供[组合母版](art/map-desk-v01/map-desk-master.blend)、[分件源与渲染图册](art/map-desk-v01/README.md)和[制作说明](docs/map-desk-assets-v01.md)。状态 NativeAssetsCreated / NeedsArtReview；实际Godot运行实现仍为 [E1 R2](docs/e1-r2-report.md)，E2–E4 未启动。
+**前轮：整体05已确认，法杖袋两张设计稿已完成。** [MD-11图册](concepts/blender-sheets-v02/index.md)包含外观多视图和整皮包卷拆件；[中文建模说明](docs/blender-wand-roll-design-v01.md)记录建议尺度、分件与校准项。[整体效果图05](concepts/map-desk-overall-v05.png)无需重复确认；下方保留此前九类资产及E1的来源。
+
+**前批：9 类 Blender 原生资产已生成，猫暂缓。** 用户在确认整体及分件设计图后明确“开始生成blender资产，猫先不用生成”。本批含桌面与保留杂物、环境地图、红线、法师木雕、篝火、水晶球、建筑、宝箱和书；提供[旧组合母版](art/map-desk-v01/map-desk-master.blend)、[分件源与渲染图册](art/map-desk-v01/README.md)和[制作说明](docs/map-desk-assets-v01.md)。状态 NativeAssetsCreated / NeedsArtReview；实际Godot运行实现仍为 [E1 R2](docs/e1-r2-report.md)，E2–E4 未启动。
 
 | 层 | 固定环境 |
 | --- | --- |
@@ -44,7 +46,9 @@ Godot 入口是 `game/project.godot`，默认打开当前 E1 墨线小样；按 
 | concepts/map-desk-overall-v03.png | 法杖袋整体修订，内置imagegen编辑02；整皮卷袋／两支杖头位于右后桌沿，原猫仅保留在概念图；完整提示词与哈希留档，整体待确认 |
 | concepts/map-desk-overall-v04.png | 历史位置修订：猫移除，已认可形象的法杖袋加长、横置原猫位置；提示词与哈希归档，新版整体待确认 |
 | concepts/map-desk-overall-v05.png | 当前整体修订：长袋横贯后沿，法杖允许接近或超过桌宽；用户已确认整体并启动MD-11组件设计，提示词与哈希归档 |
-| concepts/blender-sheets-v02/ | MD-11两张选用设计板，1448×1086；外观v01、拆件v02，另保留拆件修订前图；整体05已确认，猫位置由长法杖袋替代，尚未新建MD-11模型 |
+| concepts/blender-sheets-v02/ | MD-11两张选用设计板，1448×1086；外观v01、拆件v02，另保留拆件修订前图；对应模型现位于art/md-11-v01 |
+| art/md-11-v01 与 art/map-desk-v02 | 长袋原生母版、GLB、保留UI调整的来源、真实渲染、加入长袋的新桌面组合；旧九件资产未覆盖 |
+| references/md-11-native/ | 1254×1254旧皮革 albedo 原图、完整提示词与来源哈希；原图字节未修改 |
 | concepts/blender-sheets-v01/ | 10 张选用组件设计稿（1536 × 1024）、2 张修订前图、12 份完整提示词与来源 SHA256；地图／红线选用 v02，图册和中文建模说明记录尺度、拆件及校准项；仅作建模参考 |
 | art/map-desk-v01/ | MD-01–08、MD-10九类原生资产；组合母版、独立.blend／GLB、渲染和验证；UI调整宝箱开角后保存并保留，MD-09猫未制作 |
 | references/map-desk-assets-v01/ | imagegen生成的无标注环境地图albedo、完整提示词和来源清单；原图按字节复制，未把设计板标注映射进游戏表面 |

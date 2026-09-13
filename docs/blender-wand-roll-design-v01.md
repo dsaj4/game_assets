@@ -1,5 +1,7 @@
 # MD-11 · 长法杖袋 Blender 建模设计稿
 
+后续实现：用户已明确“开始建模”，按本稿完成[原生模型与桌面组合 v02](md-11-native-report.md)，当前 NativeAssetCreated / NeedsArtReview。以下保留设计稿交付时的比例建议与图稿限制；文末“未创建模型”仅描述当时阶段。
+
 2026-09-13。状态：**OverallDirectionConfirmed / ComponentDesignDraft**。
 
 用户确认：“确认，可以开始生产袋子设计图，可替代猫的位置”。本轮完成两张设计板，继承已确认[整体图05](../concepts/map-desk-overall-v05.png)的形象、横放位置与长法杖尺度。法杖袋取代猫在后侧桌沿的位置，MD-09退出当前构图，历史猫设计稿保留；新物件继续编号MD-11。

@@ -1,0 +1,186 @@
+{
+  "status": "PASS",
+  "date": "2026-09-13",
+  "blender_version": "4.5.13 LTS",
+  "checks": [
+    {
+      "name": "baseline_fork_rotation_zero",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "root_local_origin",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "two_ties",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "two_full_staffs",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "native_ui_12_degrees",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "single_connected_hide",
+      "pass": true,
+      "details": {
+        "visited_vertices": 16017,
+        "total_vertices": 16017
+      }
+    },
+    {
+      "name": "editable_3mm_hide",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "editable_curves_retained",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "native_packed_albedo",
+      "pass": true,
+      "details": [
+        "leather-albedo-v01.png"
+      ]
+    },
+    {
+      "name": "long_proportions",
+      "pass": true,
+      "details": {
+        "overall_m": [
+          2.2519917488098145,
+          0.19485443830490112,
+          0.17309661209583282
+        ],
+        "body_m": [
+          1.907430648803711,
+          0.18544462323188782,
+          0.153111532330513
+        ],
+        "triangles": 331584
+      }
+    },
+    {
+      "name": "finite_geometry",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "glb_actual_import_bounds",
+      "pass": true,
+      "details": {
+        "max_error_m": 1.4901161193847656e-08
+      }
+    },
+    {
+      "name": "glb_triangle_round_trip",
+      "pass": true,
+      "details": {
+        "native": 331584,
+        "glb": 331584
+      }
+    },
+    {
+      "name": "glb_no_presentation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "glb_embedded_albedo",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "previous_assembly_hash_unchanged",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "ten_asset_groups_no_cat",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all_original_objects_preserved",
+      "pass": true,
+      "details": 1894
+    },
+    {
+      "name": "old_meshes_and_other_transforms_preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "chest_native_ui_edit_preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "assembly_fork_native_ui_edit_preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "roll_rear_ledge_contact",
+      "pass": true,
+      "details": {
+        "bottom_m": 0.07050000131130219,
+        "ledge_top_m": 0.07,
+        "gap_m": 0.0005000013113021784
+      }
+    },
+    {
+      "name": "whole_roll_in_assembly_frame",
+      "pass": true,
+      "details": {
+        "min_x": 0.1634873002767563,
+        "max_x": 0.8472052216529846,
+        "min_y": 0.647779643535614,
+        "max_y": 0.7334192991256714
+      }
+    },
+    {
+      "name": "render_file_hero.png",
+      "pass": true,
+      "details": [
+        1800,
+        740
+      ]
+    },
+    {
+      "name": "render_file_mouth-detail.png",
+      "pass": true,
+      "details": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "render_file_front.png",
+      "pass": true,
+      "details": [
+        1800,
+        600
+      ]
+    },
+    {
+      "name": "render_file_assembly.png",
+      "pass": true,
+      "details": [
+        1700,
+        1400
+      ]
+    }
+  ],
+  "visual_review": "Actual rendered images require separate human/model visual inspection; structural checks do not establish style approval."
+}
