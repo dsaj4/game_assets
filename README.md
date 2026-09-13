@@ -2,7 +2,7 @@
 
 独立 demo 工作区：`E:\Project\game-002-godogen-lab`。
 
-**当前：整体方向已确认，10 张 Blender 组件设计稿已生成。** 用户明确“确认，开始生成，每张图做成blender设计稿”；已交付[完整图册](concepts/blender-sheets-v01/index.md)与[中文建模说明](docs/blender-component-design-v01.md)，涵盖桌面与保留杂物、环境地图、红线、法师木雕、篝火、水晶球、建筑、宝箱、猫和书。状态 OverallDirectionConfirmed / ComponentDesignDraft；尺寸与拆件方式为建模建议，图片尚不是 .blend 模型。现有运行实现仍为 [E1 R2](docs/e1-r2-report.md)，[首轮报告](docs/e1-report.md)保留；E2–E4 未启动。
+**当前：9 类 Blender 原生资产已生成，猫暂缓。** 用户在确认整体及分件设计图后明确“开始生成blender资产，猫先不用生成”。本批含桌面与保留杂物、环境地图、红线、法师木雕、篝火、水晶球、建筑、宝箱和书；提供[组合母版](art/map-desk-v01/map-desk-master.blend)、[分件源与渲染图册](art/map-desk-v01/README.md)和[制作说明](docs/map-desk-assets-v01.md)。状态 NativeAssetsCreated / NeedsArtReview；实际Godot运行实现仍为 [E1 R2](docs/e1-r2-report.md)，E2–E4 未启动。
 
 | 层 | 固定环境 |
 | --- | --- |
@@ -22,6 +22,8 @@
 .\open-godot.ps1
 .\open-blender.ps1
 .\open-e1.ps1
+.\open-map-desk.ps1
+# 单件示例：.\open-map-desk.ps1 -Asset mage
 ```
 
 Godot 入口是 `game/project.godot`，默认打开当前 E1 墨线小样；按 1/2 对比材质，Esc 退出。`tools/build-e1-r2.ps1` 从保存的 Blender UI 修改重建 R2；`tools/capture-e1.ps1 -Revision r2` 采集 GPU 实机图。旧 `tools/build-e1.ps1` 是 R1 生成器，会覆盖运行资产，不用于重建 R2。`setup.ps1` 可重建便携工具、Python 环境和本机路径并复查；在其他机器上用参数指定已有 Python/.NET 路径，所需 SDK 见 global.json。上游参考源码抓取和技能登记单独处理，非启动必需。
@@ -38,6 +40,8 @@ Godot 入口是 `game/project.godot`，默认打开当前 E1 墨线小样；按 
 | concepts/visual-direction-v01.png | 两屏概念效果图，imagegen生成，非实机、非运行资产；提示词同目录保存 |
 | concepts/map-desk-overall-v02.png | 右侧地图桌面整体概念图；用户已确认整体方向并启动分件设计，杂物保留；生成时清单保留原始状态，后续确认以当前设计文稿为准 |
 | concepts/blender-sheets-v01/ | 10 张选用组件设计稿（1536 × 1024）、2 张修订前图、12 份完整提示词与来源 SHA256；地图／红线选用 v02，图册和中文建模说明记录尺度、拆件及校准项；仅作建模参考 |
+| art/map-desk-v01/ | MD-01–08、MD-10九类原生资产；组合母版、独立.blend／GLB、渲染和验证；UI调整宝箱开角后保存并保留，MD-09猫未制作 |
+| references/map-desk-assets-v01/ | imagegen生成的无标注环境地图albedo、完整提示词和来源清单；原图按字节复制，未把设计板标注映射进游戏表面 |
 | references/flask-map-user-reference-2026-09-13.png | 用户最新地图截图，作为图像模型风格／构图参考，不是运行资产 |
 
-继续入口：[十张组件图册](concepts/blender-sheets-v01/index.md)、[Blender 建模文稿](docs/blender-component-design-v01.md)、[地图桌面整体稿](docs/map-desk-visual-design-v02.md)、[最新设计背景](docs/design-context.md)、[Godogen 适配说明](docs/godogen-adaptation.md)。后续建模建议先搭桌面／纸面／红线，再用法师木雕校准风格；本轮完成设计图，不启动新的模型或交互阶段，当前无后台自动开发任务。
+继续入口：[原生资产图册](art/map-desk-v01/README.md)、[制作与验证说明](docs/map-desk-assets-v01.md)、[十张参考设计稿](concepts/blender-sheets-v01/index.md)、[地图桌面整体稿](docs/map-desk-visual-design-v02.md)。下一步评议三维资产的剪影、排线、材质与组合效果，再决定继续细化或接入引擎；猫继续暂缓，当前无后台自动开发任务。

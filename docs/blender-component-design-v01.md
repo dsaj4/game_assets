@@ -1,5 +1,7 @@
 # 地图桌面 · Blender 组件建模设计稿 01
 
+后续进展：用户已启动原生资产制作，并要求猫先不生成；九类模型、组合工程与渲染见[原生资产01](map-desk-assets-v01.md)。以下“尚未生成模型”等表述保留设计稿交付时的状态。
+
 2026-09-13。状态：**OverallDirectionConfirmed / ComponentDesignDraft**。
 
 用户确认：“确认，开始生成，每张图做成blender设计稿”。本轮据此完成十类组件参考板，供原生 Blender + Python 后续制作使用。美术方向继承[已确认整体图](../concepts/map-desk-overall-v02.png)与[视觉设计02](map-desk-visual-design-v02.md)。本轮产物是多视图位图、拆件思路和建模尺度建议；尚未新建这套组件的 .blend、网格或引擎场景。

@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-13",
+  "tool": "image_gen.imagegen",
+  "model": "not reported by tool",
+  "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a09889-9886-77c2-b7f6-9054d97a682e\\exec-ba315d27-4b9c-43e2-b01c-186f33c43b68.png",
+  "file": "map-environment-albedo-v01.png",
+  "prompt": "map-albedo-prompt.md",
+  "reference": "../../concepts/blender-sheets-v01/md-02-environment-map-v02.png",
+  "sha256": "0c2f57b7705200141bca7b21105e89e80dd37c55e94ffeeeea0bfb927065ee50",
+  "width": 1356,
+  "height": 1160,
+  "use": "Flat printed map albedo on MD-02 paper; original bitmap copied unchanged"
+}

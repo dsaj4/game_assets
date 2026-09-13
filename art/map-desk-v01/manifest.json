@@ -1,0 +1,303 @@
+{
+  "date": "2026-09-13",
+  "status": "NativeAssetsCreated / NeedsArtReview",
+  "user_scope": "开始生成blender资产，猫先不用生成",
+  "omitted": [
+    "MD-09 cat"
+  ],
+  "blender_version": "4.5.13 LTS",
+  "units": "metres, +Z up, -Y front in .blend; glTF +Y up",
+  "native_ui": {
+    "input": "map-desk-ui.blend",
+    "sha256": "fc5e88dfd0ab83d4d2c05843e10440551cff8e98f5c5e5e5db850152b0ce27b1",
+    "object": "MD08_LID_HINGE",
+    "before_x_degrees": -48,
+    "after_x_degrees": -60.000001669652114,
+    "preserved": true
+  },
+  "assembly": "map-desk-master.blend",
+  "assembly_sha256": "b09dcc2e658dd68aba06c23fecc3542da14991fe0a5af399128896076148351e",
+  "render": "renders/assembly.png",
+  "assets": [
+    {
+      "id": "MD-01",
+      "name": "旧木桌与保留杂物",
+      "blend": "assets/MD-01-desk.blend",
+      "glb": "assets/MD-01-desk.glb",
+      "render": "renders/MD-01-desk.png",
+      "objects": 148,
+      "evaluated_triangles": 9208,
+      "bounds_m": {
+        "min": [
+          -1.0049999952316284,
+          -0.8682000041007996,
+          -0.2199999988079071
+        ],
+        "max": [
+          1.0049999952316284,
+          0.8641999363899231,
+          0.48032814264297485
+        ]
+      },
+      "local_root_origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "blend_sha256": "5848f62e76c11643887d80ca0b603b0e7402daddf67416fce5cfbc6245644c79",
+      "glb_sha256": "3da9d4fab4ce149f4a2e983334b72b634180e1908a9ed54126b4c94cac746110",
+      "render_sha256": "a17f463ee360e0743357fb26d15660ab1596e93e56c221e4291634a16fafc6d3"
+    },
+    {
+      "id": "MD-02",
+      "name": "环境地图与纸面",
+      "blend": "assets/MD-02-environment-map.blend",
+      "glb": "assets/MD-02-environment-map.glb",
+      "render": "renders/MD-02-environment-map.png",
+      "objects": 3,
+      "evaluated_triangles": 16736,
+      "bounds_m": {
+        "min": [
+          -0.8320764303207397,
+          -0.7117998600006104,
+          0.0005000000819563866
+        ],
+        "max": [
+          0.8320716619491577,
+          0.7117917537689209,
+          0.01375688798725605
+        ]
+      },
+      "local_root_origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "blend_sha256": "0404c31809d381bbcdc4e22321b6079364049bb57b0877d78a62d2e6b3fb995c",
+      "glb_sha256": "1cac5e8519fe296d5b14c3f4d8c8ac442bb19e520b4226425ad38b4f0f21283a",
+      "render_sha256": "51a95e8c92dd962d18c10e09a9bbbdb04252cf790a66d2fa6537d26721c85914"
+    },
+    {
+      "id": "MD-03",
+      "name": "红色路线",
+      "blend": "assets/MD-03-red-route.blend",
+      "glb": "assets/MD-03-red-route.glb",
+      "render": "renders/MD-03-red-route.png",
+      "objects": 105,
+      "evaluated_triangles": 472,
+      "bounds_m": {
+        "min": [
+          -0.3534606397151947,
+          -0.512499988079071,
+          0.003000000026077032
+        ],
+        "max": [
+          0.354129433631897,
+          0.40281954407691956,
+          0.0031074935104697943
+        ]
+      },
+      "local_root_origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "blend_sha256": "ea607fa8ea854f9d6deb991e588eb6c3e5caca87f68fe0fd844798f9a2ab2149",
+      "glb_sha256": "a73ad048816e1d70b36670c12f17112c8a305c546cc0bc5d67756c5325f08fb4",
+      "render_sha256": "06bc81d7a6b4db1c978a4d070e7b88293f8ab59e8d476fb622ecdde1eea472b2"
+    },
+    {
+      "id": "MD-04",
+      "name": "法师木雕",
+      "blend": "assets/MD-04-mage.blend",
+      "glb": "assets/MD-04-mage.glb",
+      "render": "renders/MD-04-mage.png",
+      "objects": 55,
+      "evaluated_triangles": 3616,
+      "bounds_m": {
+        "min": [
+          -0.04500000178813934,
+          -0.04500000178813934,
+          -4.656612873077393e-10
+        ],
+        "max": [
+          0.06270000338554382,
+          0.04500000178813934,
+          0.17569999396800995
+        ]
+      },
+      "local_root_origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "blend_sha256": "cf1deec2ba282c66bf815cbfa8063b1df59e8bb954c37cc5cd6bf4d8eef40040",
+      "glb_sha256": "b042e5215a9a342b8cf66d12179811b2e224bff8f38e6cee1ddad6d85e12f6ed",
+      "render_sha256": "253923aa793dfff4d4723bbc029d5c16f9c5e54abaa77f3c487926fdb8c01ab3"
+    },
+    {
+      "id": "MD-05",
+      "name": "篝火",
+      "blend": "assets/MD-05-campfire.blend",
+      "glb": "assets/MD-05-campfire.glb",
+      "render": "renders/MD-05-campfire.png",
+      "objects": 53,
+      "evaluated_triangles": 1336,
+      "bounds_m": {
+        "min": [
+          -0.08441795408725739,
+          -0.08847090601921082,
+          1.1641532182693481e-10
+        ],
+        "max": [
+          0.08983570337295532,
+          0.08847090601921082,
+          0.15754187107086182
+        ]
+      },
+      "local_root_origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "blend_sha256": "7d966d21c48b5110e6fb913373736bc0920d4c4c3a702309d1e07619a6f9c880",
+      "glb_sha256": "71a8d7e174b7b56c80db2bc3ffbb971d813b91fc20de628d07d6d2b93ac9ac22",
+      "render_sha256": "e61675e80f132dee40daf9176b1b98373458dc7a36c970cee5b4b704013f8681"
+    },
+    {
+      "id": "MD-06",
+      "name": "水晶球",
+      "blend": "assets/MD-06-crystal-ball.blend",
+      "glb": "assets/MD-06-crystal-ball.glb",
+      "render": "renders/MD-06-crystal-ball.png",
+      "objects": 26,
+      "evaluated_triangles": 3388,
+      "bounds_m": {
+        "min": [
+          -0.06646393984556198,
+          -0.07537979632616043,
+          0.00011730566620826721
+        ],
+        "max": [
+          0.06646393984556198,
+          0.06499999761581421,
+          0.1899999976158142
+        ]
+      },
+      "local_root_origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "blend_sha256": "16d5712b84fb7d2936b4640df02dcbe7415de82d2c47e1da75b1d4a370efe057",
+      "glb_sha256": "7aa91b2570dc86431e4193ffd05fb05a8385979121ab4a81d870d55a00ffadd2",
+      "render_sha256": "298562570443c683e27cf4acd5b69132b210ba4154125ec646454139f70b4fc6"
+    },
+    {
+      "id": "MD-07",
+      "name": "地点建筑",
+      "blend": "assets/MD-07-building.blend",
+      "glb": "assets/MD-07-building.glb",
+      "render": "renders/MD-07-building.png",
+      "objects": 380,
+      "evaluated_triangles": 5066,
+      "bounds_m": {
+        "min": [
+          -0.07000000029802322,
+          -0.05999999865889549,
+          0.0
+        ],
+        "max": [
+          0.07000000029802322,
+          0.05999999865889549,
+          0.23149998486042023
+        ]
+      },
+      "local_root_origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "blend_sha256": "320fb0678e9bac647ce27b41c8dbdbc32bed8bd21df972200644d66686ff18ce",
+      "glb_sha256": "2c61e59f35bf93ce073e410abfda2abb96d49c2ebd4a1abb898cc960c4616fec",
+      "render_sha256": "0a01a79de462b066025089e822e4378c4c6c6ab0ae8bba0d05cdeb38e6a843ad"
+    },
+    {
+      "id": "MD-08",
+      "name": "金币宝箱",
+      "blend": "assets/MD-08-chest.blend",
+      "glb": "assets/MD-08-chest.glb",
+      "render": "renders/MD-08-chest.png",
+      "objects": 628,
+      "evaluated_triangles": 45474,
+      "bounds_m": {
+        "min": [
+          -0.28449997305870056,
+          -0.21449998021125793,
+          0.0
+        ],
+        "max": [
+          0.23800000548362732,
+          0.2137773036956787,
+          0.4689248204231262
+        ]
+      },
+      "local_root_origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "blend_sha256": "50f93392021d5892337e81a61009b0a27111cbf477fc7bedb2b94eddba1d8300",
+      "glb_sha256": "e8f837dcae9e855b5dbc803c64fd052f0500e1fa44eadfbebe565a670e470339",
+      "render_sha256": "21e4b4bf35e3fe292acd33ea22d1dd46893810aef60c2ca376948d71c8792458"
+    },
+    {
+      "id": "MD-10",
+      "name": "旧书组合",
+      "blend": "assets/MD-10-books.blend",
+      "glb": "assets/MD-10-books.glb",
+      "render": "renders/MD-10-books.png",
+      "objects": 493,
+      "evaluated_triangles": 10248,
+      "bounds_m": {
+        "min": [
+          -0.18620583415031433,
+          -0.14702537655830383,
+          -9.999983012676239e-05
+        ],
+        "max": [
+          0.18620583415031433,
+          0.1506282538175583,
+          0.2320999801158905
+        ]
+      },
+      "local_root_origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "blend_sha256": "f05f29dfda69d0e1d3ab943c3d5d71c14661a82cd5fca29f4a0007d694879125",
+      "glb_sha256": "4ba7fde678d832b787feb8b9a09b74850f9bbf2e45d1503434f00af07f65192a",
+      "render_sha256": "d01bb8e2e94fc7b979ba828cfabbb1687448c9182d4117383e9e271835374e8e"
+    }
+  ],
+  "textures": [
+    {
+      "path": "E:\\Project\\game-002-godogen-lab\\references\\map-desk-assets-v01\\map-environment-albedo-v01.png",
+      "sha256": "0c2f57b7705200141bca7b21105e89e80dd37c55e94ffeeeea0bfb927065ee50",
+      "role": "Flat map albedo, imagegen output unchanged"
+    },
+    {
+      "path": "E:\\Project\\game-002-godogen-lab\\references\\e1-r2-generated\\wood-ink-albedo-v01.png",
+      "sha256": "3d9bd1af40ef2dd16ad6c7035b2d19e0f924cb448dfe09621d1d045c1bf212e8",
+      "role": "Wood albedo reused unchanged from E1 R2 generated originals"
+    }
+  ],
+  "limitations": [
+    "First 3D asset pass; fine hatching and carved silhouettes need continued art review against design sheets.",
+    "Crystal ball uses a transmissive shell, internal curves and an opaque cloudy core; no volumetric mist simulation.",
+    "Flame is a static crossed-mesh silhouette, not simulation or animation.",
+    "Freestyle outline is Blender-render-only; it is not carried in GLB.",
+    "No new Godot runtime integration, collision, LOD, performance, interaction or gameplay acceptance."
+  ]
+}
