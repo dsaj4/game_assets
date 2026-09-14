@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-14",
+  "purpose": "User-directed GDD RC1 input for left staff management concept only",
+  "source_git_commit": "87840a221af330a2c715fc9c390eae982a00aebd",
+  "status": "Accepted design; visual concept and usability not verified",
+  "files": [
+    {
+      "source": "E:\\Project\\game\\workspaces\\game-002\\game-design-workflow\\gdd\\GDD-2026-09-14-yanzhou-full-game.md",
+      "snapshot": "GDD-2026-09-14-yanzhou-full-game.md",
+      "sha256": "8bcea638dbb4a72194100ae0189cfb6dbb871acfdf118e2fd508330ac2d170c6"
+    },
+    {
+      "source": "E:\\Project\\game\\workspaces\\game-002\\game-design-workflow\\gdd\\yanzhou-rc1\\02-grammar-and-configuration.md",
+      "snapshot": "02-grammar-and-configuration.md",
+      "sha256": "5dd54a0966ffdec1d7f40c99cc36e9c94274caf877f832494d9cfb8e533bf243"
+    },
+    {
+      "source": "E:\\Project\\game\\workspaces\\game-002\\game-design-workflow\\gdd\\yanzhou-rc1\\06-parameters-and-economy.md",
+      "snapshot": "06-parameters-and-economy.md",
+      "sha256": "a7688040b02f396bb5738078add1a3a30d587ddeab02832ed9df27be5c824317"
+    },
+    {
+      "source": "E:\\Project\\game\\workspaces\\game-002\\game-design-workflow\\gdd\\yanzhou-rc1\\08-journey-ui-and-assets.md",
+      "snapshot": "08-journey-ui-and-assets.md",
+      "sha256": "bdf02042eb5a2616896998f9ba978ba0e87dce4a453b29aa6ee4fcd23bc0e547"
+    }
+  ],
+  "note": "Partial evidence snapshot. Relative links inside copies refer to original GDD context; use source paths for full navigation. Earlier experiment snapshots remain unchanged."
+}

@@ -1,5 +1,7 @@
 # 后续任务：Flask 参考风格的法杖装配与地图 UI
 
+2026-09-14最新：用户转向左侧“法杖管理”页，要求以展开旧皮革悬挂法杖，仍然先做整体生图。[本页效果与设计说明](wand-management-visual-design-v01.md)按用户指定全游戏GDD RC1的UX／WG／SG／PG要求组织，VisualDesignDraft / OverallAwaitingReview。管理功能已有正式GDD依据，旧记录中的相关Unknown按当时时点阅读；本轮没有新增模型、Godot交互或玩法测试。
+
 2026-09-13建模进展：用户明确“开始建模”，已完成[MD-11原生长袋与新桌面组合](md-11-native-report.md)，NativeAssetCreated / NeedsArtReview；27项结构、回导及保留检查通过。长袋替代猫，杂物保留，实际渲染已检查。法杖管理交互与Godot接入仍未开展；下方设计稿阶段的“未新增模型”为历史状态。
 
 2026-09-13最新：用户已确认整体05并授权生产法杖袋设计图，替代猫的位置。[MD-11两张设计稿与建模说明](blender-wand-roll-design-v01.md)已完成，状态OverallDirectionConfirmed / ComponentDesignDraft；下一制作阶段为原生Blender资产，整体无需重复确认。法杖管理入口用途已指定，交互细节未定义；本轮未新增模型，猫不进入当前构图。以下待确认／猫暂缓等表述保留历史阶段。

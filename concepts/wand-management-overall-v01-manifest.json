@@ -1,0 +1,42 @@
+{
+  "revision": "wand-management-overall-v01",
+  "date": "2026-09-14",
+  "status": "VisualDesignDraft / FirstPass",
+  "generator": "built-in image_gen.imagegen",
+  "model": "not reported by tool",
+  "output": "concepts/wand-management-overall-v01.png",
+  "output_sha256": "8ca0de2592dd2203308c0a35e7b96629bce5c218d7c7fe27cd1292c81c0fd356",
+  "size_px": [
+    1086,
+    1448
+  ],
+  "original_output": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-60437334-62d6-444f-97f5-fd635d641775.png",
+  "prompt": "concepts/wand-management-overall-v01-prompt.md",
+  "prompt_sha256": "860dbfc94fce3950839ac9d8fa86f9d7a75b111c1524b248679aad787112dc43",
+  "references": [
+    {
+      "path": "concepts/map-desk-overall-v05.png",
+      "role": "style and palette reference only",
+      "sha256": "ff716eaa823853bd7c2d7a0b1edd257300c6eeffb6bea4b904829c7163ac7a05"
+    },
+    {
+      "path": "concepts/blender-sheets-v02/md-11-wand-roll-appearance-v01.png",
+      "role": "approved leather and staff visual reference only",
+      "sha256": "af3ee59b0a65458ad2284597c0f34b6b12b4873cd2f47b07871453100bc5ba06"
+    }
+  ],
+  "design_input": "references/design/2026-09-14-wand-management-rc1/manifest.json",
+  "pixel_processing": "None; image copied byte-for-byte",
+  "visual_review": [
+    "Six hanging staffs, four active and two reserve; separate held and active counts",
+    "Selected rhythm staff, two empty replaceable sockets and a separate fixed core",
+    "Correct F3 rhythm cross: B3 and F2/F3/F4",
+    "Start zero and first release at four ticks are distinct",
+    "Return-to-inventory button omitted in initial output; targeted revision requested"
+  ],
+  "not_started": [
+    "Left page Blender model",
+    "Godot management interaction",
+    "Player readability tests"
+  ]
+}

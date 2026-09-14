@@ -1,0 +1,45 @@
+{
+  "revision": "wand-management-overall-v02",
+  "date": "2026-09-14",
+  "status": "VisualDesignDraft / OverallAwaitingReview",
+  "generator": "built-in image_gen.imagegen",
+  "model": "not reported by tool",
+  "output": "concepts/wand-management-overall-v02.png",
+  "output_sha256": "d1498a7c986e1656ce6b1a7c620d61698c29b2e2b1d82005b225c784ca619fd6",
+  "size_px": [
+    1086,
+    1448
+  ],
+  "original_output": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-028e5444-01c5-4638-8978-fc90b158a3c4.png",
+  "prompt": "concepts/wand-management-overall-v02-prompt.md",
+  "prompt_sha256": "dfe219026a62db8219dac9491196d872ff0754173548996c7560d804e1f69e9a",
+  "edit_target": "concepts/wand-management-overall-v01.png",
+  "edit_target_sha256": "8ca0de2592dd2203308c0a35e7b96629bce5c218d7c7fe27cd1292c81c0fd356",
+  "initial_generation": "concepts/wand-management-overall-v01-manifest.json",
+  "design_input": "references/design/2026-09-14-wand-management-rc1/manifest.json",
+  "design_notes": "docs/wand-management-visual-design-v01.md",
+  "pixel_processing": "None; generated original copied byte for byte",
+  "change": "Added return-to-inventory control below change/edit spell buttons",
+  "visual_review": [
+    "One opened russet leather backing with six full hanging staffs, four active and two reserves",
+    "Counts distinguish six held from four active out of four; no six-item capacity",
+    "Selected rhythm staff with spell, type, C4/L1, separate fixed core and two empty sockets",
+    "F3 diagram retains exactly 2x5 cells; highlighted B3/F2/F3/F4",
+    "Initial cooldown zero is separate from first release at four ticks",
+    "Change/edit spell, return to inventory, reorder, save and return controls visible",
+    "Bottom four labels describe first nominal releases only: 4,5,7-9,8",
+    "No cat, right map, sell, repair or leveling mechanic"
+  ],
+  "limitations": [
+    "Single illustrative mid-run inventory; not the starting loadout or a game screenshot",
+    "Local texture changes remain possible after image-model edit",
+    "1086x1448 concept is a portrait crop of the left page; no full-screen readability or keyboard validation",
+    "Combat read-only, full timeline/conflicts, inlay selection, borrowed ranges and save/error variants not illustrated here"
+  ],
+  "native_assets_commit": "8a1d614eefab6755a89c7646a0e815ef503ba9f9",
+  "not_started": [
+    "New left page Blender asset",
+    "Godot management interaction",
+    "User readability validation"
+  ]
+}
