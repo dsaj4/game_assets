@@ -1,0 +1,44 @@
+{
+  "revision": "wand-management-overall-v03",
+  "date": "2026-09-14",
+  "status": "VisualDesignDraft / OverallAwaitingReview",
+  "generator": "built-in image_gen.imagegen",
+  "model": "not reported by tool",
+  "output": "concepts/wand-management-overall-v03.png",
+  "output_sha256": "f53355505bd98da2bd2923003bbd7dc0d76774d7b939ef9eb11ea0fa75a61468",
+  "size_px": [
+    1086,
+    1448
+  ],
+  "original_output": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-a1e9b473-ae71-436b-a0ff-f821d812a121.png",
+  "prompt": "concepts/wand-management-overall-v03-prompt.md",
+  "prompt_sha256": "aa0e77cc387540c93c59a056b8da3c1b0344189ef4f42a9f8a81548e0cb8b325",
+  "edit_target": "concepts/wand-management-overall-v02.png",
+  "edit_target_sha256": "d1498a7c986e1656ce6b1a7c620d61698c29b2e2b1d82005b225c784ca619fd6",
+  "previous_revision": "concepts/wand-management-overall-v02-manifest.json",
+  "design_input": "references/design/2026-09-14-wand-management-rc1/manifest.json",
+  "design_notes": "docs/wand-management-visual-design-v01.md",
+  "pixel_processing": "None; generated original copied byte for byte",
+  "user_changes": [
+    "法术、词卡不在该界面修改；保留已绑定法术的只读信息",
+    "库存不在袋中展示；新增独立陈列架，袋中出战、架上备战"
+  ],
+  "visual_review": [
+    "Four deployed staffs remain in russet leather bag; two reserve staffs moved to physically separate old wooden rack",
+    "Bag has its own curled right edge; visible dark gap and independent rack uprights, top crossbar and foot rail; wood wall behind reserves",
+    "Top spell/word-card tabs and change/edit spell controls removed; bound spell explicitly read-only",
+    "Selected staff return-to-inventory control renamed 移至备战架",
+    "Six held and four deployed out of four; the two reserves are illustrative, not a capacity",
+    "Fixed core remains separate from exactly two empty sockets; F3 range has 2x5 cells and highlights B3/F2/F3/F4",
+    "Cooldown 4 / release 1, initial cooldown 0 and first release 4 remain; first nominal sequence 4,5,7-9,8",
+    "Peripheral books/lantern/quill preserved; no cat or map page"
+  ],
+  "limitations": [
+    "Single illustrative mid-run concept, not starting inventory or runtime screenshot",
+    "Current selected deployed-staff state only; selecting reserves and full-bag replacement states not illustrated",
+    "Larger reserve inventories and navigation not illustrated; rack is not a new inventory system",
+    "Portrait 1086x1448 concept; no final landscape 720p/1080p, keyboard or user readability validation",
+    "No new Blender model, Godot interaction, or gameplay acceptance; source GDD unchanged"
+  ],
+  "native_assets_commit": "8a1d614eefab6755a89c7646a0e815ef503ba9f9"
+}
