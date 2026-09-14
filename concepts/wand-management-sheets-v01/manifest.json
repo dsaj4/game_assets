@@ -1,0 +1,192 @@
+{
+  "date": "2026-09-14",
+  "status": "OverallDirectionConfirmed / ComponentDesignDraft",
+  "user_authorization": "设计通过，下一步开始细化组件",
+  "approved_overall": "concepts/wand-management-overall-v03.png",
+  "approved_overall_sha256": "f53355505bd98da2bd2923003bbd7dc0d76774d7b939ef9eb11ea0fa75a61468",
+  "approved_overall_commit": "d075ce5969ea10df7726c2c50b3170232fc9a77c",
+  "design_input": "references/design/2026-09-14-wand-management-rc1/manifest.json",
+  "generator": "built-in image_gen.imagegen",
+  "model": "not reported by tool",
+  "pixel_processing": "None; all originals copied byte for byte",
+  "selected_count": 7,
+  "generated_count": 9,
+  "design_notes": "docs/blender-wand-management-components-v01.md",
+  "gallery": "concepts/wand-management-sheets-v01/index.md",
+  "visual_review": [
+    "WM-01: one continuous hide; four retention loops and four toe rests; hardware, curl and thin-edge references",
+    "WM-02: independent open-backed frame; two scale staffs in hero; empty front, side, foot/iron joint details; no leather backing",
+    "WM-03 v02: fork-headed full staff, side/back and wood/grip/ferrule closeups; unrequested bells removed",
+    "WM-04: open wooden/brass ring head; side view has narrow ring edge; solid shaft and wrap detail",
+    "WM-05 v02: charred fork, recessed localized ember, full staff views; unrequested bells and attachments removed",
+    "WM-06: separate paper/pins/text layers; bound spell read-only; no spell/word-card editors; two empty socket rings",
+    "WM-06: exactly 2x5 grid with B3/F2/F3/F4 highlighted; C4/L1, initial cooldown 0, first release 4; 4,5,7-9,8 nominal sequence",
+    "WM-07: all three name tags, four spell read-only labels, four numbered medallions; return/save/move-to-rack/reorder and unsaved state"
+  ],
+  "limitations": [
+    "AI-generated reference sheets, not native Blender models, production texture atlases or registered orthographic drawings",
+    "Views are at illustrative scales; model dimensions, joints, clearances and axes require calibration",
+    "Back-side grain, wrap details and hidden structural interpretations are component proposals; approved overall silhouette takes priority",
+    "Generated poetic captions are decorative sheet copy only, not game lore, item effects or accepted GDD",
+    "Whole leather body has separately attached loops/patches; sheet wording does not imply all hardware is cut from the same hide",
+    "Only the approved selected deployed-staff configuration is illustrated; large inventory navigation and other runtime states remain unimplemented",
+    "Current overall v03 accepted; these newly detailed components remain draft for art review"
+  ],
+  "preserved_native_commit": "8a1d614eefab6755a89c7646a0e815ef503ba9f9",
+  "runtime": "Godot E1 R2; unchanged",
+  "assets": [
+    {
+      "id": "WM-01",
+      "title": "展开出战皮袋",
+      "selected": true,
+      "output": "concepts/wand-management-sheets-v01/wm-01-deployed-leather-v01.png",
+      "prompt": "concepts/wand-management-sheets-v01/wm-01-deployed-leather-v01-prompt.md",
+      "original_output": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-d8d27ac4-9492-4b67-9a45-9c9c72b83508.png",
+      "reference": "concepts/wand-management-overall-v03.png",
+      "notes": "Current component reference",
+      "output_sha256": "d331f2610cd46b93db54c0804b87d675a53ddd2efdd8e009dc6d4c90f6a6e6ed",
+      "prompt_sha256": "1b79eefecf55e97ee5dc83f7307de51bcad9b51598c892361602305993e3e67b",
+      "reference_sha256": "f53355505bd98da2bd2923003bbd7dc0d76774d7b939ef9eb11ea0fa75a61468",
+      "size_px": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "id": "WM-02",
+      "title": "备战陈列架",
+      "selected": true,
+      "output": "concepts/wand-management-sheets-v01/wm-02-reserve-rack-v01.png",
+      "prompt": "concepts/wand-management-sheets-v01/wm-02-reserve-rack-v01-prompt.md",
+      "original_output": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-9a4f61ed-a66b-4e63-b28c-6775c767ad92.png",
+      "reference": "concepts/wand-management-overall-v03.png",
+      "notes": "Current component reference",
+      "output_sha256": "5dd922d98b902225fd0f0d4839bdd0372f96ae6b561e925e2949c504ee0d53e4",
+      "prompt_sha256": "51a713f8f1ab016bfea5b33de5ccb62243423d1e3472785039935d1eff63419b",
+      "reference_sha256": "f53355505bd98da2bd2923003bbd7dc0d76774d7b939ef9eb11ea0fa75a61468",
+      "size_px": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "id": "WM-03",
+      "title": "原木杖",
+      "selected": false,
+      "output": "concepts/wand-management-sheets-v01/wm-03-raw-wood-staff-v01.png",
+      "prompt": "concepts/wand-management-sheets-v01/wm-03-raw-wood-staff-v01-prompt.md",
+      "original_output": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-30bf82ce-67e0-4208-979a-7739c63866ff.png",
+      "reference": "concepts/wand-management-overall-v03.png",
+      "notes": "Historical first pass; replaced after removing unrequested bells",
+      "output_sha256": "55aefbc9ea78286b461855fe91173bcf2743a7d2c0d713c1ca342fac0f1397d1",
+      "prompt_sha256": "07154a27d6397e625fca2d2924547d56f25d30196f00a4cd317f333142218d59",
+      "reference_sha256": "f53355505bd98da2bd2923003bbd7dc0d76774d7b939ef9eb11ea0fa75a61468",
+      "size_px": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "id": "WM-04",
+      "title": "节律杖",
+      "selected": true,
+      "output": "concepts/wand-management-sheets-v01/wm-04-rhythm-staff-v01.png",
+      "prompt": "concepts/wand-management-sheets-v01/wm-04-rhythm-staff-v01-prompt.md",
+      "original_output": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-ca24fab5-73eb-46d0-85b6-0997ae60dfe3.png",
+      "reference": "concepts/wand-management-overall-v03.png",
+      "notes": "Current component reference",
+      "output_sha256": "aba139b7d840435e08fc9ff02d504eb18f2b8caee58b04b21ee83ce36f2a89c3",
+      "prompt_sha256": "7ec911b0d2c3f0d245aa6e82ac126023accf63c17f9bee9f5e64b46b72b16b7b",
+      "reference_sha256": "f53355505bd98da2bd2923003bbd7dc0d76774d7b939ef9eb11ea0fa75a61468",
+      "size_px": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "id": "WM-05",
+      "title": "余火杖",
+      "selected": false,
+      "output": "concepts/wand-management-sheets-v01/wm-05-ember-staff-v01.png",
+      "prompt": "concepts/wand-management-sheets-v01/wm-05-ember-staff-v01-prompt.md",
+      "original_output": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-9c468e82-566e-4215-bd50-f11a5914a29b.png",
+      "reference": "concepts/wand-management-overall-v03.png",
+      "notes": "Historical first pass; replaced after removing unrequested bells",
+      "output_sha256": "b817fcd1cca3dd055d9705e2779f1410023054b56b84a13365d9486c53e4ed3c",
+      "prompt_sha256": "ae1ab8826bba9621df518486a10ce02de48742ccff94c142ee6db2e8e3f9f7f6",
+      "reference_sha256": "f53355505bd98da2bd2923003bbd7dc0d76774d7b939ef9eb11ea0fa75a61468",
+      "size_px": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "id": "WM-06",
+      "title": "配置羊皮纸",
+      "selected": true,
+      "output": "concepts/wand-management-sheets-v01/wm-06-configuration-parchment-v01.png",
+      "prompt": "concepts/wand-management-sheets-v01/wm-06-configuration-parchment-v01-prompt.md",
+      "original_output": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-32d2750f-7dc2-416c-bf9a-5d227c0126c0.png",
+      "reference": "concepts/wand-management-overall-v03.png",
+      "notes": "Current component reference",
+      "output_sha256": "57e21b23764286e4fbea6c8d58a8580892d65943af12fff4c6a0d38dbf1477cc",
+      "prompt_sha256": "fc1746e2d19f94fda1b7c5955014ba425383dc15b9a6f36dd35412563af53d5b",
+      "reference_sha256": "f53355505bd98da2bd2923003bbd7dc0d76774d7b939ef9eb11ea0fa75a61468",
+      "size_px": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "id": "WM-07",
+      "title": "吊牌与操作件",
+      "selected": true,
+      "output": "concepts/wand-management-sheets-v01/wm-07-tags-and-controls-v01.png",
+      "prompt": "concepts/wand-management-sheets-v01/wm-07-tags-and-controls-v01-prompt.md",
+      "original_output": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-944e840c-45cb-4f3f-b5f7-8b02e261f92a.png",
+      "reference": "concepts/wand-management-overall-v03.png",
+      "notes": "Current component reference",
+      "output_sha256": "d2f112e08d06cc68fce75543c8b48d22a60a59c7e901212955dccd4a2d3b783d",
+      "prompt_sha256": "de95d5b79d5058dc35725c2e2c2e1d7780f0c5d96c2cd4d9a9dad89b49017951",
+      "reference_sha256": "f53355505bd98da2bd2923003bbd7dc0d76774d7b939ef9eb11ea0fa75a61468",
+      "size_px": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "id": "WM-03",
+      "title": "原木杖",
+      "selected": true,
+      "output": "concepts/wand-management-sheets-v01/wm-03-raw-wood-staff-v02.png",
+      "prompt": "concepts/wand-management-sheets-v01/wm-03-raw-wood-staff-v02-prompt.md",
+      "original_output": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-090806ba-8ed1-49da-b26d-36ea4f8f5fc6.png",
+      "reference": "concepts/wand-management-sheets-v01/wm-03-raw-wood-staff-v01.png",
+      "notes": "Current component reference",
+      "output_sha256": "9179fdf21cd046719015db2b59a2c4ed8007d2270d76f1edd8d3f0ecb0586920",
+      "prompt_sha256": "a5897c8072fa2d1244f0eab941cca0a9ab82074501b24954bcef7237f90a1a41",
+      "reference_sha256": "55aefbc9ea78286b461855fe91173bcf2743a7d2c0d713c1ca342fac0f1397d1",
+      "size_px": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "id": "WM-05",
+      "title": "余火杖",
+      "selected": true,
+      "output": "concepts/wand-management-sheets-v01/wm-05-ember-staff-v02.png",
+      "prompt": "concepts/wand-management-sheets-v01/wm-05-ember-staff-v02-prompt.md",
+      "original_output": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-94bf371d-33c6-4d40-8911-c798ca3b6fe7.png",
+      "reference": "concepts/wand-management-sheets-v01/wm-05-ember-staff-v01.png",
+      "notes": "Current component reference",
+      "output_sha256": "2a643bc8a8754f342580eff31792751d92a09b8fd18038422713f521652f5706",
+      "prompt_sha256": "a5897c8072fa2d1244f0eab941cca0a9ab82074501b24954bcef7237f90a1a41",
+      "reference_sha256": "b817fcd1cca3dd055d9705e2779f1410023054b56b84a13365d9486c53e4ed3c",
+      "size_px": [
+        1448,
+        1086
+      ]
+    }
+  ]
+}

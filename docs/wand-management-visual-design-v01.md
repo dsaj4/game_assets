@@ -1,6 +1,6 @@
 # 左侧页面01 · 法杖管理视觉设计
 
-2026-09-14。状态：**VisualDesignDraft / OverallAwaitingReview**。本轮先做整体生图，尚未制作该页面的Blender模型或Godot交互。
+2026-09-14。状态：**OverallDirectionConfirmed / ComponentDesignDraft**。用户已明确“设计通过，下一步开始细化组件”，整体 v03 通过，七组[组件图册](../concepts/wand-management-sheets-v01/index.md)及[Blender建模说明](blender-wand-management-components-v01.md)已完成。新组件细节仍为设计稿，尚未制作该页面的Blender模型或Godot交互。
 
 用户原话：“接下来开始左侧页面：第一个页面：‘法杖管理’页面：页面采用展开的法杖袋皮革样式，挂着一根根需要管理的法杖；法杖管理页面所需要素参考全游戏GDD入口；仍然先生图。”
 
@@ -8,11 +8,11 @@
 
 ![袋中出战、架上备战的法杖管理页](../concepts/wand-management-overall-v03.png)
 
-本轮用户修订：“1.法术、词卡不在该界面修改；2.库存不在袋中展示，可以单独设计陈列架放置”，并明确“袋中出战，架上备战”。本页据此移除法术／词卡页签与更换／编辑法术入口，法术名称、类型、冷却与释放参数保留为只读信息；备用法杖移到独立旧木架。该输入约束本页范围，未改写全游戏GDD或设计另一个编辑页面。
+上一轮用户修订：“1.法术、词卡不在该界面修改；2.库存不在袋中展示，可以单独设计陈列架放置”，并明确“袋中出战，架上备战”。本页据此移除法术／词卡页签与更换／编辑法术入口，法术名称、类型、冷却与释放参数保留为只读信息；备用法杖移到独立旧木架。整体 v03 已由本轮用户确认；该输入约束本页范围，未改写全游戏GDD或设计另一个编辑页面。
 
 ## 设计依据与状态
 
-功能依据用户指定的[全游戏GDD RC1](E:/Project/game/workspaces/game-002/game-design-workflow/gdd/GDD-2026-09-14-yanzhou-full-game.md)，重点采用[UX02／03／05／07／08](E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/08-journey-ui-and-assets.md)、[WG01／SG01](E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/02-grammar-and-configuration.md)及[PG-T01](E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/06-parameters-and-economy.md)。这些功能规格已Accepted；本文的皮革布局、造型与示例陈列属于待评议视觉方案，不改GDD。
+功能依据用户指定的[全游戏GDD RC1](E:/Project/game/workspaces/game-002/game-design-workflow/gdd/GDD-2026-09-14-yanzhou-full-game.md)，重点采用[UX02／03／05／07／08](E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/08-journey-ui-and-assets.md)、[WG01／SG01](E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/02-grammar-and-configuration.md)及[PG-T01](E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/06-parameters-and-economy.md)。这些功能规格已Accepted；整体 v03 的皮革与陈列架布局已通过，新增组件的侧背面与结构细节仍为ComponentDesignDraft，不改GDD。
 
 输入固定于主设计仓库提交`87840a221af330a2c715fc9c390eae982a00aebd`；四份相关文档按原字节保存在[局部来源快照](../references/design/2026-09-14-wand-management-rc1/manifest.json)，不替换实验最初的设计快照。源文件中的链接应在原GDD目录解析。
 
@@ -58,7 +58,7 @@
 
 不添加出售、分解、强化、修理、耐久、负重或颜色稀有度等GDD以外机制。袋中四位对应出战上限，架上两根只代表当前示例的备用数量，不是库存容量上限；六根造型是示例，不要求立刻追加六个原生资产。备用杖较多时的浏览方式尚未绘制，不能从当前窄架推导无限实物平铺。
 
-本轮只产出整体效果图和设计文稿。右侧原生组合仍为MD-11制作提交`8a1d614`，Godot仍为E1 R2，未修改模型或运行场景。下一步先评议皮袋与木架的比例、法杖悬挂和信息密度，再据方向细化组件设计。
+整体阶段只产出效果图和设计文稿。本轮已根据用户确认细化七组组件稿；右侧原生组合仍为MD-11制作提交`8a1d614`，Godot仍为E1 R2，未修改模型或运行场景。下一步按组件稿校准比例并制作原生模型，整体无需再次确认。
 
 ## 实际图像检查
 

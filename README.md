@@ -2,7 +2,7 @@
 
 独立 demo 工作区：`E:\Project\game-002-godogen-lab`。
 
-**最新：法杖管理整体03，袋中出战、架上备战。** 按用户2026-09-14的两点修订完成[整体效果03](concepts/wand-management-overall-v03.png)与[视觉设计说明](docs/wand-management-visual-design-v01.md)：皮革只放四根出战法杖，两根备用法杖移至独立旧木陈列架；移除法术／词卡页签和编辑入口，绑定法术仅作只读信息，出战杖可“移至备战架”。原有固定芯、两个可换槽、锚点和首次冷却起点保留。状态 VisualDesignDraft / OverallAwaitingReview；本页尚未建模或实现交互。其余功能来源仍为[全游戏GDD RC1局部快照](references/design/2026-09-14-wand-management-rc1/manifest.json)，示例6持有／4出战不定义库存总容量。
+**最新：法杖管理整体03已通过，七组组件稿完成。** 用户2026-09-14确认“设计通过，下一步开始细化组件”。[组件图册](concepts/wand-management-sheets-v01/index.md)含展开皮袋、独立备战架、原木／节律／余火三种法杖、配置羊皮纸及吊牌操作件；[中文建模说明](docs/blender-wand-management-components-v01.md)记录分件、材质、建议尺度和校准项。状态 OverallDirectionConfirmed / ComponentDesignDraft。[整体03](concepts/wand-management-overall-v03.png)及[原视觉说明](docs/wand-management-visual-design-v01.md)继续约束袋中四出战、架上备用，法术／词卡不在本页编辑。七张选用稿均1448×1086，另保留两张去除额外铜铃前的历史图；本页尚未新建原生模型或交互。其余功能来源仍为[全游戏GDD RC1局部快照](references/design/2026-09-14-wand-management-rc1/manifest.json)。
 
 **前批：MD-11 长法杖袋已完成首版原生建模。** 用户明确“开始建模”，交付[单件源文件与真实渲染](art/md-11-v01/README.md)、[加入长袋的桌面组合 v02](art/map-desk-v02/README.md)和[制作报告](docs/md-11-native-report.md)。整皮袋身约1.9米，两支长杖独立可编辑，替代猫的位置横放后沿，杂物保留。状态 NativeAssetCreated / NeedsArtReview；本轮未新增 Godot 或交互实现。
 

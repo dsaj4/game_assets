@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-14",
+  "status": "PASS",
+  "selected_sheets": 7,
+  "all_generated_files": 9,
+  "original_copy_hashes": "PASS",
+  "prompt_reference_hashes": "PASS",
+  "png_dimensions": "1448x1086 for all nine files",
+  "approved_overall_sha": "unchanged",
+  "local_document_links_checked": 82,
+  "visual_review": "All seven first passes and two corrected sheets inspected; observations and limits in manifest and modeling notes",
+  "native_model_geometry": "NotRun",
+  "runtime_interaction": "NotRun",
+  "user_component_art_review": "Pending"
+}
