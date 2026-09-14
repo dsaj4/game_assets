@@ -1,6 +1,6 @@
 # 左侧页面01 · 法杖管理视觉设计
 
-2026-09-14。状态：**OverallDirectionConfirmed / ComponentDesignDraft**。用户已明确“设计通过，下一步开始细化组件”，整体 v03 通过，七组[组件图册](../concepts/wand-management-sheets-v01/index.md)及[Blender建模说明](blender-wand-management-components-v01.md)已完成。新组件细节仍为设计稿，尚未制作该页面的Blender模型或Godot交互。
+2026-09-14。当前状态：**NativeAssetsCreated / NeedsArtReview**。整体 v03 已通过；七组[组件图册](../concepts/wand-management-sheets-v01/index.md)和[建模说明](blender-wand-management-components-v01.md)之后，用户明确“开始建模”。首版[原生资产与真实渲染](../art/wand-management-v01/README.md)已完成，详见[制作报告](wand-management-native-report.md)。原生美术仍待评议，Godot交互未实施；下文保留设计依据。
 
 用户原话：“接下来开始左侧页面：第一个页面：‘法杖管理’页面：页面采用展开的法杖袋皮革样式，挂着一根根需要管理的法杖；法杖管理页面所需要素参考全游戏GDD入口；仍然先生图。”
 
@@ -58,7 +58,7 @@
 
 不添加出售、分解、强化、修理、耐久、负重或颜色稀有度等GDD以外机制。袋中四位对应出战上限，架上两根只代表当前示例的备用数量，不是库存容量上限；六根造型是示例，不要求立刻追加六个原生资产。备用杖较多时的浏览方式尚未绘制，不能从当前窄架推导无限实物平铺。
 
-整体阶段只产出效果图和设计文稿。本轮已根据用户确认细化七组组件稿；右侧原生组合仍为MD-11制作提交`8a1d614`，Godot仍为E1 R2，未修改模型或运行场景。下一步按组件稿校准比例并制作原生模型，整体无需再次确认。
+整体阶段产出效果图和设计文稿，组件阶段产出七组参考稿。后续已按用户“开始建模”制作左页原生资产；右侧原生组合仍为MD-11制作提交`8a1d614`，Godot仍为E1 R2。下一步评议实际模型，整体无需再次确认。
 
 ## 实际图像检查
 

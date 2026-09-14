@@ -2,6 +2,8 @@
 
 2026-09-14。**OverallDirectionConfirmed / ComponentDesignDraft**。
 
+后续已有[首版原生资产与实际渲染](../../art/wand-management-v01/README.md)，NativeAssetsCreated / NeedsArtReview；本图册继续保存图像模型参考稿，不能当作Blender实机证据。
+
 用户已确认[整体 v03](../wand-management-overall-v03.png)，本批将已通过的“袋中出战、架上备战；法术与词卡不在本页编辑”拆成七组。以下均为 **1448×1086 的图像模型参考稿**，尚非原生 .blend 或配准工程图。
 
 [中文建模说明](../../docs/blender-wand-management-components-v01.md) · [整体设计文稿](../../docs/wand-management-visual-design-v01.md) · [原图、提示词与 SHA 清单](manifest.json)

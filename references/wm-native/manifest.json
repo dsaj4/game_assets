@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-14",
+  "tool": "image_gen.imagegen",
+  "model": "Not reported by built-in tool",
+  "purpose": "Warm wood albedo for native left-page staff meshes",
+  "mode": "Reference image edit; color and clarity adjustment",
+  "input": "../e1-r2-generated/wood-ink-albedo-v01.png",
+  "input_sha256": "3d9bd1af40ef2dd16ad6c7035b2d19e0f924cb448dfe09621d1d045c1bf212e8",
+  "prompt": "wood-staff-albedo-v01-prompt.md",
+  "prompt_sha256": "ac1b4769677e0de3b0f8b5cf39cdc9633a56955e67b65ebd57409658745e6b15",
+  "image": "wood-staff-albedo-v01.png",
+  "sha256": "c6e6c02efdc40761a71e80a3ede4822dd66d887fbd6827c2b9361c9521aae262",
+  "size_px": [1254, 1254],
+  "original_tool_output": "C:/Users/Administrator/.codex/generated_images/01a09889-9886-77c2-b7f6-9054d97a682e/exec-56c056af-3508-40b8-b663-faf16a05c774.png",
+  "copy_method": "Byte-for-byte copy; no resampling or image editing after generation",
+  "use": "Diffuse texture on native meshes; no design-board annotations or UI text baked in"
+}

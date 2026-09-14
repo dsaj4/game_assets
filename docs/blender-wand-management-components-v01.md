@@ -2,6 +2,8 @@
 
 2026-09-14。状态：**OverallDirectionConfirmed / ComponentDesignDraft**。
 
+后续制作状态：用户已明确“开始建模”，七组[原生.blend／GLB和实际渲染](../art/wand-management-v01/README.md)已完成，NativeAssetsCreated / NeedsArtReview；见[制作报告](wand-management-native-report.md)。以下参考稿与建议尺度保留来源身份，其中“尚未制作”描述本说明初稿阶段。
+
 用户：“设计通过，下一步开始细化组件”。据此确认[整体 v03](../concepts/wand-management-overall-v03.png)，本批细化七组组件参考稿，见[图册](../concepts/wand-management-sheets-v01/index.md)与[生成来源清单](../concepts/wand-management-sheets-v01/manifest.json)。整体无需再次确认；新组件的背面、接头和材质细节为本轮设计稿，尚未制作左页原生模型。
 
 ## 已通过的页面约束
@@ -90,7 +92,7 @@
 6. 原生文件交付时重新打开并检查层次、材质内嵌、几何穿插、导出范围与相机完整性；需要 GLB 时另做回导核对。
 7. 真实合屏阶段再验证 720p／1080p 与字号缩放、细木纹闪烁、余烬亮度和文字对比。当前图稿没有通过这些测试。
 
-本批不启动上述原生制作步骤，也不覆盖已有 .blend；这里给出下一阶段的可执行依据。未保存离开、保存失败、战中只读、备用杖选中／换入、较多库存浏览、键盘路径等状态仍按整体文稿列为后续内容。
+组件设计阶段未启动上述原生制作步骤；后续用户“开始建模”已授权并完成首版原生资产，旧 .blend 保留。未保存离开、保存失败、战中只读、备用杖选中／换入、较多库存浏览、键盘路径等运行状态仍按整体文稿列为后续内容。
 
 ## 本批检查与来源
 

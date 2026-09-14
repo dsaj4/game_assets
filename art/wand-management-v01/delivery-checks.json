@@ -1,0 +1,556 @@
+{
+  "date": "2026-09-14",
+  "status": "PASS",
+  "native_checks": 118,
+  "local_markdown_links": 135,
+  "source_scripts_parsed": 4,
+  "generated_wood_original_copy": "SHA256 matched",
+  "texture_size_px": [
+    1254,
+    1254
+  ],
+  "master_sha256": "e0ae12edcef3b50825727bed12dc98255f9573b8eee7f3daae838e09656af2e1",
+  "scope": "Delivery integrity; not gameplay or final art acceptance",
+  "links": [
+    {
+      "source": "README.md",
+      "target": "art/wand-management-v01/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/wand-management-native-report.md"
+    },
+    {
+      "source": "README.md",
+      "target": "concepts/wand-management-sheets-v01/index.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/blender-wand-management-components-v01.md"
+    },
+    {
+      "source": "README.md",
+      "target": "concepts/wand-management-overall-v03.png"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/wand-management-visual-design-v01.md"
+    },
+    {
+      "source": "README.md",
+      "target": "references/design/2026-09-14-wand-management-rc1/manifest.json"
+    },
+    {
+      "source": "README.md",
+      "target": "art/md-11-v01/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "art/map-desk-v02/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/md-11-native-report.md"
+    },
+    {
+      "source": "README.md",
+      "target": "concepts/blender-sheets-v02/index.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/blender-wand-roll-design-v01.md"
+    },
+    {
+      "source": "README.md",
+      "target": "concepts/map-desk-overall-v05.png"
+    },
+    {
+      "source": "README.md",
+      "target": "art/map-desk-v01/map-desk-master.blend"
+    },
+    {
+      "source": "README.md",
+      "target": "art/map-desk-v01/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/map-desk-assets-v01.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/e1-r2-report.md"
+    },
+    {
+      "source": "README.md",
+      "target": "toolchain.lock.json"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/environment-report.md"
+    },
+    {
+      "source": "README.md",
+      "target": "art/wand-management-v01/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/wand-management-native-report.md"
+    },
+    {
+      "source": "README.md",
+      "target": "art/map-desk-v02/README.md"
+    },
+    {
+      "source": "docs/deferred-ui-experiment.md",
+      "target": "../art/wand-management-v01/README.md"
+    },
+    {
+      "source": "docs/deferred-ui-experiment.md",
+      "target": "wand-management-native-report.md"
+    },
+    {
+      "source": "docs/deferred-ui-experiment.md",
+      "target": "../concepts/wand-management-sheets-v01/index.md"
+    },
+    {
+      "source": "docs/deferred-ui-experiment.md",
+      "target": "blender-wand-management-components-v01.md"
+    },
+    {
+      "source": "docs/deferred-ui-experiment.md",
+      "target": "md-11-native-report.md"
+    },
+    {
+      "source": "docs/deferred-ui-experiment.md",
+      "target": "blender-wand-roll-design-v01.md"
+    },
+    {
+      "source": "docs/deferred-ui-experiment.md",
+      "target": "map-desk-assets-v01.md"
+    },
+    {
+      "source": "docs/deferred-ui-experiment.md",
+      "target": "e1-report.md"
+    },
+    {
+      "source": "docs/deferred-ui-experiment.md",
+      "target": "../references/flask-style-user-reference.png"
+    },
+    {
+      "source": "docs/wand-management-visual-design-v01.md",
+      "target": "../concepts/wand-management-sheets-v01/index.md"
+    },
+    {
+      "source": "docs/wand-management-visual-design-v01.md",
+      "target": "blender-wand-management-components-v01.md"
+    },
+    {
+      "source": "docs/wand-management-visual-design-v01.md",
+      "target": "../art/wand-management-v01/README.md"
+    },
+    {
+      "source": "docs/wand-management-visual-design-v01.md",
+      "target": "wand-management-native-report.md"
+    },
+    {
+      "source": "docs/wand-management-visual-design-v01.md",
+      "target": "../concepts/wand-management-overall-v03.png"
+    },
+    {
+      "source": "docs/wand-management-visual-design-v01.md",
+      "target": "../concepts/wand-management-overall-v03-prompt.md"
+    },
+    {
+      "source": "docs/wand-management-visual-design-v01.md",
+      "target": "../concepts/wand-management-overall-v03-manifest.json"
+    },
+    {
+      "source": "docs/wand-management-visual-design-v01.md",
+      "target": "../concepts/wand-management-overall-v02.png"
+    },
+    {
+      "source": "docs/wand-management-visual-design-v01.md",
+      "target": "../concepts/wand-management-overall-v03.png"
+    },
+    {
+      "source": "docs/wand-management-visual-design-v01.md",
+      "target": "E:/Project/game/workspaces/game-002/game-design-workflow/gdd/GDD-2026-09-14-yanzhou-full-game.md"
+    },
+    {
+      "source": "docs/wand-management-visual-design-v01.md",
+      "target": "E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/08-journey-ui-and-assets.md"
+    },
+    {
+      "source": "docs/wand-management-visual-design-v01.md",
+      "target": "E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/02-grammar-and-configuration.md"
+    },
+    {
+      "source": "docs/wand-management-visual-design-v01.md",
+      "target": "E:/Project/game/workspaces/game-002/game-design-workflow/gdd/yanzhou-rc1/06-parameters-and-economy.md"
+    },
+    {
+      "source": "docs/wand-management-visual-design-v01.md",
+      "target": "../references/design/2026-09-14-wand-management-rc1/manifest.json"
+    },
+    {
+      "source": "docs/wand-management-visual-design-v01.md",
+      "target": "../concepts/map-desk-overall-v05.png"
+    },
+    {
+      "source": "docs/wand-management-visual-design-v01.md",
+      "target": "../concepts/blender-sheets-v02/md-11-wand-roll-appearance-v01.png"
+    },
+    {
+      "source": "docs/blender-wand-management-components-v01.md",
+      "target": "../art/wand-management-v01/README.md"
+    },
+    {
+      "source": "docs/blender-wand-management-components-v01.md",
+      "target": "wand-management-native-report.md"
+    },
+    {
+      "source": "docs/blender-wand-management-components-v01.md",
+      "target": "../concepts/wand-management-overall-v03.png"
+    },
+    {
+      "source": "docs/blender-wand-management-components-v01.md",
+      "target": "../concepts/wand-management-sheets-v01/index.md"
+    },
+    {
+      "source": "docs/blender-wand-management-components-v01.md",
+      "target": "../concepts/wand-management-sheets-v01/manifest.json"
+    },
+    {
+      "source": "docs/blender-wand-management-components-v01.md",
+      "target": "wand-management-visual-design-v01.md"
+    },
+    {
+      "source": "docs/blender-wand-management-components-v01.md",
+      "target": "../references/design/2026-09-14-wand-management-rc1/manifest.json"
+    },
+    {
+      "source": "docs/blender-wand-management-components-v01.md",
+      "target": "../concepts/wand-management-sheets-v01/wm-01-deployed-leather-v01.png"
+    },
+    {
+      "source": "docs/blender-wand-management-components-v01.md",
+      "target": "../concepts/wand-management-sheets-v01/wm-02-reserve-rack-v01.png"
+    },
+    {
+      "source": "docs/blender-wand-management-components-v01.md",
+      "target": "../concepts/wand-management-sheets-v01/wm-03-raw-wood-staff-v02.png"
+    },
+    {
+      "source": "docs/blender-wand-management-components-v01.md",
+      "target": "../concepts/wand-management-sheets-v01/wm-04-rhythm-staff-v01.png"
+    },
+    {
+      "source": "docs/blender-wand-management-components-v01.md",
+      "target": "../concepts/wand-management-sheets-v01/wm-05-ember-staff-v02.png"
+    },
+    {
+      "source": "docs/blender-wand-management-components-v01.md",
+      "target": "../concepts/wand-management-sheets-v01/wm-06-configuration-parchment-v01.png"
+    },
+    {
+      "source": "docs/blender-wand-management-components-v01.md",
+      "target": "../concepts/wand-management-sheets-v01/wm-07-tags-and-controls-v01.png"
+    },
+    {
+      "source": "docs/wand-management-native-report.md",
+      "target": "../art/wand-management-v01/README.md"
+    },
+    {
+      "source": "docs/wand-management-native-report.md",
+      "target": "../art/wand-management-v01/renders/assembly.png"
+    },
+    {
+      "source": "docs/wand-management-native-report.md",
+      "target": "../concepts/wand-management-overall-v03.png"
+    },
+    {
+      "source": "docs/wand-management-native-report.md",
+      "target": "../concepts/wand-management-sheets-v01/index.md"
+    },
+    {
+      "source": "docs/wand-management-native-report.md",
+      "target": "blender-wand-management-components-v01.md"
+    },
+    {
+      "source": "docs/wand-management-native-report.md",
+      "target": "../references/design/2026-09-14-wand-management-rc1/manifest.json"
+    },
+    {
+      "source": "docs/wand-management-native-report.md",
+      "target": "../references/wm-native/manifest.json"
+    },
+    {
+      "source": "docs/wand-management-native-report.md",
+      "target": "../art/wand-management-v01/verification.json"
+    },
+    {
+      "source": "docs/wand-management-native-report.md",
+      "target": "../art/wand-management-v01/delivery-checks.json"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "../../art/wand-management-v01/README.md"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "../wand-management-overall-v03.png"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "../../docs/blender-wand-management-components-v01.md"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "../../docs/wand-management-visual-design-v01.md"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "manifest.json"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-01-deployed-leather-v01.png"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-01-deployed-leather-v01-prompt.md"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-02-reserve-rack-v01.png"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-02-reserve-rack-v01-prompt.md"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-03-raw-wood-staff-v02.png"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-03-raw-wood-staff-v02-prompt.md"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-04-rhythm-staff-v01.png"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-04-rhythm-staff-v01-prompt.md"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-05-ember-staff-v02.png"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-05-ember-staff-v02-prompt.md"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-06-configuration-parchment-v01.png"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-06-configuration-parchment-v01-prompt.md"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-07-tags-and-controls-v01.png"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-07-tags-and-controls-v01-prompt.md"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-01-deployed-leather-v01.png"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-02-reserve-rack-v01.png"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-03-raw-wood-staff-v02.png"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-04-rhythm-staff-v01.png"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-05-ember-staff-v02.png"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-06-configuration-parchment-v01.png"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-07-tags-and-controls-v01.png"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-03-raw-wood-staff-v01.png"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-05-ember-staff-v01.png"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-03-raw-wood-staff-v01-prompt.md"
+    },
+    {
+      "source": "concepts/wand-management-sheets-v01/index.md",
+      "target": "wm-05-ember-staff-v01-prompt.md"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "../../concepts/wand-management-overall-v03.png"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "../../concepts/wand-management-sheets-v01/index.md"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "wand-management-master.blend"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "wand-management-assembly.glb"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "../../docs/wand-management-native-report.md"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "manifest.json"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "verification.json"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "delivery-checks.json"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "renders/assembly.png"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "renders/assembly-oblique.png"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "assets/WM-01-deployed-leather.blend"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "assets/WM-01-deployed-leather.glb"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "assets/WM-02-reserve-rack.blend"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "assets/WM-02-reserve-rack.glb"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "assets/WM-03-raw-wood-staff.blend"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "assets/WM-03-raw-wood-staff.glb"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "assets/WM-04-rhythm-staff.blend"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "assets/WM-04-rhythm-staff.glb"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "assets/WM-05-ember-staff.blend"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "assets/WM-05-ember-staff.glb"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "assets/WM-06-configuration-parchment.blend"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "assets/WM-06-configuration-parchment.glb"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "assets/WM-07-tags-and-controls.blend"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "assets/WM-07-tags-and-controls.glb"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "renders/WM-01-deployed-leather.png"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "renders/WM-02-reserve-rack.png"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "renders/WM-03-raw-wood-staff.png"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "renders/WM-04-rhythm-staff.png"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "renders/WM-05-ember-staff.png"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "renders/WM-06-configuration-parchment.png"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "renders/WM-07-tags-and-controls.png"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "../build_wand_management.py"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "../publish_wand_management.py"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "../verify_wand_management.py"
+    },
+    {
+      "source": "art/wand-management-v01/README.md",
+      "target": "renders/assembly-first-pass.png"
+    }
+  ]
+}

@@ -2,6 +2,8 @@
 
 独立 demo 工作区：`E:\Project\game-002-godogen-lab`。
 
+**最新：法杖管理左页已完成首版原生建模。** 用户2026-09-14明确“开始建模”，七组模型、组合母版、独立.blend／GLB与实际渲染见[原生资产图册](art/wand-management-v01/README.md)和[制作报告](docs/wand-management-native-report.md)。袋中四出战、独立架上两备用，绑定法术只读，配置纸面和操作牌文字可编辑；当前为NativeAssetsCreated / NeedsArtReview。通过原生重开、GLB回导及结构检查，仍待美术评议，Godot与交互未新增。本轮采用Blender内置Python，电脑控制工具当前不可用。下方“尚未建模”均为此前设计阶段记录。
+
 **最新：法杖管理整体03已通过，七组组件稿完成。** 用户2026-09-14确认“设计通过，下一步开始细化组件”。[组件图册](concepts/wand-management-sheets-v01/index.md)含展开皮袋、独立备战架、原木／节律／余火三种法杖、配置羊皮纸及吊牌操作件；[中文建模说明](docs/blender-wand-management-components-v01.md)记录分件、材质、建议尺度和校准项。状态 OverallDirectionConfirmed / ComponentDesignDraft。[整体03](concepts/wand-management-overall-v03.png)及[原视觉说明](docs/wand-management-visual-design-v01.md)继续约束袋中四出战、架上备用，法术／词卡不在本页编辑。七张选用稿均1448×1086，另保留两张去除额外铜铃前的历史图；本页尚未新建原生模型或交互。其余功能来源仍为[全游戏GDD RC1局部快照](references/design/2026-09-14-wand-management-rc1/manifest.json)。
 
 **前批：MD-11 长法杖袋已完成首版原生建模。** 用户明确“开始建模”，交付[单件源文件与真实渲染](art/md-11-v01/README.md)、[加入长袋的桌面组合 v02](art/map-desk-v02/README.md)和[制作报告](docs/md-11-native-report.md)。整皮袋身约1.9米，两支长杖独立可编辑，替代猫的位置横放后沿，杂物保留。状态 NativeAssetCreated / NeedsArtReview；本轮未新增 Godot 或交互实现。
@@ -29,6 +31,7 @@
 .\open-blender.ps1
 .\open-e1.ps1
 .\open-map-desk.ps1
+.\open-wand-management.ps1
 # 单件示例：.\open-map-desk.ps1 -Asset mage
 ```
 
@@ -56,4 +59,4 @@ Godot 入口是 `game/project.godot`，默认打开当前 E1 墨线小样；按 
 | references/map-desk-assets-v01/ | imagegen生成的无标注环境地图albedo、完整提示词和来源清单；原图按字节复制，未把设计板标注映射进游戏表面 |
 | references/flask-map-user-reference-2026-09-13.png | 用户最新地图截图，作为图像模型风格／构图参考，不是运行资产 |
 
-继续入口：[MD-11两张设计稿](concepts/blender-sheets-v02/index.md)、[长法杖袋建模说明](docs/blender-wand-roll-design-v01.md)、[已有原生资产](art/map-desk-v01/README.md)。下一制作阶段为按MD-11设计稿新建Blender资产并加入后侧桌沿；整体05已确认，猫不进入当前构图，当前无后台自动开发任务。
+继续入口：[左页原生资产](art/wand-management-v01/README.md)、[制作报告](docs/wand-management-native-report.md)、[已完成右侧长袋与桌面](art/map-desk-v02/README.md)。下一步评议左页真实模型并细化造型／材质，当前无后台自动开发任务。

@@ -1,5 +1,7 @@
 # 后续任务：Flask 参考风格的法杖装配与地图 UI
 
+2026-09-14建模进展：用户在左页组件细化后明确“开始建模”，[法杖管理七组原生资产与总装](../art/wand-management-v01/README.md)已完成，NativeAssetsCreated / NeedsArtReview。[制作报告](wand-management-native-report.md)记录真实渲染、可编辑皮面／木杆／纸面与49个文字对象、118项结构与GLB回导检查。袋中出战、架上备战与法术只读边界保留；本轮使用Blender内置Python，未通过电脑插件操作。下一步评议真实模型和材质，Godot接入、管理交互与E2–E4仍未开始。下方为各轮历史。
+
 2026-09-14最新：用户已确认法杖管理整体03，并开始细化组件。[七组组件图册](../concepts/wand-management-sheets-v01/index.md)及[建模说明](blender-wand-management-components-v01.md)完成，OverallDirectionConfirmed / ComponentDesignDraft；含四位展开皮袋、独立备战架、三类法杖、配置纸面和操作件，法术／词卡保持不在本页编辑。七张选用稿1448×1086，整体不再待确认；本轮没有新增原生模型、Godot交互或玩法测试。下方旧进度按历史时点阅读。
 
 2026-09-13建模进展：用户明确“开始建模”，已完成[MD-11原生长袋与新桌面组合](md-11-native-report.md)，NativeAssetCreated / NeedsArtReview；27项结构、回导及保留检查通过。长袋替代猫，杂物保留，实际渲染已检查。法杖管理交互与Godot接入仍未开展；下方设计稿阶段的“未新增模型”为历史状态。
