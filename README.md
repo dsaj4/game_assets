@@ -2,6 +2,8 @@
 
 独立 demo 工作区：`E:\Project\game-002-godogen-lab`。
 
+**2026-09-19 悬浮投影方向已选择：** 用户要求细化该版本，已完成[主界面与槽1展开效果稿](concepts/wand-management-projection-refined-v01/index.md)。统一范围四格高亮、补齐槽位点击提示、固定芯详情及局部装入／取消；库存候选采用已有GDD中的复诵晶石与蓄势晶石。状态ProjectionDirectionSelected / RefinementDraft；原图／提示词／来源与已知显示偏差归档，本轮未改原生模型或运行UI。
+
 **2026-09-19 第二轮布局探索：** 按用户选择保留自然手作、黄铜仪器风格，并新增横置法杖主体／简单悬浮投影；[三张新效果图](concepts/wand-management-independent-v02/index.md)均由独立agent构思并生图。画面改用横向3:2，围绕当前单杖组织配置，库存侧收，次要说明折叠；[实图复查](concepts/wand-management-independent-v02/comparison.md)记录简化效果和符号／高亮限制。状态VisualExplorationDraft / NeedsReview，尚未选择或建模，v03母版保持原样。
 
 **2026-09-19 新设计探索：** 用户认为面板UI仍呆板，已让三名不继承旧对话的agent仅依据功能与风格背景独立构思，并各自使用内置生图生成[三个新方向](concepts/wand-management-independent-v01/index.md)：旅途手作、暗黑木刻、黄铜天文仪器。来源、设计说明、提示词及实图检查分别归档，状态 VisualExplorationDraft / NeedsReview；尚未选择方向，现有 v03 原生资产未变。

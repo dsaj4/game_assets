@@ -1,0 +1,50 @@
+{
+  "gameplay_sources": [
+    "references/design/2026-09-14-wand-management-rc1/02-grammar-and-configuration.md",
+    "references/design/2026-09-14-wand-management-rc1/06-parameters-and-economy.md"
+  ],
+  "inventory_example": "Chooser assumes two previously acquired, distinct owned inlays. It is not a starting grant or a real saved inventory.",
+  "generation_calls": 3,
+  "date": "2026-09-19",
+  "selected_deliverables": 2,
+  "selected_source": "concepts/wand-management-independent-v02/projection/concept.png",
+  "method": "Image-model edits; no raster postprocessing; original bytes copied",
+  "generator": "Built-in image_gen; model version not exposed",
+  "status": "ProjectionDirectionSelected / RefinementDraft",
+  "implementation": "No Blender or runtime changes",
+  "operations": [
+    {
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0b326-0f3c-7302-be66-24317669a365/exec-0bf51fd9-3d32-4aa8-aa44-769d28e2aef2.png",
+      "role": "Main refinement first pass; anchor-cell fill remained inconsistent",
+      "selected": false,
+      "sha256": "ad5d5b82f7667f875d3ef5eda1d3a632e2896ed7acc16d99a4c8f5626ad9adc2",
+      "prompt_sha256": "ed8a6e3d64ea81c1c667816128174fe84639076eb4bf53f0d2bae34af4444243",
+      "reference_sha256": "ca24fa4efe57b9e72a6a068be57f3db6d643bf6b476a87916b75a6dd0a47efa7",
+      "prompt": "main-initial-prompt.md",
+      "reference": "concepts/wand-management-independent-v02/projection/concept.png",
+      "image": "main-initial.png"
+    },
+    {
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0b326-0f3c-7302-be66-24317669a365/exec-c5935b3e-865c-4076-ad76-ffec46f4bc89.png",
+      "role": "Main state after four-cell fill correction",
+      "selected": true,
+      "sha256": "13a45897106c62b2ebb238357d862c786e8764b34d114914cc2f158c8dcf25d9",
+      "prompt_sha256": "d2491258fff087e780e663552d191e88c7a5a2b1a02310ce278087cf8b2d8bee",
+      "reference_sha256": "ad5d5b82f7667f875d3ef5eda1d3a632e2896ed7acc16d99a4c8f5626ad9adc2",
+      "prompt": "main-range-correction-prompt.md",
+      "reference": "concepts/wand-management-projection-refined-v01/main-initial.png",
+      "image": "main.png"
+    },
+    {
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0b326-0f3c-7302-be66-24317669a365/exec-2acd8472-f426-4cb8-a4cb-2ae192002376.png",
+      "role": "Illustrative slot1 chooser state, before equip confirmation",
+      "selected": true,
+      "sha256": "f11119d5d682b6402a57b829514e7b2a11faee52679bcb876823c3f4a64eb6bd",
+      "prompt_sha256": "e381ed822971794ef051a90f69768d57ddd9fff359b3110290ef26b370e29d4b",
+      "reference_sha256": "13a45897106c62b2ebb238357d862c786e8764b34d114914cc2f158c8dcf25d9",
+      "prompt": "slot-open-prompt.md",
+      "reference": "concepts/wand-management-projection-refined-v01/main.png",
+      "image": "slot-open.png"
+    }
+  ]
+}

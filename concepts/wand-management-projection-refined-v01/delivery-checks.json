@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-19",
+  "status": "PASS",
+  "images": [
+    {
+      "image": "main-initial.png",
+      "selected": false,
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "ad5d5b82f7667f875d3ef5eda1d3a632e2896ed7acc16d99a4c8f5626ad9adc2",
+      "copy_matches": true
+    },
+    {
+      "image": "main.png",
+      "selected": true,
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "13a45897106c62b2ebb238357d862c786e8764b34d114914cc2f158c8dcf25d9",
+      "copy_matches": true
+    },
+    {
+      "image": "slot-open.png",
+      "selected": true,
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "f11119d5d682b6402a57b829514e7b2a11faee52679bcb876823c3f4a64eb6bd",
+      "copy_matches": true
+    }
+  ],
+  "selected_images": 2,
+  "links": 12,
+  "native_v03_preserved": true,
+  "scope": "Integrity and links only; no runtime validation. Visual findings in visual-review.md."
+}
