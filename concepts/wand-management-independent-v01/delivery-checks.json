@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-19",
+  "status": "PASS",
+  "markdown_links": 20,
+  "selected_images": [
+    {
+      "direction": "fieldcraft",
+      "path": "fieldcraft/concept.png",
+      "size": [
+        1086,
+        1448
+      ],
+      "sha256": "aae623a4e73085e94be4507b140ac96f87fe2adf6629cc8f10d6e7f0a77254f9",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0b8a7-fa49-73f1-9452-97f7f6131741/exec-9c25c09a-af6a-4e5a-a4e3-b1e00a65d213.png",
+      "original_copy_matches": true
+    },
+    {
+      "direction": "observatory",
+      "path": "observatory/concept.png",
+      "size": [
+        1086,
+        1448
+      ],
+      "sha256": "b8c94f266ea30743092bb7744541382eb38c4d1b7d0cdfad8c6f553cc3b33828",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0b8aa-a442-7fe0-a73b-efe7c7ca3720/exec-1066be79-a469-4601-842b-47b7339a1e2d.png",
+      "original_copy_matches": true
+    },
+    {
+      "direction": "woodcut",
+      "path": "woodcut/concept.png",
+      "size": [
+        1086,
+        1448
+      ],
+      "sha256": "8184bdfee3aa6fd4a7bef7e31dc61c794c595df75aee4d2eeefcec14703f1403",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0b8a9-6829-7f90-8efc-7846ed71bd31/exec-0e258891-ed1b-416d-ac52-e9a3f6bc80c3.png",
+      "original_copy_matches": true
+    }
+  ],
+  "preserved_v03_master_sha256": "b7976d4ae3707800c6986da31df7f24fd1fc585e2b2b04681bc069d358092771",
+  "scope": "File integrity and source copying only. Visual comparison is recorded in comparison.md; no runtime/interaction validation."
+}

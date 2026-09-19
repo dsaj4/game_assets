@@ -1,0 +1,54 @@
+{
+  "direction_id": "fieldcraft",
+  "direction_name": "林野行装册",
+  "created_date": "2026-09-19",
+  "status": "VisualExplorationDraft / NeedsReview",
+  "generator": "built-in tools.image_gen__imagegen",
+  "model": "not exposed by tool response",
+  "generation_mode": "initial prompt-only independent generation followed by one targeted edit of this direction's own first pass",
+  "generation_call_count": 2,
+  "selected_attempt": 2,
+  "reference_images": [
+    "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v01/fieldcraft/first-pass.png"
+  ],
+  "historical_images_or_prompts_read": false,
+  "other_agent_designs_read": false,
+  "source_brief": "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v01/brief.md",
+  "functional_clarification": "Parent agent supplied read-only bound-spell type 简易 before generation, then clarified that F=front/lower row and B=back/upper row in its review.",
+  "prompt_file": "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v01/fieldcraft/edit-prompt.md",
+  "prompt_file_sha256": "232B6EDF93869732502FAD536230A3318CEC627192C55E75A6ABB2E407F6C3D7",
+  "prompt_submission": "Full UTF-8 edit-prompt.md read with PowerShell Get-Content -Raw and passed as prompt, with referenced_image_paths containing only this direction's first-pass.png. num_last_images_to_include omitted.",
+  "original_generated_path": "C:/Users/Administrator/.codex/generated_images/01a0b8a7-fa49-73f1-9452-97f7f6131741/exec-9c25c09a-af6a-4e5a-a4e3-b1e00a65d213.png",
+  "selected_image_path": "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v01/fieldcraft/concept.png",
+  "original_image_sha256": "AAE623A4E73085E94BE4507B140AC96F87FE2ADF6629CC8F10D6E7F0A77254F9",
+  "selected_image_sha256": "AAE623A4E73085E94BE4507B140AC96F87FE2ADF6629CC8F10D6E7F0A77254F9",
+  "byte_identical_copy_verified": true,
+  "image_format": "PNG",
+  "requested_dimensions": {
+    "width": 1536,
+    "height": 2048,
+    "priority": "preferred; aspect ratio 3:4 required"
+  },
+  "actual_dimensions": {
+    "width": 1086,
+    "height": 1448
+  },
+  "actual_aspect_ratio": "3:4",
+  "postprocessing": "none; original bytes copied with Copy-Item and hashes matched",
+  "visual_review_file": "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v01/fieldcraft/visual-review.md",
+  "implementation_claim": "Static generated visual concept only. No models, runtime UI, font assets or interactions implemented.",
+  "correction": {
+    "requested_change": "Only replace the grid top label 前 with 后排 and bottom label 后 with 前排; preserve 2x5 cells, four highlights and lower-third anchor.",
+    "observed_result": "Corrected row labels and preserved grid, highlights and anchor. Macro composition retained; material textures slightly redrawn.",
+    "known_regression": "Parent reinspection corrected the child review: the bag-top hint 拖动编号调整顺序 is visibly present in the selected image. No missing-hint regression confirmed. Textures were redrawn by the edit model."
+  },
+  "first_pass": {
+    "original_generated_path": "C:/Users/Administrator/.codex/generated_images/01a0b8a7-fa49-73f1-9452-97f7f6131741/exec-6cc4bfc1-dcc1-429b-9e19-bac3d02a1a57.png",
+    "preserved_image_path": "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v01/fieldcraft/first-pass.png",
+    "image_sha256": "EBB20AF11103ED7DE228D1AE0C89795F314B5755CE58B2DFCA5FA6ECD2BAC284",
+    "prompt_file": "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v01/fieldcraft/first-pass-prompt.md",
+    "prompt_file_sha256": "20EE19FC99D27956ABBC2CCF5E8095BCFB769DAB0EFD5DBF3D941A9AA4207901",
+    "reference_images": [],
+    "known_error": "Grid row labels were reversed relative to F3 meaning: top said 前 and bottom 后."
+  }
+}

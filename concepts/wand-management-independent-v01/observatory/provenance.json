@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "direction": "星盘行囊",
+  "date": "2026-09-19",
+  "status": "VisualExplorationDraft / NeedsReview",
+  "generator": "Built-in tools.image_gen__imagegen",
+  "model_identifier": "Not exposed by built-in tool",
+  "source_brief": "../brief.md",
+  "historical_images_read": false,
+  "other_agent_designs_read": false,
+  "selected_run": "revision-01",
+  "selected_original_path": "C:/Users/Administrator/.codex/generated_images/01a0b8aa-a442-7fe0-a73b-efe7c7ca3720/exec-1066be79-a469-4601-842b-47b7339a1e2d.png",
+  "output_file": "concept.png",
+  "width": 1086,
+  "height": 1448,
+  "sha256": "b8c94f266ea30743092bb7744541382eb38c4d1b7d0cdfad8c6f553cc3b33828",
+  "byte_identical_to_generated_original": true,
+  "postprocessing": "None; byte-for-byte file copy only",
+  "runs": [
+    {
+      "id": "initial",
+      "operation": "generate",
+      "original_path": "C:/Users/Administrator/.codex/generated_images/01a0b8aa-a442-7fe0-a73b-efe7c7ca3720/exec-c61c80c7-d0e3-4eea-858d-fc94a5e1c3d9.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "63c7392c5700c9432bd1c02b66f47e86cab59c7d0f0b768ebbc8d02972a36b49",
+      "prompt_file": "prompt.md",
+      "prompt_file_sha256": "fe65bd678ee783bf180d2bf66930fdcb7a376800071ec69bb1e2b10c6ffcf99c",
+      "api_prompt_sha256": "80eadf2b4f4a85574623369e2d626c5d128c18ba684e10bf31fa754a2fb93e0a",
+      "referenced_images": [],
+      "selected": false
+    },
+    {
+      "id": "revision-01",
+      "operation": "edit",
+      "original_path": "C:/Users/Administrator/.codex/generated_images/01a0b8aa-a442-7fe0-a73b-efe7c7ca3720/exec-1066be79-a469-4601-842b-47b7339a1e2d.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "b8c94f266ea30743092bb7744541382eb38c4d1b7d0cdfad8c6f553cc3b33828",
+      "prompt_file": "prompt-revision-01.md",
+      "prompt_file_sha256": "03cb69d8847406ae31bca567dfa77b51fb46e0fba619725b2a052b93fd05020d",
+      "api_prompt_sha256": "c59299c468c84df8cb726d3e7ed4307e3adf5f6b89eccfa328cddf5addb5dcf3",
+      "referenced_images": [
+        "C:/Users/Administrator/.codex/generated_images/01a0b8aa-a442-7fe0-a73b-efe7c7ca3720/exec-c61c80c7-d0e3-4eea-858d-fc94a5e1c3d9.png"
+      ],
+      "selected": true,
+      "change": "Add clear circled deployment-order 1–4 badges to four bag tags"
+    }
+  ]
+}
