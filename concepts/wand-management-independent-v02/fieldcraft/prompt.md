@@ -1,0 +1,29 @@
+# Generation prompt · 苔径 · 单杖工作台
+
+完整提交给内置 image_gen 的提示词如下。引用图用途：STYLE ONLY。
+
+```text
+Use case: ui-mockup
+Asset type: A complete high-fidelity fantasy game wand-management screen concept, a raster design mockup only.
+Primary request: Make ONE new LANDSCAPE 3:2 composition, ideally 1536x1024, titled “法杖管理”, in Chinese. The entire page is visible edge to edge. Create an independently designed new layout centered on ONE large SELECTED HORIZONTAL WAND. Do not copy the composition of the reference image.
+Input image 1: STYLE ONLY. Borrow its warm handmade linen, aged saddle leather, branch wood, botanical specimens, moss green accents, natural brass details, soft daylight and tactile crafted fantasy atmosphere. Do NOT borrow its portrait format, top large inventory bag, top reserve rack, lower large parchment, two-column forms, or six large upright wands.
+Design name: 苔径 · 单杖工作台.
+Scene/backdrop: a calm overhead tabletop, oat-colored woven linen crossing weathered dark wood, subtle few pressed leaves at the outside edges, broad clean breathing room. Beautiful tactile realistic game UI art with restrained botanical illustration. Use a coherent close overhead view, readable crisp Chinese serif/calligraphic labels. No browser chrome, no explanatory concept-board captions, no split screens.
+Composition: a slim vertical inventory strip along the far LEFT (about 20% width). The rest is ONE continuous fabric working surface. The selected rhythm wand lies HORIZONTALLY across the center from x≈420 to x≈1390, y≈480. It is large and exquisitely rendered: branched wooden cage cradling a small warm brass rhythm core at the LEFT tip, twisted wood shaft extending RIGHT to a leather-wrapped grip. Single clear visual focus; all other controls are lightweight attached labels, stitches or thin pointers. Do not put the central content inside a large rectangular panel or big paper sheet.
+Top bar: small “← 返回地图” on the left, page title “法杖管理” toward center-left, small rust-colored “● 未保存” at the top right.
+Left inventory: four compact vertically stacked stitched leather selection tabs on the edge of a mostly folded leather bag, not four full large wands. Heading “袋中出战 4/4”, tiny instruction “拖动编号排序”. Four readable tabs:
+“① 节律杖” and “伤害敌人” — moss-green selected tab, strongest of this small group.
+“② 原木杖” and “获得护甲”.
+“③ 余火杖” and “释放火焰”.
+“④ 原木杖” and “火焰伤害敌人”.
+Below the bag tabs, separated by real blank space, a SMALL wooden rack entry with TWO tiny twig tips and label “架上备战 2 ›”, secondary small text “展开 · 换入出战”. This suggests a collapsed reserve selector; do not make the reserves large. Show “持有 6” discreetly. The hero is an enlarged view of selected item ①, never an extra inventory item.
+Selected-wand heading in the upper-middle, above the hero left half: “① 节律杖”. On one narrow line below: “伤害敌人 · 简易 · 只读”. Another small line “冷却 4刻 · 释放 1刻”. Small stitched action directly beneath: “移至备战架”.
+Fixed core: use a thin botanical annotation pointer aimed at the brass object integrated INSIDE the branched head; label “节律芯 · 固定”, with a tiny lock icon and disclosure mark “详情 ›”. This label is NOT a circular socket and NOT a third slot. The core is integral to the wand head, visually unlike the exchangeable mounts.
+Exchangeable slots: exactly TWO small EMPTY brass-and-leather installation collars mounted directly on the straight wooden SHAFT, clearly separated along its middle/right length. Each collar has a visible empty dark circular opening facing the overhead camera. Fine short pointers to tiny labels just below: “槽1 · 空” and “槽2 · 空”. Do not add any other exchangeable slot, gem, or slot panel.
+Range editor in the upper RIGHT, above the right half of the wand: a small stitched cloth patch with title “范围 · 锚点 F3”. Exactly TWO horizontal rows of FIVE evenly spaced square cells each, with thin brown line borders. Top row label “后排 B”, bottom row label “前排 F”. Top row cells left to right: neutral, neutral, MOSS GREEN, neutral, neutral. Bottom row cells left to right: neutral, MOSS GREEN, MOSS GREEN with a small ivory triangle at its center, MOSS GREEN, neutral. Exactly 4 highlighted cells total. F3 is bottom row column 3. No extra cells or rows. Keep labels and all ten cells easy to count.
+Below the hero wand, a thin cord-based start control on the linen, spanning the central work area: title “首次冷却起点 0刻”. A brass bead sits at the far LEFT zero position of a horizontal ruler with exactly labeled ticks “0 1 2 3 4 5 6 7 8 9 10”. Beside it show “首次释放 4刻”; small restrained note “起点不是释放时间”. This is one start control, not a new mechanic.
+Footer: a quiet folded linen ribbon, not a large board, with small summary “首轮名义计划 ›” and “①4刻  ②5刻  ③7–9刻  ④8刻”. Small subordinate text “名义计划，战中可能改期”. Bottom right a warm chestnut leather button “保存配置”, the only prominent primary action.
+Hierarchy: the physical horizontal wand is the large dominant element, then selected name, then two installation mounts and range, then start adjustment; compact inventory and nominal plan remain secondary. Plenty of linen negative space. Material relief is subtle, labels not buried in ornament, no busy dense panel grid. Everything belongs to the same page and physical world.
+Constraints: only 6 held wands represented by 4 compact deployed selectors and 2 small collapsed reserve indicators; large selected wand is a detail view of ①. Fixed core is not a third slot. Exactly two exchangeable empty slots. Binding spell is read-only. Range exactly 2x5 as specified. Start 0 of 0–10 ticks, first release 4, cooldown 4, release duration 1. Do not add combat preview, direct battle, sell, dismantle, upgrade, repair, durability, weight, rarity, spell editing, word cards, map page, extra mechanics, sci-fi holograms, giant parchment form, or six giant inventory wands. No English marketing text or watermark.
+```
+

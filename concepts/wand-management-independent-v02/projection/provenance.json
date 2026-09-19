@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-19",
+  "design_name": "沿杖注记 · 悬浮投影",
+  "status": "VisualExplorationDraft / NeedsReview",
+  "tool": "built-in image_gen.imagegen",
+  "intent": "new ui-mockup using style references",
+  "prompt_path": "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v02/projection/prompt.md",
+  "prompt_file_sha256": "8f39ef60dab7e0611477a129730d36263089f9fa484132568e9670de4d8e834e",
+  "submitted_prompt_sha256_utf8_trimmed": "096d2b5feff87bd2d48c2e44b9df8df2974ec69de2909b41523f6d53066bc1a9",
+  "reference_images": [
+    {
+      "path": "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v01/fieldcraft/concept.png",
+      "role": "STYLE ONLY - antique materials and fantasy craftsmanship; composition must not be inherited",
+      "sha256": "aae623a4e73085e94be4507b140ac96f87fe2adf6629cc8f10d6e7f0a77254f9"
+    },
+    {
+      "path": "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v01/observatory/concept.png",
+      "role": "STYLE ONLY - antique materials and fantasy craftsmanship; composition must not be inherited",
+      "sha256": "b8c94f266ea30743092bb7744541382eb38c4d1b7d0cdfad8c6f553cc3b33828"
+    }
+  ],
+  "generations": [
+    {
+      "index": 1,
+      "operation": "generate",
+      "output_path": "C:/Users/Administrator/.codex/generated_images/01a0b9a8-210d-7da2-a917-e58d90b45d5c/exec-c7a40bf4-6807-4a92-a707-63870c4e064b.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ca24fa4efe57b9e72a6a068be57f3db6d643bf6b476a87916b75a6dd0a47efa7",
+      "selected": true
+    }
+  ],
+  "final": {
+    "path": "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v02/projection/concept.png",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "ca24fa4efe57b9e72a6a068be57f3db6d643bf6b476a87916b75a6dd0a47efa7",
+    "original_bytes": true,
+    "copy_verified": true
+  },
+  "edits": [],
+  "generated_count": 1,
+  "edit_count": 0,
+  "review_path": "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v02/projection/visual-review.md",
+  "interaction_implemented": false
+}

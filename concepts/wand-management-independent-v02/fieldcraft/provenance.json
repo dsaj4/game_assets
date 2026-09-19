@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "design_name": "苔径 · 单杖工作台",
+  "direction": "fieldcraft",
+  "state": "VisualExplorationDraft / NeedsReview",
+  "date": "2026-09-19",
+  "scope": "One independently designed static raster wand-management concept. No runnable UI, Blender asset, or gameplay acceptance.",
+  "generation_mode": "built-in image_gen",
+  "call_count": 1,
+  "revision_count": 0,
+  "selected_call": 1,
+  "calls": [
+    {
+      "call": 1,
+      "tool": "tools.image_gen__imagegen",
+      "intent": "generate with style-only reference",
+      "started_at": "2026-09-19T12:34:07.772Z",
+      "exact_tool_arguments_file": "generation-input.json",
+      "prompt_file": "prompt.md",
+      "prompt_text_utf8_sha256": "3103ed16223bceac74fd3dd5719324e905532a3b97ec22e90c865c8f37cae312",
+      "prompt_file_sha256": "b3b46c94fc0d9a1df4a98b78a44b40dbfd67540e7badf1ccc31ffe4c7463da46",
+      "tool_arguments_file_sha256": "8ce5e1afe4f22416589cc89d188fdf2192e5692be5fb264f65d3f01832c86f81",
+      "referenced_image_paths": [
+        "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v01/fieldcraft/concept.png"
+      ],
+      "requested_dimensions_in_prompt": {
+        "width": 1536,
+        "height": 1024,
+        "aspect_ratio": "3:2"
+      },
+      "output_source_path": "C:/Users/Administrator/.codex/generated_images/01a0b9a6-73eb-7943-bef1-b5552502c107/exec-d0e64851-f60b-480d-91a8-adc1d456e6c8.png",
+      "actual_dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "source_sha256": "b949e1025d56f61c258058825c73c5dd9ed0c03a000833d0e1e7d53fb0d5255d"
+    }
+  ],
+  "references": [
+    {
+      "path": "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v01/fieldcraft/concept.png",
+      "role": "STYLE ONLY: warm handmade linen, leather, wood, botanical specimens and moss green; previous layout explicitly excluded",
+      "inspected_with_view_image_before_call": true,
+      "sha256": "aae623a4e73085e94be4507b140ac96f87fe2adf6629cc8f10d6e7f0a77254f9"
+    }
+  ],
+  "selected_output": {
+    "path": "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v02/fieldcraft/concept.png",
+    "sha256": "b949e1025d56f61c258058825c73c5dd9ed0c03a000833d0e1e7d53fb0d5255d",
+    "width": 1536,
+    "height": 1024,
+    "byte_copy": true,
+    "postprocessing": "none",
+    "inspected_with_view_image": true
+  },
+  "review_file": "visual-review.md",
+  "review_completed_at": "2026-09-19T12:38:47.052Z",
+  "known_limitations": [
+    "Fixed-core long effect is intentionally collapsed behind details.",
+    "Reserve individual entries and selection are collapsed.",
+    "Range still has a distinct cloth frame and left inventory remains ornate.",
+    "Cord end-cap extends visually beyond tick 10.",
+    "Decorative compass and herbarium folio are incidental noninteractive props.",
+    "Concept image provides no interaction or runtime evidence."
+  ]
+}

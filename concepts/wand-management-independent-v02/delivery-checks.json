@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-19",
+  "status": "PASS",
+  "images": [
+    {
+      "direction": "fieldcraft",
+      "image": "fieldcraft/concept.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "b949e1025d56f61c258058825c73c5dd9ed0c03a000833d0e1e7d53fb0d5255d",
+      "original_copy_matches": true,
+      "prompt_and_reference_hashes_match": true
+    },
+    {
+      "direction": "observatory",
+      "image": "observatory/concept.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "00f5d54a33efb0cdd37b61f14fc7644dba90616dba72f25e751f564bf2cb85ff",
+      "original_copy_matches": true,
+      "prompt_and_reference_hashes_match": true
+    },
+    {
+      "direction": "projection",
+      "image": "projection/concept.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "ca24fa4efe57b9e72a6a068be57f3db6d643bf6b476a87916b75a6dd0a47efa7",
+      "original_copy_matches": true,
+      "prompt_and_reference_hashes_match": true
+    }
+  ],
+  "markdown_links": 22,
+  "native_v03_preserved": true,
+  "scope": "File integrity only. Visual review in comparison.md; no runtime verification."
+}

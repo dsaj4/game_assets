@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "design_name": "测星长台",
+  "direction": "observatory",
+  "status": "VisualExplorationDraft / NeedsReview",
+  "artifact_type": "static_generated_ui_concept",
+  "implemented_ui": false,
+  "created_date": "2026-09-19",
+  "tool_mode": "built-in image_gen",
+  "generator_tool": "tools.image_gen__imagegen",
+  "generation_calls_count": 1,
+  "requested_dimensions": {"width": 1536, "height": 1024, "aspect_ratio": "3:2"},
+  "dimensions_note": "Requested through prompt; measured actual output is 1536x1024.",
+  "references": [
+    {
+      "path": "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v01/observatory/concept.png",
+      "role": "STYLE ONLY: materials, palette and antique surveying mood; layout explicitly excluded",
+      "inspected_with_view_image_before_generation": true,
+      "sha256": "b8c94f266ea30743092bb7744541382eb38c4d1b7d0cdfad8c6f553cc3b33828"
+    }
+  ],
+  "generation_calls": [
+    {
+      "call_number": 1,
+      "purpose": "initial full-page generation, selected final",
+      "started_at_utc": "2026-09-19T12:38:08.552Z",
+      "completed_at_utc": "2026-09-19T12:39:23.297Z",
+      "prompt_file": "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v02/observatory/prompt.md",
+      "prompt_file_sha256": "a652b242675717fd44535c11a0c48c4c889baa61109c46c291452bd25b6554b9",
+      "prompt_transformation": "UTF-8 prompt.md read as text then trim surrounding whitespace; no substantive rewrite.",
+      "submitted_prompt_utf8_sha256": "fae5bf056903c5a37a33c0fd46a9c70c85db39a5c25bd92c6cc7dfaae4098645",
+      "submitted_prompt_characters": 6576,
+      "referenced_image_paths": [
+        "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v01/observatory/concept.png"
+      ],
+      "num_last_images_to_include": null,
+      "source_image_path": "C:/Users/Administrator/.codex/generated_images/01a0b9a7-2836-7360-bc09-1ef7cf480786/exec-b95f0a64-f44c-4a23-bc31-02c1f1773cd6.png",
+      "source_image_sha256": "00f5d54a33efb0cdd37b61f14fc7644dba90616dba72f25e751f564bf2cb85ff",
+      "actual_dimensions": {"width": 1536, "height": 1024},
+      "selected": true
+    }
+  ],
+  "selected_output": {
+    "path": "E:/Project/game-002-godogen-lab/concepts/wand-management-independent-v02/observatory/concept.png",
+    "sha256": "00f5d54a33efb0cdd37b61f14fc7644dba90616dba72f25e751f564bf2cb85ff",
+    "width": 1536,
+    "height": 1024,
+    "format": "PNG",
+    "transfer": "PowerShell Copy-Item, original bytes preserved",
+    "postprocessing": "none",
+    "source_retained": true,
+    "copy_hash_matches_source": true,
+    "visually_inspected": true,
+    "visual_review_file": "visual-review.md"
+  },
+  "scope_notes": [
+    "Only observatory directory written by this agent.",
+    "No other agent's new design inspected.",
+    "No git commit or push by this agent; parent coordinates publication.",
+    "No correction generation needed; one-call revision budget unused.",
+    "All visible controls are static concept representations, not working interactions."
+  ]
+}
