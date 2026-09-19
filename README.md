@@ -2,6 +2,8 @@
 
 独立 demo 工作区：`E:\Project\game-002-godogen-lab`。
 
+**2026-09-19 字体效果探索：** 按用户提供的 Jacquard 24 像素哥特参考，用生图完成[整页及局部中文字体示意](concepts/wand-management-type-v01/index.md)。状态 TypographyVisualDraft / NeedsReview；这是绘制效果，未制作字体文件，未修改下方 v03 Blender 资产。
+
 **2026-09-19 当前：法杖管理实体面板 v03。** 已先复查 v01/v02，保留有效皮纹，修正主按钮被贴图化的立体感退步。新生成空白层叠羊皮板与黑／红皮革按钮，接入真实轮廓网格、纸层、厚度和独立固定件；全部文字与配置状态保持独立。[当前资产与真实渲染](art/wand-management-v03/README.md)、[质量复查](art/wand-management-v03/quality-review.md)、[生图来源／提示词](references/wm-panel-v03/provenance.json)。默认启动脚本打开 v03，支持 `-Version v01/v02/v03`；旧版保留。状态 PhysicalPanelRefined / NeedsArtReview，仍是静态 Blender 美术，未接入管理交互。以下为历史记录。
 
 **最新：法杖管理左页已完成首版原生建模。** 用户2026-09-14明确“开始建模”，七组模型、组合母版、独立.blend／GLB与实际渲染见[原生资产图册](art/wand-management-v01/README.md)和[制作报告](docs/wand-management-native-report.md)。袋中四出战、独立架上两备用，绑定法术只读，配置纸面和操作牌文字可编辑；当前为NativeAssetsCreated / NeedsArtReview。通过原生重开、GLB回导及结构检查，仍待美术评议，Godot与交互未新增。本轮采用Blender内置Python，电脑控制工具当前不可用。下方“尚未建模”均为此前设计阶段记录。

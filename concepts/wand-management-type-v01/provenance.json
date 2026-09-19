@@ -1,0 +1,49 @@
+{
+  "generator": "Built-in image_gen, underlying model version not exposed",
+  "limitations": [
+    "Raster font-style mockup only; no font installation, font coding, Blender editing or runtime change",
+    "Detail is an image-model re-render, not a lossless crop"
+  ],
+  "status": "TypographyVisualDraft / NeedsReview",
+  "outputs": [
+    {
+      "prompt_sha256": "b4d161237ff21eae2a721ef00821973128f12916447b316eb4654a31712bfbcd",
+      "path": "concepts/wand-management-type-v01/full-page-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0b326-0f3c-7302-be66-24317669a365/exec-8270e831-de14-4e0b-a9ce-292e0de5c785.png",
+      "prompt": "concepts/wand-management-type-v01/full-page-prompt.md",
+      "sha256": "7cc29fd61399906b55153348f0a98b32d423c464e7decddc30a9a8eb265053a2",
+      "inputs": [
+        "art/wand-management-v03/renders/assembly.png",
+        "concepts/wand-management-type-v01/jacquard24-user-reference.png"
+      ]
+    },
+    {
+      "prompt_sha256": "0e2b0f6979c6dd20f05cf1c9cd82e9788cd478e5a47ef0bb2c4af326905b045d",
+      "path": "concepts/wand-management-type-v01/detail-v01.png",
+      "original": "C:/Users/Administrator/.codex/generated_images/01a0b326-0f3c-7302-be66-24317669a365/exec-dbcf1d97-ef1f-4d69-9830-cda60643c0fe.png",
+      "prompt": "concepts/wand-management-type-v01/detail-prompt.md",
+      "sha256": "d01d01b9f0b8a9f2c9a0d8b642753585a0c05e1a6bc7ce8b433b3ffd5146128b",
+      "inputs": [
+        "concepts/wand-management-type-v01/full-page-v01.png",
+        "concepts/wand-management-type-v01/jacquard24-user-reference.png"
+      ]
+    }
+  ],
+  "date": "2026-09-19",
+  "reference_url": "https://fonts.google.com/specimen/Jacquard+24",
+  "preserved_master": {
+    "path": "art/wand-management-v03/wand-management-master.blend",
+    "sha256": "b7976d4ae3707800c6986da31df7f24fd1fc585e2b2b04681bc069d358092771"
+  },
+  "reference_basis": "User supplied screenshot and URL; no claim that this is an official CJK font",
+  "inputs": [
+    {
+      "path": "art/wand-management-v03/renders/assembly.png",
+      "sha256": "616dc80305c3965355babd4e720a20236e58d00858b35ffe7d055ba30ce63a06"
+    },
+    {
+      "path": "concepts/wand-management-type-v01/jacquard24-user-reference.png",
+      "sha256": "c56caba6cc2e760d59dc2e155e4ece1db08fa4ce293e1cbb9432dc0ceb8c60b9"
+    }
+  ]
+}
