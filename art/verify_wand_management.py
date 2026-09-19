@@ -9,6 +9,7 @@ from wm_tools import *
 
 manifest=json.loads((OUT/'manifest.json').read_text(encoding='utf-8'))
 checks=[]
+completed=False
 def check(name,ok,detail=None):
     checks.append({'name':name,'pass':bool(ok),'detail':detail})
     if not ok:raise AssertionError((name,detail))
@@ -104,10 +105,11 @@ try:
         p=OUT/render['path'];data=p.read_bytes()
         check('render_'+p.name,sha(p)==render['sha256'] and list(struct.unpack('>II',data[16:24]))==render['size_px'])
     for item in manifest['textures']:check('texture_'+item['path'],sha(ROOT/item['path'])==item['sha256'])
+    completed=True
 finally:
-    report={'date':'2026-09-14','status':'PASS' if checks and all(c['pass'] for c in checks) else 'FAIL','checks':checks,
+    report={'date':manifest['date'],'status':'PASS' if completed and checks and all(c['pass'] for c in checks) else 'FAIL','checks':checks,
        'visual_scope':'Structural checks and actual file reopens/imports; image similarity and gameplay are not inferred',
-       'native_ui':'Not used; computer-use tool unavailable in current session',
+       'native_ui':'Not used; pipeline executed with Blender bundled Python',
        'runtime_interaction':'NotRun'}
     (OUT/'verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print('WM VERIFICATION',report['status'],len(checks),flush=True)

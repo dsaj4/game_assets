@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-19",
+  "status": "PhysicalPanelRefined / NeedsArtReview",
+  "user_scope": "Review v01/v02 quality first; generate real panel form and optimize only left wand management page",
+  "method": "Built-in image_gen for blank object skins; Blender bundled Python for opaque silhouette meshes, relief, thickness and independent text",
+  "additional_textures": [
+    {
+      "path": "references/wm-textures-v02/button-return-charcoal.jpg",
+      "sha256": "cf5b8992db7babe194379160dc2d5341679b3e36d629851d75b94d745d7eb94c",
+      "role": "User supplied external image; original bytes; service/model unknown"
+    },
+    {
+      "path": "references/wm-textures-v02/button-save-burgundy.jpg",
+      "sha256": "6eeaa7436e49d5dfa8f08aba70b1af882cd9a1272f6f06d85c3b263a218c1b63",
+      "role": "User supplied external image; original bytes; service/model unknown"
+    },
+    {
+      "path": "references/wm-textures-v02/leather-fine-brown.jpg",
+      "sha256": "08cd54d808b95b24d1d006bec503b0eba8990f3c613cfdbf0301ae765b82f197",
+      "role": "User supplied external image; original bytes; service/model unknown"
+    },
+    {
+      "path": "references/wm-textures-v02/parchment-ivory.jpg",
+      "sha256": "aa45e1e9e1904ea41959601fc110dcb7e75471a4c00e37997eae03d867c5a170",
+      "role": "User supplied external image; original bytes; service/model unknown"
+    },
+    {
+      "path": "references/wm-panel-v03/panel-production.png",
+      "sha256": "e9a8f1734516408e3f4afbc1578622212fbd7e2c67e013ab5b97173ff6c42b6c",
+      "role": "Built-in image_gen original bytes; magenta outside silhouette UV geometry"
+    },
+    {
+      "path": "references/wm-panel-v03/return-production.png",
+      "sha256": "240eb5de140cf91a20969e604b73b788a114cec85090105eff578e8d01dda65b",
+      "role": "Built-in image_gen original bytes; magenta outside silhouette UV geometry"
+    },
+    {
+      "path": "references/wm-panel-v03/save-production.png",
+      "sha256": "191a79fdcc8e2814d1cb1adcda0ea6b848e08b1fd185a08f49d6286b728bdb0c",
+      "role": "Built-in image_gen original bytes; magenta outside silhouette UV geometry"
+    }
+  ],
+  "additional_preserved_files": [
+    {
+      "path": "art/wand-management-v01/wand-management-master.blend",
+      "sha256": "e0ae12edcef3b50825727bed12dc98255f9573b8eee7f3daae838e09656af2e1"
+    },
+    {
+      "path": "art/wand-management-v02/wand-management-master.blend",
+      "sha256": "55332cb9999a5f5f04b11f0ea80e3120b03a5edf991db3f41e1dced13c377334"
+    }
+  ],
+  "skin_limitations": "Illustrative skins include painted microrelief; no pure PBR extraction. Original magenta backgrounds are outside actual geometry; no alpha blending needed."
+}

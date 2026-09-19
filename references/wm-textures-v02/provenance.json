@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-18",
+  "textures": [
+    {
+      "file": "leather-fine-brown.jpg",
+      "source_filename": "codex-clipboard-49207ce1-1308-4dbc-ac8c-ff4c70e0eca2.jpg",
+      "sha256": "08cd54d808b95b24d1d006bec503b0eba8990f3c613cfdbf0301ae765b82f197",
+      "provenance": "User supplied; externally generated; service and model unknown; original JPEG bytes preserved"
+    },
+    {
+      "file": "parchment-ivory.jpg",
+      "source_filename": "codex-clipboard-c8c1b0ab-5496-4dcb-8715-ec0165bcf66d.jpg",
+      "sha256": "aa45e1e9e1904ea41959601fc110dcb7e75471a4c00e37997eae03d867c5a170",
+      "provenance": "User supplied; externally generated; service and model unknown; original JPEG bytes preserved"
+    },
+    {
+      "file": "button-save-burgundy.jpg",
+      "source_filename": "codex-clipboard-01c146a2-e383-4a72-a2d0-a0f28498f952.jpg",
+      "sha256": "6eeaa7436e49d5dfa8f08aba70b1af882cd9a1272f6f06d85c3b263a218c1b63",
+      "provenance": "User supplied; externally generated; service and model unknown; original JPEG bytes preserved"
+    },
+    {
+      "file": "button-return-charcoal.jpg",
+      "source_filename": "codex-clipboard-cbb75ba4-1c20-49a5-9b10-7e1cce7cf834.jpg",
+      "sha256": "cf5b8992db7babe194379160dc2d5341679b3e36d629851d75b94d745d7eb94c",
+      "provenance": "User supplied; externally generated; service and model unknown; original JPEG bytes preserved"
+    }
+  ]
+}

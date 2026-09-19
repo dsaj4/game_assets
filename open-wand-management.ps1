@@ -1,4 +1,15 @@
-param([ValidateSet('assembly','leather','rack','raw','rhythm','ember','parchment','controls')][string]$Asset = 'assembly')
+<#
+.SYNOPSIS
+Open the current physical-panel revision, or a preserved earlier native asset.
+.EXAMPLE
+.\open-wand-management.ps1 -Version v03 -Asset parchment
+.EXAMPLE
+.\open-wand-management.ps1 -Version v01
+#>
+param(
+    [ValidateSet('assembly','leather','rack','raw','rhythm','ember','parchment','controls')][string]$Asset = 'assembly',
+    [ValidateSet('v01','v02','v03')][string]$Version = 'v03'
+)
 $ErrorActionPreference = 'Stop'
 . (Join-Path $PSScriptRoot 'tools/env.ps1')
 $files = @{
@@ -11,7 +22,8 @@ $files = @{
     parchment = 'art/wand-management-v01/assets/WM-06-configuration-parchment.blend'
     controls = 'art/wand-management-v01/assets/WM-07-tags-and-controls.blend'
 }
-$assetPath = Join-Path $PSScriptRoot $files[$Asset]
+$relativePath = $files[$Asset].Replace('wand-management-v01', "wand-management-$Version")
+$assetPath = Join-Path $PSScriptRoot $relativePath
 if (-not (Test-Path -LiteralPath $assetPath)) { throw "Missing native asset: $assetPath" }
 # This entry point explicitly opens the interactive Blender review window.
 Start-Process -FilePath $BlenderExe -ArgumentList @('"' + $assetPath + '"') -WorkingDirectory $PSScriptRoot

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "WM-01",
+    "slug": "deployed-leather",
+    "collection": "WM-01_deployed-leather",
+    "root": "WM-01_deployed-leather_ROOT"
+  },
+  {
+    "id": "WM-02",
+    "slug": "reserve-rack",
+    "collection": "WM-02_reserve-rack",
+    "root": "WM-02_reserve-rack_ROOT"
+  },
+  {
+    "id": "WM-03",
+    "slug": "raw-wood-staff",
+    "collection": "WM-03_raw-wood-staff",
+    "root": "WM-03_raw-wood-staff_ROOT"
+  },
+  {
+    "id": "WM-04",
+    "slug": "rhythm-staff",
+    "collection": "WM-04_rhythm-staff",
+    "root": "WM-04_rhythm-staff_ROOT"
+  },
+  {
+    "id": "WM-05",
+    "slug": "ember-staff",
+    "collection": "WM-05_ember-staff",
+    "root": "WM-05_ember-staff_ROOT"
+  },
+  {
+    "id": "WM-06",
+    "slug": "configuration-parchment",
+    "collection": "WM-06_configuration-parchment",
+    "root": "WM-06_configuration-parchment_ROOT"
+  },
+  {
+    "id": "WM-07",
+    "slug": "tags-and-controls",
+    "collection": "WM-07_tags-and-controls",
+    "root": "WM-07_tags-and-controls_ROOT"
+  }
+]

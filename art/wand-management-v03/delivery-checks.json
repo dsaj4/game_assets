@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-19",
+  "status": "PASS",
+  "markdown_links": 84,
+  "python_syntax_files": [
+    "audit_wm_baseline.py",
+    "refine_wand_management_v02.py",
+    "refine_wand_management_v03.py",
+    "render_wm_v03_details.py",
+    "verify_wm_v03_quality.py",
+    "wm_v02_pipeline.py",
+    "wm_v03_pipeline.py",
+    "publish_wand_management.py",
+    "verify_wand_management.py"
+  ],
+  "additional_renders": [
+    {
+      "path": "renders/buttons-detail.png",
+      "size": [
+        1600,
+        460
+      ],
+      "sha256": "9bc1e158030e1c2ce67a42a87b9064dfa86795becfef3cf5a1980bf6c265d10b"
+    },
+    {
+      "path": "renders/panel-oblique-detail.png",
+      "size": [
+        1600,
+        850
+      ],
+      "sha256": "8705fd1595f216de54a0d1d5c0d5c85492c11d6d32ab4ef635296011105dfef4"
+    },
+    {
+      "path": "renders/preview.png",
+      "size": [
+        936,
+        1248
+      ],
+      "sha256": "27dae45324d144129bee66b6ec430d3229853821e16ad50ced34d1a349fc1017"
+    }
+  ],
+  "launcher_versions": [
+    "v01",
+    "v02",
+    "v03"
+  ]
+}

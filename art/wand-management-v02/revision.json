@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-18",
+  "status": "TextureRefined / NeedsArtReview",
+  "user_scope": "User supplied four external textures; refine existing left management page",
+  "method": "Blender bundled Python; editable native meshes, curves, fonts; no GUI modeling claimed",
+  "additional_textures": [
+    {
+      "path": "references/wm-textures-v02/button-return-charcoal.jpg",
+      "sha256": "cf5b8992db7babe194379160dc2d5341679b3e36d629851d75b94d745d7eb94c",
+      "role": "User supplied external image; original bytes; service/model unknown"
+    },
+    {
+      "path": "references/wm-textures-v02/button-save-burgundy.jpg",
+      "sha256": "6eeaa7436e49d5dfa8f08aba70b1af882cd9a1272f6f06d85c3b263a218c1b63",
+      "role": "User supplied external image; original bytes; service/model unknown"
+    },
+    {
+      "path": "references/wm-textures-v02/leather-fine-brown.jpg",
+      "sha256": "08cd54d808b95b24d1d006bec503b0eba8990f3c613cfdbf0301ae765b82f197",
+      "role": "User supplied external image; original bytes; service/model unknown"
+    },
+    {
+      "path": "references/wm-textures-v02/parchment-ivory.jpg",
+      "sha256": "aa45e1e9e1904ea41959601fc110dcb7e75471a4c00e37997eae03d867c5a170",
+      "role": "User supplied external image; original bytes; service/model unknown"
+    }
+  ],
+  "additional_preserved_files": [
+    {
+      "path": "art/wand-management-v01/wand-management-master.blend",
+      "sha256": "e0ae12edcef3b50825727bed12dc98255f9573b8eee7f3daae838e09656af2e1"
+    }
+  ]
+}

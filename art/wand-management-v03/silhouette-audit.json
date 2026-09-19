@@ -1,0 +1,59 @@
+[
+  {
+    "object": "WM06_Parchment_body",
+    "image": "panel-production.png",
+    "vertices": 6145,
+    "faces": 6144,
+    "key_color_probe_count": 12289,
+    "key_color_leaks": 0,
+    "physical_thickness_m": 0.004,
+    "uv_bounds": [
+      [
+        0.019321238857728268,
+        0.044254503199888134
+      ],
+      [
+        0.9812116189060414,
+        0.9629843040603072
+      ]
+    ]
+  },
+  {
+    "object": "WM07_Back_body",
+    "image": "return-production.png",
+    "vertices": 2561,
+    "faces": 2560,
+    "key_color_probe_count": 5121,
+    "key_color_leaks": 0,
+    "physical_thickness_m": 0.023,
+    "uv_bounds": [
+      [
+        0.020357327180558753,
+        0.15497033806364738
+      ],
+      [
+        0.9801121808057842,
+        0.8546837876961803
+      ]
+    ]
+  },
+  {
+    "object": "WM07_Save_body",
+    "image": "save-production.png",
+    "vertices": 2561,
+    "faces": 2560,
+    "key_color_probe_count": 5121,
+    "key_color_leaks": 0,
+    "physical_thickness_m": 0.023,
+    "uv_bounds": [
+      [
+        0.020357327180558753,
+        0.15497033806364738
+      ],
+      [
+        0.9801165202583197,
+        0.8561099653652456
+      ]
+    ]
+  }
+]

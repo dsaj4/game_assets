@@ -1,0 +1,45 @@
+{
+  "v01_sha256": "e0ae12edcef3b50825727bed12dc98255f9573b8eee7f3daae838e09656af2e1",
+  "v02_sha256": "55332cb9999a5f5f04b11f0ea80e3120b03a5edf991db3f41e1dced13c377334",
+  "changed_geometry_transforms_or_text": [],
+  "removed": [
+    "WM07_Back_ink_edge",
+    "WM07_Back_pin",
+    "WM07_Back_pin.001",
+    "WM07_Back_pin.002",
+    "WM07_Back_pin.003",
+    "WM07_Save_ink_edge",
+    "WM07_Save_pin",
+    "WM07_Save_pin.001",
+    "WM07_Save_pin.002",
+    "WM07_Save_pin.003"
+  ],
+  "added": [
+    "WM07_Back_leather_backing",
+    "WM07_Save_leather_backing"
+  ],
+  "images": [
+    {
+      "file": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0b326-0f3c-7302-be66-24317669a365\\exec-f8353077-f482-46b6-b32c-9235fb82c95e.png",
+      "size": [
+        1872,
+        840
+      ],
+      "channels": 4,
+      "alpha_min": 1.0,
+      "alpha_max": 1.0,
+      "transparent_fraction": 0.0
+    },
+    {
+      "file": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0b326-0f3c-7302-be66-24317669a365\\exec-2b0d5019-136c-410b-b04f-9348e37bbc87.png",
+      "size": [
+        2207,
+        712
+      ],
+      "channels": 4,
+      "alpha_min": 1.0,
+      "alpha_max": 1.0,
+      "transparent_fraction": 0.0
+    }
+  ]
+}

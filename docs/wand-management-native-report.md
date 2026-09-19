@@ -1,5 +1,7 @@
 # 法杖管理页面 · 首版原生建模记录
 
+2026-09-19 后续：当前推荐[实体面板 v03](../art/wand-management-v03/README.md)。已重新检查 v01/v02，修正按钮实体固定件退步，并以生成整件空白面板皮肤＋真实轮廓网格／纸层／厚度优化 WM-06/07。[质量复查](../art/wand-management-v03/quality-review.md)记录证据与范围。本文件以下保留首版制作记录；当前依然是静态美术，非 Godot 页面。
+
 2026-09-14。**NativeAssetsCreated / NeedsArtReview**。用户在整体03及组件细化之后明确“开始建模”，本轮完成左页七组原生资产、总装母版、独立文件、GLB和实际渲染。[交付图册与源文件](../art/wand-management-v01/README.md)是当前入口。
 
 ## 制作结果

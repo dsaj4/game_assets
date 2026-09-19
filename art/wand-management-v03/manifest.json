@@ -1,0 +1,348 @@
+{
+  "date": "2026-09-19",
+  "status": "PhysicalPanelRefined / NeedsArtReview",
+  "user_scope": "Review v01/v02 quality first; generate real panel form and optimize only left wand management page",
+  "blender_version": "4.5.13 LTS",
+  "method": "Built-in image_gen for blank object skins; Blender bundled Python for opaque silhouette meshes, relief, thickness and independent text",
+  "design_overall": "concepts/wand-management-overall-v03.png",
+  "design_components": "concepts/wand-management-sheets-v01/manifest.json",
+  "native": "wand-management-master.blend",
+  "native_sha256": "b7976d4ae3707800c6986da31df7f24fd1fc585e2b2b04681bc069d358092771",
+  "assembly_exchange": {
+    "file": "wand-management-assembly.glb",
+    "triangles": 559486,
+    "bounds_m": {
+      "min": [
+        -1.6100000143051147,
+        -0.34700000286102295,
+        -0.06499999761581421
+      ],
+      "max": [
+        1.6089999675750732,
+        0.18383756279945374,
+        3.9749999046325684
+      ]
+    },
+    "sha256": "f725a3d532bb05416204346eb45698b6ed5c612c48a6dc091de1bb7b6775dd4f"
+  },
+  "assets": [
+    {
+      "id": "WM-01",
+      "slug": "deployed-leather",
+      "blend": "assets/WM-01-deployed-leather.blend",
+      "glb": "assets/WM-01-deployed-leather.glb",
+      "render": "renders/WM-01-deployed-leather.png",
+      "objects": 41,
+      "editable_texts": 0,
+      "editable_curves": 13,
+      "triangles": 35336,
+      "bounds_m": {
+        "min": [
+          -0.8367745876312256,
+          -0.20147524774074554,
+          -0.02298443391919136
+        ],
+        "max": [
+          0.836848795413971,
+          0.06296680867671967,
+          1.9627670049667358
+        ]
+      },
+      "render_size": [
+        1000,
+        1200
+      ],
+      "blend_sha256": "60778c4627ede1ca01b3807942e1781eefc10ca7a4e63ba8ca737795362ae378",
+      "glb_sha256": "2fed91236cdb766f73ecf6db81716217e8e362eb5b29ec6e76239a3ba3f0b95e",
+      "render_sha256": "963d8b12c242a1de728882674b40dfa280890e6c5371fbdf06a5b98da302cbc0"
+    },
+    {
+      "id": "WM-02",
+      "slug": "reserve-rack",
+      "blend": "assets/WM-02-reserve-rack.blend",
+      "glb": "assets/WM-02-reserve-rack.glb",
+      "render": "renders/WM-02-reserve-rack.png",
+      "objects": 34,
+      "editable_texts": 0,
+      "editable_curves": 0,
+      "triangles": 3316,
+      "bounds_m": {
+        "min": [
+          -0.38499999046325684,
+          -0.1850000023841858,
+          0.0
+        ],
+        "max": [
+          0.38499999046325684,
+          0.15883755683898926,
+          1.8799999952316284
+        ]
+      },
+      "render_size": [
+        720,
+        1200
+      ],
+      "blend_sha256": "fe6aba62d02bee7472aad6138b702308c48b67483c60e9de2734dd51a6b0a878",
+      "glb_sha256": "16551df38cff1a4dd1028f4b9e5d1c97f4a5c31c80aa6eda9377d21904edd5a6",
+      "render_sha256": "a6e4bdbfec1dea192544591c2c0df9c7804f476b1dec49e648a587b2fd9f026d"
+    },
+    {
+      "id": "WM-03",
+      "slug": "raw-wood-staff",
+      "blend": "assets/WM-03-raw-wood-staff.blend",
+      "glb": "assets/WM-03-raw-wood-staff.glb",
+      "render": "renders/WM-03-raw-wood-staff.png",
+      "objects": 25,
+      "editable_texts": 0,
+      "editable_curves": 15,
+      "triangles": 20112,
+      "bounds_m": {
+        "min": [
+          -0.08796079456806183,
+          -0.032897431403398514,
+          -0.0031974785961210728
+        ],
+        "max": [
+          0.10988181084394455,
+          0.03433313965797424,
+          1.405889868736267
+        ]
+      },
+      "render_size": [
+        720,
+        1200
+      ],
+      "blend_sha256": "5a21cdcef9ac9030edb22039470d676487aca80dffffdf226e3551f8513f6fb4",
+      "glb_sha256": "0e9fd18f600a6e3a50f8dc0514cd702a2d187907dd108304e1f236632395fb68",
+      "render_sha256": "88d60f7f2a4924fc8a43f0f59e82a831aa959dfbc94c876fb93a369f6e91a8c1"
+    },
+    {
+      "id": "WM-04",
+      "slug": "rhythm-staff",
+      "blend": "assets/WM-04-rhythm-staff.blend",
+      "glb": "assets/WM-04-rhythm-staff.glb",
+      "render": "renders/WM-04-rhythm-staff.png",
+      "objects": 28,
+      "editable_texts": 0,
+      "editable_curves": 11,
+      "triangles": 23300,
+      "bounds_m": {
+        "min": [
+          -0.12399999797344208,
+          -0.032999999821186066,
+          -0.0031974785961210728
+        ],
+        "max": [
+          0.12700000405311584,
+          0.033471714705228806,
+          1.400657296180725
+        ]
+      },
+      "render_size": [
+        720,
+        1200
+      ],
+      "blend_sha256": "f48136f80f4620bb90e3cc747e42fa48516d6d31d11af5018316bbeaa84b22c4",
+      "glb_sha256": "6b41649caf852469fac939192611724d4a78d5a919cfadfc729f8308dfc3537b",
+      "render_sha256": "496ea65b129c6256fb40896d4b63a5c0f7ba5ee4b957398e9d14e851d8f37133"
+    },
+    {
+      "id": "WM-05",
+      "slug": "ember-staff",
+      "blend": "assets/WM-05-ember-staff.blend",
+      "glb": "assets/WM-05-ember-staff.glb",
+      "render": "renders/WM-05-ember-staff.png",
+      "objects": 33,
+      "editable_texts": 0,
+      "editable_curves": 22,
+      "triangles": 18950,
+      "bounds_m": {
+        "min": [
+          -0.08494885265827179,
+          -0.03331104665994644,
+          -0.0031974785961210728
+        ],
+        "max": [
+          0.10988181084394455,
+          0.046985022723674774,
+          1.4151289463043213
+        ]
+      },
+      "render_size": [
+        720,
+        1200
+      ],
+      "blend_sha256": "b4cb8c6219ab4fc6a99767d52d42a24d3f5a4450cf05e7f8bd6592dd42947ba5",
+      "glb_sha256": "b9a6d79952a9bc61211aafa8b35a364291dff7e18a27c73e31fa46ed5b88b7ca",
+      "render_sha256": "bab44f2b9bba43e1526ce46d9678c7c60936521be65134b9c70e70a22f90d759"
+    },
+    {
+      "id": "WM-06",
+      "slug": "configuration-parchment",
+      "blend": "assets/WM-06-configuration-parchment.blend",
+      "glb": "assets/WM-06-configuration-parchment.glb",
+      "render": "renders/WM-06-configuration-parchment.png",
+      "objects": 147,
+      "editable_texts": 24,
+      "editable_curves": 44,
+      "triangles": 224112,
+      "bounds_m": {
+        "min": [
+          -1.2326749563217163,
+          -0.06179000064730644,
+          -0.012470826506614685
+        ],
+        "max": [
+          1.2328128814697266,
+          0.01600000075995922,
+          1.100000023841858
+        ]
+      },
+      "render_size": [
+        1500,
+        800
+      ],
+      "blend_sha256": "c64c6b537fdcaf7746f3714542742a673e9e9c6df0edf4ac3e35e67ddadb6369",
+      "glb_sha256": "258d99ceee271aa9216a0cfe1735dbbad15c43352d27bba2eb6c12a8240390fe",
+      "render_sha256": "3257f2e652726eed945674a54b9f98bacdca041b1fc22464aae95017e6ce9c6e"
+    },
+    {
+      "id": "WM-07",
+      "slug": "tags-and-controls",
+      "blend": "assets/WM-07-tags-and-controls.blend",
+      "glb": "assets/WM-07-tags-and-controls.glb",
+      "render": "renders/WM-07-tags-and-controls.png",
+      "objects": 141,
+      "editable_texts": 25,
+      "editable_curves": 43,
+      "triangles": 168000,
+      "bounds_m": {
+        "min": [
+          -1.272165060043335,
+          -0.22011999785900116,
+          0.13850000500679016
+        ],
+        "max": [
+          1.2460665702819824,
+          -0.026342293247580528,
+          3.7541167736053467
+        ]
+      },
+      "render_size": [
+        1100,
+        1500
+      ],
+      "blend_sha256": "6b1faf5838e5da13ae89ea5210c95c4dd9ec958fcc917dcc475a0a13acc425f0",
+      "glb_sha256": "88bc04a8b0cfc730d368d0d1cdddd52c6d7c8789be6ba3807ae54a69bcb59ec8",
+      "render_sha256": "2949841c8378db47d83e7764f1bda48cb7fa91748fed5543c244538ba7f361df"
+    }
+  ],
+  "renders": [
+    {
+      "path": "renders/assembly.png",
+      "sha256": "616dc80305c3965355babd4e720a20236e58d00858b35ffe7d055ba30ce63a06",
+      "size_px": [
+        1440,
+        1920
+      ],
+      "role": "current actual Blender render"
+    },
+    {
+      "path": "renders/assembly-oblique.png",
+      "sha256": "8b4b11d405c8288f317cc71b028859d1660cf9a5a759b85413deb248b2fecf92",
+      "size_px": [
+        1440,
+        1920
+      ],
+      "role": "current actual Blender render"
+    }
+  ],
+  "textures": [
+    {
+      "path": "references/md-11-native/leather-albedo-v01.png",
+      "sha256": "38ea62301471e00e4aaea7d345ef363e48a4922b557791121b9c2ea4ec3081c0",
+      "role": "Existing imagegen old leather; unchanged"
+    },
+    {
+      "path": "references/e1-r2-generated/wood-ink-albedo-v01.png",
+      "sha256": "3d9bd1af40ef2dd16ad6c7035b2d19e0f924cb448dfe09621d1d045c1bf212e8",
+      "role": "Existing imagegen dark wood for wall and rack; unchanged"
+    },
+    {
+      "path": "references/wm-native/wood-staff-albedo-v01.png",
+      "sha256": "c6e6c02efdc40761a71e80a3ede4822dd66d887fbd6827c2b9361c9521aae262",
+      "role": "New imagegen color edit for staff wood; original pixels"
+    },
+    {
+      "path": "art/e1/paper_base.png",
+      "sha256": "51a596f3c566987313829d3f289411ecb1a4dfa418668050a54a82ad6bd23327",
+      "role": "Existing E1 procedural paper albedo; unchanged"
+    },
+    {
+      "path": "references/wm-textures-v02/button-return-charcoal.jpg",
+      "sha256": "cf5b8992db7babe194379160dc2d5341679b3e36d629851d75b94d745d7eb94c",
+      "role": "User supplied external image; original bytes; service/model unknown"
+    },
+    {
+      "path": "references/wm-textures-v02/button-save-burgundy.jpg",
+      "sha256": "6eeaa7436e49d5dfa8f08aba70b1af882cd9a1272f6f06d85c3b263a218c1b63",
+      "role": "User supplied external image; original bytes; service/model unknown"
+    },
+    {
+      "path": "references/wm-textures-v02/leather-fine-brown.jpg",
+      "sha256": "08cd54d808b95b24d1d006bec503b0eba8990f3c613cfdbf0301ae765b82f197",
+      "role": "User supplied external image; original bytes; service/model unknown"
+    },
+    {
+      "path": "references/wm-textures-v02/parchment-ivory.jpg",
+      "sha256": "aa45e1e9e1904ea41959601fc110dcb7e75471a4c00e37997eae03d867c5a170",
+      "role": "User supplied external image; original bytes; service/model unknown"
+    },
+    {
+      "path": "references/wm-panel-v03/panel-production.png",
+      "sha256": "e9a8f1734516408e3f4afbc1578622212fbd7e2c67e013ab5b97173ff6c42b6c",
+      "role": "Built-in image_gen original bytes; magenta outside silhouette UV geometry"
+    },
+    {
+      "path": "references/wm-panel-v03/return-production.png",
+      "sha256": "240eb5de140cf91a20969e604b73b788a114cec85090105eff578e8d01dda65b",
+      "role": "Built-in image_gen original bytes; magenta outside silhouette UV geometry"
+    },
+    {
+      "path": "references/wm-panel-v03/save-production.png",
+      "sha256": "191a79fdcc8e2814d1cb1adcda0ea6b848e08b1fd185a08f49d6286b728bdb0c",
+      "role": "Built-in image_gen original bytes; magenta outside silhouette UV geometry"
+    }
+  ],
+  "text": "Native editable FONT objects use local SimKai font, packed into .blend; GLB texts converted to meshes",
+  "preserved_files": [
+    {
+      "path": "art/e1/e1-r2-master.blend",
+      "sha256": "9bf43acd899ef5daba2aa50aa98fc8205e967fbccc2e7cb5c601e25dcdc35082"
+    },
+    {
+      "path": "art/map-desk-v02/map-desk-master.blend",
+      "sha256": "d21ef1bdbff88661de4b3d478d28e5512cebb747bb9e7554b3bd76bd1f674752"
+    },
+    {
+      "path": "art/md-11-v01/MD-11-wand-roll.blend",
+      "sha256": "2e0694fcfb736bf1add700f463fee9e4b43223c92ab80722ae19eaa07398742e"
+    },
+    {
+      "path": "art/wand-management-v01/wand-management-master.blend",
+      "sha256": "e0ae12edcef3b50825727bed12dc98255f9573b8eee7f3daae838e09656af2e1"
+    },
+    {
+      "path": "art/wand-management-v02/wand-management-master.blend",
+      "sha256": "55332cb9999a5f5f04b11f0ea80e3120b03a5edf991db3f41e1dced13c377334"
+    }
+  ],
+  "limitations": [
+    "PhysicalPanelRefined / NeedsArtReview; structural verification does not imply final visual approval",
+    "Static six-staff scene and selected detail; no management interactions, simulation or gameplay testing",
+    "Fonts become fixed glyph meshes in GLB; runtime must replace with real UI text for dynamic values",
+    "Freestyle outlines are Blender render-only; native cloth thickness, curves and image textures remain available in .blend",
+    "No LOD, engine profiling, collision or real paper/bag animation; large reserve inventory navigation not implemented"
+  ],
+  "skin_limitations": "Illustrative skins include painted microrelief; no pure PBR extraction. Original magenta backgrounds are outside actual geometry; no alpha blending needed."
+}

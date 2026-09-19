@@ -98,6 +98,7 @@ textures=[
 renders=[]
 for name in ('assembly.png','assembly-oblique.png','assembly-first-pass.png'):
     p=OUT/'renders'/name
+    if not p.exists():continue
     renders.append({'path':'renders/'+name,'sha256':sha(p),'size_px':list(struct.unpack('>II',p.read_bytes()[16:24])),'role':'historical first pass' if 'first-pass' in name else 'current actual Blender render'})
 manifest={'date':'2026-09-14','status':'NativeAssetsCreated / NeedsArtReview','user_scope':'开始建模: left staff-management page only',
  'blender_version':bpy.app.version_string,'method':'Blender bundled Python / native editable mesh, curves and fonts; computer-use tool unavailable',
@@ -114,5 +115,12 @@ manifest={'date':'2026-09-14','status':'NativeAssetsCreated / NeedsArtReview','u
  'Fonts become fixed glyph meshes in GLB; runtime must replace with real UI text for dynamic values',
  'Freestyle outlines are Blender render-only; native cloth thickness, curves and image textures remain available in .blend',
  'No LOD, engine profiling, collision or real paper/bag animation; large reserve inventory navigation not implemented']}
+revision_path=OUT/'revision.json'
+if revision_path.exists():
+    revision=json.loads(revision_path.read_text(encoding='utf-8'))
+    manifest['textures'].extend(revision.pop('additional_textures',[]))
+    manifest['preserved_files'].extend(revision.pop('additional_preserved_files',[]))
+    manifest.update(revision)
+    manifest['limitations'][0]=manifest['status']+'; structural verification does not imply final visual approval'
 (OUT/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('WM PUBLISHED',len(records),'assets',flush=True)

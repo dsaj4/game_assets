@@ -1,0 +1,57 @@
+{
+  "correction": "Original outputs painted a checkerboard into opaque pixels. Image model replaced exterior with magenta; Blender clips actual mesh to interior. No alpha or checkerboard enters visible geometry.",
+  "generator": "Built-in image_gen; underlying model version not exposed",
+  "outputs": [
+    {
+      "role": "Blank physical-object skin / reference; image bytes unedited",
+      "prompt_sha256": "9163786856b21c5c9026294d629e78a5d01db3909fce83b9cd124982e8fe26b3",
+      "selected": false,
+      "sha256": "c9128edc4e4fa52f413437a3892d448b8bf78db8aba93041035f06a32bf30fd6",
+      "path": "references/wm-panel-v03/panel-original.png",
+      "prompt": "references/wm-panel-v03/panel-original-prompt.md",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0b326-0f3c-7302-be66-24317669a365\\exec-f8353077-f482-46b6-b32c-9235fb82c95e.png"
+    },
+    {
+      "role": "Blank physical-object skin / reference; image bytes unedited",
+      "prompt_sha256": "ebd6d79f521b1caed1ea7e92181ffcb46ef5a3caf8ca068a52afee21ee747dfb",
+      "selected": true,
+      "sha256": "e9a8f1734516408e3f4afbc1578622212fbd7e2c67e013ab5b97173ff6c42b6c",
+      "path": "references/wm-panel-v03/panel-production.png",
+      "prompt": "references/wm-panel-v03/panel-production-prompt.md",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0b326-0f3c-7302-be66-24317669a365\\exec-6185f57d-2451-4b04-b164-effc935d50d6.png"
+    },
+    {
+      "role": "Blank physical-object skin / reference; image bytes unedited",
+      "prompt_sha256": "faf83798594c57dadec5b394090cfdb9e0f00c285e6376142afb662a7889a8a9",
+      "selected": false,
+      "sha256": "15761f61a2e4d4c154daf92e584d15f16a1c5e6e8c5c5d1504c0f2cede21bb79",
+      "path": "references/wm-panel-v03/return-original.png",
+      "prompt": "references/wm-panel-v03/return-original-prompt.md",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0b326-0f3c-7302-be66-24317669a365\\exec-2b0d5019-136c-410b-b04f-9348e37bbc87.png"
+    },
+    {
+      "role": "Blank physical-object skin / reference; image bytes unedited",
+      "prompt_sha256": "c0d781ea00d6bcce62fd1267e3d367206b2e939151c4c5e642ef46d2d8fd87a0",
+      "selected": true,
+      "sha256": "240eb5de140cf91a20969e604b73b788a114cec85090105eff578e8d01dda65b",
+      "path": "references/wm-panel-v03/return-production.png",
+      "prompt": "references/wm-panel-v03/return-production-prompt.md",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0b326-0f3c-7302-be66-24317669a365\\exec-c45364b1-958e-4192-88d6-4a21c995a022.png"
+    },
+    {
+      "role": "Blank physical-object skin / reference; image bytes unedited",
+      "prompt_sha256": "d6a7ee22564303d41d6e03ac2f3977217ac3dffc0d72c1f7470a1e506f808e9f",
+      "selected": true,
+      "sha256": "191a79fdcc8e2814d1cb1adcda0ea6b848e08b1fd185a08f49d6286b728bdb0c",
+      "path": "references/wm-panel-v03/save-production.png",
+      "prompt": "references/wm-panel-v03/save-production-prompt.md",
+      "original": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0b326-0f3c-7302-be66-24317669a365\\exec-a4475c11-f27f-4539-8df5-32fd18bad088.png"
+    }
+  ],
+  "date": "2026-09-19",
+  "inputs": [
+    "concepts/wand-management-sheets-v01/wm-06-configuration-parchment-v01.png",
+    "art/wand-management-v02/renders/WM-06-configuration-parchment.png",
+    "concepts/wand-management-overall-v03.png"
+  ]
+}

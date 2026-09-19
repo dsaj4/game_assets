@@ -1,0 +1,762 @@
+{
+  "date": "2026-09-19",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "preserved_art/e1/e1-r2-master.blend",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_art/map-desk-v02/map-desk-master.blend",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_art/md-11-v01/MD-11-wand-roll.blend",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_art/wand-management-v01/wand-management-master.blend",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "preserved_art/wand-management-v02/wand-management-master.blend",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "master_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "seven_asset_roots",
+      "pass": true,
+      "detail": [
+        "WM-01",
+        "WM-02",
+        "WM-03",
+        "WM-04",
+        "WM-05",
+        "WM-06",
+        "WM-07"
+      ]
+    },
+    {
+      "name": "six_staffs_four_deployed",
+      "pass": true,
+      "detail": [
+        [
+          "WM-03_raw-wood-staff_ROOT",
+          2,
+          true
+        ],
+        [
+          "WM-04_rhythm-staff_ROOT",
+          1,
+          true
+        ],
+        [
+          "WM-05_ember-staff_ROOT",
+          3,
+          true
+        ],
+        [
+          "Active_4__WM-03_raw-wood-staff_ROOT",
+          4,
+          true
+        ],
+        [
+          "Reserve_1__WM-03_raw-wood-staff_ROOT",
+          5,
+          false
+        ],
+        [
+          "Reserve_2__WM-03_raw-wood-staff_ROOT",
+          6,
+          false
+        ]
+      ]
+    },
+    {
+      "name": "no_extra_bells_or_cat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "continuous_hide",
+      "pass": true,
+      "detail": 4225
+    },
+    {
+      "name": "native_hide_thickness_4mm",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "four_retention_loops",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "four_toe_supports",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rack_open_back",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "two_changeable_slots",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ten_cells_2x5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "F3_clipped_cross",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "read_only_and_no_editors",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "timing_labels",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "native_texts_editable",
+      "pass": true,
+      "detail": 49
+    },
+    {
+      "name": "fonts_packed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "images_packed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "bag_rack_separate",
+      "pass": true,
+      "detail": {
+        "gap_m": 0.07815122604370117
+      }
+    },
+    {
+      "name": "staff_roots_at_toe_supports",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "complete_asset_groups_in_frame",
+      "pass": true,
+      "detail": {
+        "min_x": 0.08545409142971039,
+        "max_x": 0.9219001531600952,
+        "min_y": 0.058668624609708786,
+        "max_y": 0.932106077671051
+      }
+    },
+    {
+      "name": "WM-01_blend_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-01_glb_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-01_render_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-01_native_origin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-01_saved_geometry_count",
+      "pass": true,
+      "detail": 35336
+    },
+    {
+      "name": "WM-01_native_editable_curves",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-01_native_editable_text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-01_component_fully_in_frame",
+      "pass": true,
+      "detail": {
+        "min_x": 0.07884076237678528,
+        "max_x": 0.9326313734054565,
+        "min_y": 0.055396635085344315,
+        "max_y": 0.9545931816101074
+      }
+    },
+    {
+      "name": "WM-01_actual_glb_bounds",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "WM-01_actual_glb_triangles",
+      "pass": true,
+      "detail": {
+        "native": 35336,
+        "import": 35336
+      }
+    },
+    {
+      "name": "WM-01_no_display_in_glb",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-01_render_dimensions",
+      "pass": true,
+      "detail": [
+        1000,
+        1200
+      ]
+    },
+    {
+      "name": "WM-02_blend_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-02_glb_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-02_render_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-02_native_origin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-02_saved_geometry_count",
+      "pass": true,
+      "detail": 3316
+    },
+    {
+      "name": "WM-02_native_editable_curves",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-02_native_editable_text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-02_component_fully_in_frame",
+      "pass": true,
+      "detail": {
+        "min_x": 0.18694519996643066,
+        "max_x": 0.8153064250946045,
+        "min_y": 0.05062921345233917,
+        "max_y": 0.9410197734832764
+      }
+    },
+    {
+      "name": "WM-02_actual_glb_bounds",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "WM-02_actual_glb_triangles",
+      "pass": true,
+      "detail": {
+        "native": 3316,
+        "import": 3316
+      }
+    },
+    {
+      "name": "WM-02_no_display_in_glb",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-02_render_dimensions",
+      "pass": true,
+      "detail": [
+        720,
+        1200
+      ]
+    },
+    {
+      "name": "WM-03_blend_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-03_glb_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-03_render_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-03_native_origin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-03_saved_geometry_count",
+      "pass": true,
+      "detail": 20112
+    },
+    {
+      "name": "WM-03_native_editable_curves",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-03_native_editable_text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-03_component_fully_in_frame",
+      "pass": true,
+      "detail": {
+        "min_x": 0.3939649760723114,
+        "max_x": 0.6073869466781616,
+        "min_y": 0.06825324892997742,
+        "max_y": 0.9319460391998291
+      }
+    },
+    {
+      "name": "WM-03_actual_glb_bounds",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "WM-03_actual_glb_triangles",
+      "pass": true,
+      "detail": {
+        "native": 20112,
+        "import": 20112
+      }
+    },
+    {
+      "name": "WM-03_no_display_in_glb",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-03_render_dimensions",
+      "pass": true,
+      "detail": [
+        720,
+        1200
+      ]
+    },
+    {
+      "name": "WM-04_blend_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-04_glb_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-04_render_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-04_native_origin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-04_saved_geometry_count",
+      "pass": true,
+      "detail": 23300
+    },
+    {
+      "name": "WM-04_native_editable_curves",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-04_native_editable_text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-04_component_fully_in_frame",
+      "pass": true,
+      "detail": {
+        "min_x": 0.37019768357276917,
+        "max_x": 0.6305528879165649,
+        "min_y": 0.06797253340482712,
+        "max_y": 0.9320629239082336
+      }
+    },
+    {
+      "name": "WM-04_actual_glb_bounds",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "WM-04_actual_glb_triangles",
+      "pass": true,
+      "detail": {
+        "native": 23300,
+        "import": 23300
+      }
+    },
+    {
+      "name": "WM-04_no_display_in_glb",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-04_render_dimensions",
+      "pass": true,
+      "detail": [
+        720,
+        1200
+      ]
+    },
+    {
+      "name": "WM-05_blend_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-05_glb_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-05_render_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-05_native_origin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-05_saved_geometry_count",
+      "pass": true,
+      "detail": 18950
+    },
+    {
+      "name": "WM-05_native_editable_curves",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-05_native_editable_text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-05_component_fully_in_frame",
+      "pass": true,
+      "detail": {
+        "min_x": 0.39433321356773376,
+        "max_x": 0.6034167408943176,
+        "min_y": 0.06765765696763992,
+        "max_y": 0.9327611327171326
+      }
+    },
+    {
+      "name": "WM-05_actual_glb_bounds",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "WM-05_actual_glb_triangles",
+      "pass": true,
+      "detail": {
+        "native": 18950,
+        "import": 18950
+      }
+    },
+    {
+      "name": "WM-05_no_display_in_glb",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-05_render_dimensions",
+      "pass": true,
+      "detail": [
+        720,
+        1200
+      ]
+    },
+    {
+      "name": "WM-06_blend_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-06_glb_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-06_render_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-06_native_origin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-06_saved_geometry_count",
+      "pass": true,
+      "detail": 224112
+    },
+    {
+      "name": "WM-06_native_editable_curves",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-06_native_editable_text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-06_component_fully_in_frame",
+      "pass": true,
+      "detail": {
+        "min_x": 0.06521739810705185,
+        "max_x": 0.9347826242446899,
+        "min_y": 0.1323840618133545,
+        "max_y": 0.8680219650268555
+      }
+    },
+    {
+      "name": "WM-06_actual_glb_bounds",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "WM-06_actual_glb_triangles",
+      "pass": true,
+      "detail": {
+        "native": 224112,
+        "import": 224112
+      }
+    },
+    {
+      "name": "WM-06_no_display_in_glb",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-06_render_dimensions",
+      "pass": true,
+      "detail": [
+        1500,
+        800
+      ]
+    },
+    {
+      "name": "WM-07_blend_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-07_glb_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-07_render_sha",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-07_native_origin",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-07_saved_geometry_count",
+      "pass": true,
+      "detail": 168000
+    },
+    {
+      "name": "WM-07_native_editable_curves",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-07_native_editable_text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-07_component_fully_in_frame",
+      "pass": true,
+      "detail": {
+        "min_x": 0.08706280589103699,
+        "max_x": 0.9129372239112854,
+        "min_y": 0.06536027044057846,
+        "max_y": 0.9350250959396362
+      }
+    },
+    {
+      "name": "WM-07_actual_glb_bounds",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "WM-07_actual_glb_triangles",
+      "pass": true,
+      "detail": {
+        "native": 168000,
+        "import": 168000
+      }
+    },
+    {
+      "name": "WM-07_no_display_in_glb",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM-07_render_dimensions",
+      "pass": true,
+      "detail": [
+        1100,
+        1500
+      ]
+    },
+    {
+      "name": "assembly_glb_hash",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "assembly_actual_glb_bounds",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "assembly_actual_glb_triangles",
+      "pass": true,
+      "detail": 559486
+    },
+    {
+      "name": "assembly_glb_no_camera_or_light",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "render_assembly.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "render_assembly-oblique.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "texture_references/md-11-native/leather-albedo-v01.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "texture_references/e1-r2-generated/wood-ink-albedo-v01.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "texture_references/wm-native/wood-staff-albedo-v01.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "texture_art/e1/paper_base.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "texture_references/wm-textures-v02/button-return-charcoal.jpg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "texture_references/wm-textures-v02/button-save-burgundy.jpg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "texture_references/wm-textures-v02/leather-fine-brown.jpg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "texture_references/wm-textures-v02/parchment-ivory.jpg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "texture_references/wm-panel-v03/panel-production.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "texture_references/wm-panel-v03/return-production.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "texture_references/wm-panel-v03/save-production.png",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "visual_scope": "Structural checks and actual file reopens/imports; image similarity and gameplay are not inferred",
+  "native_ui": "Not used; pipeline executed with Blender bundled Python",
+  "runtime_interaction": "NotRun"
+}

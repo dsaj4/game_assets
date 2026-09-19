@@ -1,0 +1,97 @@
+{
+  "date": "2026-09-19",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "all_bag_rack_staff_objects_geometry_transforms_material_slots_preserved",
+      "pass": true,
+      "detail": 237
+    },
+    {
+      "name": "all_editable_text_content_preserved",
+      "pass": true,
+      "detail": 49
+    },
+    {
+      "name": "three_separate_paper_leaves",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM06_Parchment_body_physical_thickness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM06_Parchment_body_uv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM06_Parchment_body_packed_image_drives_color",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM06_Parchment_body_opaque_not_alpha_card",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM07_Back_body_physical_thickness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM07_Back_body_uv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM07_Back_body_packed_image_drives_color",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM07_Back_body_opaque_not_alpha_card",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM07_Save_body_physical_thickness",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM07_Save_body_uv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM07_Save_body_packed_image_drives_color",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "WM07_Save_body_opaque_not_alpha_card",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "eight_physical_main_button_rivets",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no_key_background_on_sampled_geometry",
+      "pass": true,
+      "detail": 22531
+    },
+    {
+      "name": "all_generated_originals_and_prompts_intact",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "visual_review": "See quality-review.md: real Blender renders reviewed separately; no final-art approval inferred."
+}

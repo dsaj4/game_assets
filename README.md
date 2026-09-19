@@ -2,6 +2,8 @@
 
 独立 demo 工作区：`E:\Project\game-002-godogen-lab`。
 
+**2026-09-19 当前：法杖管理实体面板 v03。** 已先复查 v01/v02，保留有效皮纹，修正主按钮被贴图化的立体感退步。新生成空白层叠羊皮板与黑／红皮革按钮，接入真实轮廓网格、纸层、厚度和独立固定件；全部文字与配置状态保持独立。[当前资产与真实渲染](art/wand-management-v03/README.md)、[质量复查](art/wand-management-v03/quality-review.md)、[生图来源／提示词](references/wm-panel-v03/provenance.json)。默认启动脚本打开 v03，支持 `-Version v01/v02/v03`；旧版保留。状态 PhysicalPanelRefined / NeedsArtReview，仍是静态 Blender 美术，未接入管理交互。以下为历史记录。
+
 **最新：法杖管理左页已完成首版原生建模。** 用户2026-09-14明确“开始建模”，七组模型、组合母版、独立.blend／GLB与实际渲染见[原生资产图册](art/wand-management-v01/README.md)和[制作报告](docs/wand-management-native-report.md)。袋中四出战、独立架上两备用，绑定法术只读，配置纸面和操作牌文字可编辑；当前为NativeAssetsCreated / NeedsArtReview。通过原生重开、GLB回导及结构检查，仍待美术评议，Godot与交互未新增。本轮采用Blender内置Python，电脑控制工具当前不可用。下方“尚未建模”均为此前设计阶段记录。
 
 **最新：法杖管理整体03已通过，七组组件稿完成。** 用户2026-09-14确认“设计通过，下一步开始细化组件”。[组件图册](concepts/wand-management-sheets-v01/index.md)含展开皮袋、独立备战架、原木／节律／余火三种法杖、配置羊皮纸及吊牌操作件；[中文建模说明](docs/blender-wand-management-components-v01.md)记录分件、材质、建议尺度和校准项。状态 OverallDirectionConfirmed / ComponentDesignDraft。[整体03](concepts/wand-management-overall-v03.png)及[原视觉说明](docs/wand-management-visual-design-v01.md)继续约束袋中四出战、架上备用，法术／词卡不在本页编辑。七张选用稿均1448×1086，另保留两张去除额外铜铃前的历史图；本页尚未新建原生模型或交互。其余功能来源仍为[全游戏GDD RC1局部快照](references/design/2026-09-14-wand-management-rc1/manifest.json)。
